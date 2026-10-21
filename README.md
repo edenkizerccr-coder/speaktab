@@ -23,3 +23,6 @@ You can download the developer package and work on your own copy. Send proposed 
 ## Beta testing
 
 The automated build and regression checks passed, including isolated updater installation and rollback tests. Real JAWS 2026 announcements, live AI/microphone use, Braille hardware, and a future-version update remain hands-on checks. Music recognition can miss or misread notes, octaves, timing, and passages; compare readings with the original.
+## Feature requests and bug reports
+I welcome feature requests and repair requests. Tell me what you would like SpeakTab to do, or what is not working—including accessibility, reading, playback, installation, or update problems.
+[Open a GitHub issue](https://github.com/edenkizerccr-coder/speaktab/issues/new) or email edenkizer0718@gmail.com. For a problem, include your SpeakTab version, what you tried, what happened, and what you expected. Please leave out passwords, API keys, and private music files.
