@@ -14,7 +14,7 @@ The GitHub-generated **Source code (zip)** and **Source code (tar.gz)** archives
 
 ## Updates
 
-SpeakTab 10.14.1 includes automatic checks for newer stable GitHub releases and **Help > Check for updates**. Installation requires your confirmation. The updater verifies the complete download, stages it separately, restarts SpeakTab, and keeps a recovery copy. Version 10.14.1 is the baseline; a future higher release is needed to test a real update offer.
+SpeakTab 10.14.1 includes automatic checks for newer stable GitHub releases and **Help > Check for updates**. Installation requires your confirmation. The updater verifies the complete download, stages it separately, restarts SpeakTab, and keeps a recovery copy. The current release is 10.14.2. Existing 10.14.1 installations can update to it. Checks run automatically at startup; downloading and installation require your confirmation.
 
 ## Contributing
 
@@ -22,7 +22,7 @@ You can download the developer package and work on your own copy. Send proposed 
 
 ## Beta testing
 
-The automated build and regression checks passed, including isolated updater installation and rollback tests. Real JAWS 2026 announcements, live AI/microphone use, Braille hardware, and a future-version update remain hands-on checks. Music recognition can miss or misread notes, octaves, timing, and passages; compare readings with the original.
+The automated build and regression checks passed, including isolated updater installation and rollback tests. Real JAWS 2026 announcements, live AI/microphone use and Braille hardware remain hands-on checks. A real 10.14.1-to-10.14.2 update succeeded on retry on October 21, 2026; the first attempt failed and remains undiagnosed. Music recognition can miss or misread notes, octaves, timing, and passages; compare readings with the original.
 ## Feature requests and bug reports
 I welcome feature requests and repair requests. Tell me what you would like SpeakTab to do, or what is not working—including accessibility, reading, playback, installation, or update problems.
 [Open a GitHub issue](https://github.com/edenkizerccr-coder/speaktab/issues/new) or email edenkizer0718@gmail.com. For a problem, include your SpeakTab version, what you tried, what happened, and what you expected. Please leave out passwords, API keys, and private music files.
