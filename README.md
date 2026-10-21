@@ -1,5 +1,25 @@
 # SpeakTab
 
-SpeakTab is a Windows application that helps blind and low-vision musicians read, explore, and practice guitar tablature and music scores in multiple formats. It offers keyboard navigation, screen reader access, spoken music information, and playback while preserving the original music.
+SpeakTab is a Windows application that helps blind and low-vision musicians read, explore, and practice guitar tablature and music scores in multiple formats. It offers keyboard navigation, screen reader access, spoken music information, and playback while preserving the original music. Formerly called Guitar Reader, the project now uses the name SpeakTab.
 
-Formerly called Guitar Reader, the project is now using the name SpeakTab.
+## Downloads
+
+Open the [latest release](https://github.com/edenkizerccr-coder/speaktab/releases/latest) and expand **Assets**.
+
+- **Testers:** download **SpeakTab-Windows.zip**, extract the entire package, and run **SpeakTab.exe**. Keep the recognition runtime, licenses, and guides with the app.
+- **Developers:** download **SpeakTab-Source.zip** for the complete source handoff, build dependencies, original test fixtures, build instructions, and SHA256 manifest. Extract to a short Windows path and read its README before building.
+- Guides, shortcuts, release notes, testing information, and checksums are supplied with the packages and as release attachments.
+
+The GitHub-generated **Source code (zip)** and **Source code (tar.gz)** archives contain repository files, not the complete developer handoff. Use **SpeakTab-Source.zip** to work on the application.
+
+## Updates
+
+SpeakTab 10.14.1 includes automatic checks for newer stable GitHub releases and **Help > Check for updates**. Installation requires your confirmation. The updater verifies the complete download, stages it separately, restarts SpeakTab, and keeps a recovery copy. Version 10.14.1 is the baseline; a future higher release is needed to test a real update offer.
+
+## Contributing
+
+You can download the developer package and work on your own copy. Send proposed changes to Eden for review. Downloading the code does not grant permission to change this repository. Eden retains approval over changes entering the main version; no collaborator write access has been granted.
+
+## Beta testing
+
+The automated build and regression checks passed, including isolated updater installation and rollback tests. Real JAWS 2026 announcements, live AI/microphone use, Braille hardware, and a future-version update remain hands-on checks. Music recognition can miss or misread notes, octaves, timing, and passages; compare readings with the original.
