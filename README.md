@@ -4,7 +4,7 @@ SpeakTab is a free Windows app for blind and low-vision musicians to read and pr
 
 ## Download and installation
 
-**Current release: 10.14.14.** Open the [latest release](https://github.com/edenkizerccr-coder/speaktab/releases/latest) and expand Assets.
+**Current release: 10.14.16.** Open the [latest release](https://github.com/edenkizerccr-coder/speaktab/releases/latest) and expand Assets.
 
 - Musicians and testers: download **SpeakTab-Windows.zip**, extract everything into a new folder, and run **SpeakTab.exe**. Keep the runtime, licenses and guides together, and retain your previous/recovery copy.
 - Developers: download **SpeakTab-Source.zip** for the complete source handoff, dependencies, original fixtures, build instructions and manifest. GitHub's generated source archives do not contain that complete handoff.
@@ -12,7 +12,17 @@ SpeakTab is a free Windows app for blind and low-vision musicians to read and pr
 
 **10.14.11 and earlier need one manual installation of the complete current Windows ZIP.** Their updater safety lists can reject newer guide files. Versions 10.14.12 and later include the corrected list and an **Open official downloads** fallback. Replacing only the executable is not a complete update.
 
-## New in 10.14.14
+## New in 10.14.16
+
+**Instrument-aware reading:** guitar strings, frets and tuning remain guitar information. Supported piano notation retains supplied staff/voice, clef and rest metadata, including in saved readings. Instrument identity follows the reading; two staves or a file extension alone do not make a score piano. Staff numbers alone do not establish hands.
+
+**Quieter movement:** the part is identified in the opening heading, without repeating its name at every step. **Practice > Import summary and uncertainties** gives the instrument and exact part on demand. Eden's latest retest found no extra wording, and she approved this version for release.
+
+Piano details can describe simultaneous written notes and earlier notes still held while another staff moves. Navigation follows the shared timeline: Left/Right moves through time; Up/Down inspects notes at the same time. Independent staff-following commands are not implemented. Playback remains sampled guitar sound.
+
+The live teacher now receives complete selected-measure context and bounded pages for longer requests. Instructions require finishing a requested breakdown without repeated continue questions; live compliance still needs further testing.
+
+## Retained practice and teacher features
 
 **Optional gradual practice speed:** set a practice loop, then choose **Practice > Gradual practice speed**. Set starting and target percentages (25–200), increase size (1–50 percentage points), and complete loop repetitions per increase (1–100). Example: 60% to 100%, five points after every three loops. It is off by default and holds at the target. Stop resets the repetition counter and keeps current speed. Manual speed changes turn automatic increases off. Opening another reading or changing parts turns the plan off. Cancel preserves settings; plans are session-only. **Practice > Turn off gradual practice speed** stops increases while keeping the current speed.
 
@@ -53,9 +63,9 @@ Test voice checks spoken output, not microphone recognition. Save voice setup re
 
 ## Testing, updates and limitations
 
-The root release gate and **23 focused probes passed**, including gradual-speed bounds, completed-loop counting, target caps, Cancel, manual override, stop/reset, reading changes, AI actions and Escape focus. Both complete packages passed source/executable/document, manifest, runtime/license and privacy checks. The production updater extracted the actual complete tester ZIP and its executable hash matched.
+The root release gate and **25 focused probes passed**, including full-measure pagination, instrument/staff provenance, quieter navigation, gradual-speed bounds, completed-loop counting, target caps, Cancel, manual override, stop/reset, reading changes, AI actions and Escape focus. Both complete packages passed source/executable/document, manifest, runtime/license and privacy checks. The production updater extracted the actual complete tester ZIP and its executable hash matched.
 
-Eden confirmed speed announcements/navigation, loops, bookmarks, save/reopen, voice-help clarity/Escape and practice-note Save/Cancel on 10.14.13. New 10.14.14 JAWS Escape, automatic-speed audio/timing and live AI/piano/research behavior need hands-on retesting. NVDA/Braille hardware compatibility and broader musical recognition accuracy are not established by software checks. Compare readings and suggestions with the source. Regular API voice reliability and the intermittent tuning focus issue remain limitations.
+Eden reports that her recent imported music has worked, a piano score was correctly identified, and the latest navigation wording is working without extra speech. Earlier confirmed JAWS navigation, speed announcements, loops, bookmarks, save/reopen, voice-help clarity and practice-note Save/Cancel results are retained. These are results for tested files and workflows, not exhaustive format coverage. Search needs broader testing across songs/providers. NVDA has not yet been tested; NVDA testers are welcome. Additional Braille/hardware setups, perceived audio/microphone behavior and live AI musical/instruction compliance need continued targeted testing. PDF/OCR remains experimental. Compare readings and suggestions with their source. Regular API voice reliability and the intermittent tuning focus issue remain limitations.
 
 SpeakTab checks for newer stable releases at startup; **Help > Check for updates** checks manually. Downloading and installation require confirmation. The updater verifies packages and retains recovery. A real 10.14.1-to-10.14.2 update succeeded on retry; its first failure remains undiagnosed. Google Drive full release ZIP replacement remains manual.
 
