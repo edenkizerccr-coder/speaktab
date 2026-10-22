@@ -1,28 +1,33 @@
 # SpeakTab
 
-SpeakTab is a Windows application that helps blind and low-vision musicians read, explore, and practice guitar tablature and music scores in multiple formats. It offers keyboard navigation, screen reader access, spoken music information, and playback while preserving the original music. Formerly called Guitar Reader, the project now uses the name SpeakTab.
+SpeakTab is a free Windows app for blind and low-vision musicians to read and practice guitar tablature, chord charts, and supported music scores. It uses keyboard-accessible controls, text for screen readers and Braille displays, spoken information, and guitar playback while preserving the original music.
 
-## Downloads
+## Download
 
 Open the [latest release](https://github.com/edenkizerccr-coder/speaktab/releases/latest) and expand **Assets**.
 
-- **Testers:** download **SpeakTab-Windows.zip**, extract the entire package, and run **SpeakTab.exe**. Keep the recognition runtime, licenses, and guides with the app.
-- **Developers:** download **SpeakTab-Source.zip** for the complete source handoff, build dependencies, original test fixtures, build instructions, and SHA256 manifest. Extract to a short Windows path and read its README before building.
-- Guides, shortcuts, release notes, testing information, and checksums are supplied with the packages and as release attachments.
+- **For musicians and testers:** download **SpeakTab-Windows.zip**, extract the entire ZIP, and run **SpeakTab.exe**. Keep the recognition runtime, licenses, and guides with the app.
+- **For developers:** download **SpeakTab-Source.zip** for the complete source handoff, build dependencies, original test fixtures, build instructions, and SHA256 manifest. Read its README before building.
+- Standalone guides, shortcuts, release notes, testing records, and checksums are also attached.
 
-The GitHub-generated **Source code (zip)** and **Source code (tar.gz)** archives contain repository files, not the complete developer handoff. Use **SpeakTab-Source.zip** to work on the application.
+GitHub's automatic **Source code** archives contain repository files rather than the complete developer handoff. Use **SpeakTab-Source.zip** for the current application source.
 
-## Updates
+## SpeakTab 10.14.9
 
-SpeakTab 10.14.1 includes automatic checks for newer stable GitHub releases and **Help > Check for updates**. Installation requires your confirmation. The updater verifies the complete download, stages it separately, restarts SpeakTab, and keeps a recovery copy. The current release is 10.14.2. Existing 10.14.1 installations can update to it. Checks run automatically at startup; downloading and installation require your confirmation.
+**Help > Command palette** opens with **Ctrl+Alt+P**. Search by command name, shortcut, or menu path. The palette lists main-menu actions and keys that work only in the score or a dialog, with their actual route and context. Enter or Run activates executable menu actions; context-only keys tell you where to use them. The main menu spans the reader window. **Navigate** has offline description, string and section actions that also work without a microphone. **Practice** is immediately after **Playback** and opens with **Alt+R**. Practice can loop the current complete measure, a measure range, or selected beats. **Ctrl+P** plays, **Ctrl+Shift+P** or **Playback > Stop** stops playback, and **Practice > Clear loop** removes the repeat setting. Escape also stops playback from the score when chat is closed.
 
-## Contributing
+**Help > Guided tutorials** offers thirteen offline lessons, including how to find menu commands and loop measures or beats. A tutorial can stay open while you switch to the reader with Alt+Tab. Its optional **Read lesson aloud** and **Stop audio** controls use local Windows speech. **Voice > Exact microphone phrases** opens a focusable list of every accepted fixed voice phrase directly, with listening off when the window is first opened. The free reader microphone also accepts listed alternative commands. It needs no AI account.
 
-You can download the developer package and work on your own copy. Send proposed changes to Eden for review. Downloading the code does not grant permission to change this repository. Eden retains approval over changes entering the main version; no collaborator write access has been granted.
+The score and **Ctrl+3** explanation can identify a supported chord inferred from repeated text-tab notes; the app leaves a chord unnamed when the notes do not establish one. The explanation omits generated source line and column numbers. Estimated text-tab beat labels use numeric quarter, eighth, and sixteenth positions such as 1, 1.25, 1.5, and 1.75. Guitar playback speed controls are in the Playback menu; voice speech speed is separate. Optional compact string-fret pairs use forms such as 1-0 for string 1 open and 2-3 for string 2 at fret 3.
 
-## Beta testing
+## Updates and testing
 
-The automated build and regression checks passed, including isolated updater installation and rollback tests. Real JAWS 2026 announcements, live AI/microphone use and Braille hardware remain hands-on checks. A real 10.14.1-to-10.14.2 update succeeded on retry on October 21, 2026; the first attempt failed and remains undiagnosed. Music recognition can miss or misread notes, octaves, timing, and passages; compare readings with the original.
-## Feature requests and bug reports
-I welcome feature requests and repair requests. Tell me what you would like SpeakTab to do, or what is not working—including accessibility, reading, playback, installation, or update problems.
-[Open a GitHub issue](https://github.com/edenkizerccr-coder/speaktab/issues/new) or email edenkizer0718@gmail.com. For a problem, include your SpeakTab version, what you tried, what happened, and what you expected. Please leave out passwords, API keys, and private music files.
+SpeakTab checks for newer stable releases at startup, and **Help > Check for updates** checks manually. Downloading and installation require your confirmation. The updater verifies the ZIP and executable and keeps a recovery copy. A real update from 10.14.1 to 10.14.2 succeeded on retry; the first failure remains undiagnosed.
+
+The 10.14.9 build, release gate, and 19 focused probes passed. Package checks and hashes are recorded before publication. Standard controls are intended for screen readers such as JAWS and NVDA and for Braille displays. Physical JAWS, NVDA, Braille, microphone, Windows speech, and audio-device checks remain to be done. Music recognition can miss or misread notes, octaves, timing, and passages; compare readings with the original.
+
+## Contributing and feedback
+
+You can download the developer package and send proposed changes to Eden for review. Downloading it does not grant write access to this repository, and Eden approves changes entering the main version.
+
+I welcome reports about accessibility, reading, playback, installation, and updates. [Open a GitHub issue](https://github.com/edenkizerccr-coder/speaktab/issues/new) or email edenkizer0718@gmail.com. Include your SpeakTab version, what you tried, what happened, and what you expected. Leave out passwords, API keys, and private music files.
