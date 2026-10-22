@@ -4,11 +4,29 @@ SpeakTab is a free Windows app for blind and low-vision musicians to read and pr
 
 ## Download
 
+**Update notice for 10.14.12:** install this update manually once. An older updater’s safety list may reject the guide files in the complete package. When 10.14.12 is released, download **SpeakTab-Windows.zip**, extract **everything into a new folder**, and run **SpeakTab.exe** there. Keep your previous/recovery copy; replacing only the executable is not a complete update. Version 10.14.12 fixes the guide-file list for future updates and provides an **Open official downloads** fallback with manual steps if an update fails. The public release is still 10.14.11 while this new build is tested.
+
 Open the [latest release](https://github.com/edenkizerccr-coder/speaktab/releases/latest) and expand Assets.
 
 - Musicians and testers: download SpeakTab-Windows.zip, extract the entire ZIP and run SpeakTab.exe. Keep the recognition runtime, licenses and guides with it.
 - Developers: download SpeakTab-Source.zip for the complete source handoff, dependencies, fixtures, build instructions and manifest. GitHub automatic source archives do not contain that complete handoff.
 - Separate guides, shortcuts, release notes, testing records and checksums are attached.
+
+## Local 10.14.12 test build: app-aware voice guidance
+
+The public release is currently **10.14.11**. Version **10.14.12** is a local test build awaiting hands-on testing and Eden’s publication approval.
+
+The optional live AI teacher can consult the complete shipped user guide, shortcut sheet, release notes, audit, hands-on checklist, package verification and feature walkthrough, plus all fourteen tutorials. It reads current menu routes and actual assigned keys, including changed or cleared shortcuts. Ask for one app step at a time. Regular typed/spoken answers also receive app knowledge; automatic reader actions are available in live teacher mode.
+
+During the same live conversation, request movement through beats, measures, chords, sections or strings; explanations; practice speed; playback; loops; or bookmarks. The reader uses its existing handlers while retaining the conversation and microphone. Questions such as “How do I loop?” request guidance rather than silently changing the reading. Unsupported file, part, save, settings, account and update steps use the normal controls.
+
+**Offline use stays free:** keyboard access, menus, guides, fourteen tutorials, Windows speech and fixed microphone commands do not require paid AI. The conversational AI and optional cloud voice use the existing account/API credit routes.
+
+**Help > Feature walkthrough** provides an optional testing sequence. **Help > Prepare feature test report** starts with Not tested results. Copy or save a reviewed report, or choose **Email bug or test results to Eden…** to copy it and open an email draft to edenkizer0718@gmail.com. Paste, review and press Send yourself. Nothing is sent automatically; GitHub is optional.
+
+**First installation of 10.14.12 must be manual:** older updaters omit shipped guide filenames from their allowlist. Download and extract the complete new Windows ZIP when it is released. Version 10.14.12 fixes the strict document allowlist for future updates. Keep previous/recovery copies.
+
+The root build and 21 focused probes passed. Actual JAWS/NVDA/Braille, microphone, perceived audio, live AI and musical accuracy remain hands-on checks.
 
 ## SpeakTab 10.14.11: direct keyboard access
 
