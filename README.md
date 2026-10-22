@@ -10,7 +10,19 @@ Open the [latest release](https://github.com/edenkizerccr-coder/speaktab/release
 - Developers: download SpeakTab-Source.zip for the complete source handoff, dependencies, fixtures, build instructions and manifest. GitHub automatic source archives do not contain that complete handoff.
 - Separate guides, shortcuts, release notes, testing records and checksums are attached.
 
-## SpeakTab 10.14.10: which mode speaks?
+## SpeakTab 10.14.11: direct keyboard access
+
+32 direct shortcuts make frequent actions available without opening menus or searching the palette. Existing score keys remain: Left/Right for notes, Ctrl+Left/Right for measures and Alt+Left/Right for chords, with score focus. Ctrl+2 returns to the score.
+
+- Alt+Shift+Left/Right: previous/next labelled section. Alt+Shift+Up/Down: previous/next string at this beat.
+- Alt+Shift+P: position. Alt+Shift+S: beat strings. Alt+Shift+M: measure strings. Alt+Shift+C: chord. Alt+Shift+L: printed lyrics. Alt+Shift+E: beat explanation.
+- Ctrl+Shift+N: next played note. Ctrl+Shift+L: loop current measure. Ctrl+Shift+1/2: set inclusive loop start/end. Ctrl+Shift+9: measure-range loop. Ctrl+Shift+0: clear loop. Use number-row keys. Ctrl+P plays; Ctrl+Shift+P stops.
+- Ctrl+B: bookmark. Ctrl+Shift+J: return to latest bookmark. Ctrl+Shift+Y: position note. Alt+Shift+Q/F: concise/compact reading.
+- Ctrl+Shift+H: tutorials. Ctrl+Shift+U: user guide. Ctrl+Shift+X: exact microphone phrases. Alt+Shift+O: open saved reading.
+
+New keys work in the main reader controls; separate dialogs keep their own keys. Description commands focus readable status text; Ctrl+2 returns to the score. The guide starts with the complete daily-use list. Real JAWS/NVDA/Braille shortcut interception still needs hands-on testing.
+
+## Which mode speaks?
 
 The user guide, Start Here and Help > Guided tutorials > Use the free reader microphone give step-by-step instructions.
 
@@ -31,7 +43,7 @@ Ctrl+3 explains the selected position. Inferred text-tab chords and estimated be
 
 SpeakTab checks for newer stable releases at startup; Help > Check for updates checks manually. Downloading and installation require confirmation. The updater verifies packages and retains recovery. A real 10.14.1-to-10.14.2 update succeeded on retry; the first failure remains undiagnosed.
 
-The 10.14.10 root build, release gate and nineteen focused probes passed. Both complete packages passed integrity, source/executable/document agreement, runtime, license and privacy checks. Physical JAWS, NVDA, Braille, microphone, speech, playback and live AI tests remain pending. Compare musical recognition with the original.
+The 10.14.11 root build, release gate and twenty focused probes passed. Both complete packages passed integrity, source/executable/document agreement, runtime, license and privacy checks. Physical JAWS, NVDA, Braille, microphone, speech, playback and live AI tests remain pending. Compare musical recognition with the original.
 
 ## Contributing and feedback
 
