@@ -22,6 +22,14 @@ Open the [latest release](https://github.com/edenkizerccr-coder/speaktab/release
 
 New keys work in the main reader controls; separate dialogs keep their own keys. Description commands focus readable status text; Ctrl+2 returns to the score. The guide starts with the complete daily-use list. Real JAWS/NVDA/Braille shortcut interception still needs hands-on testing.
 
+## Change or clear a shortcut
+
+The 32 added reader keys are editable defaults. Established basic shortcuts stay assigned. Open **Help > Customize keyboard shortcuts**, find an action, select it, Tab to **New shortcut**, press your chosen combination, choose **Assign**, then **Save and close**. **Clear selected shortcut** removes an optional key and keeps it cleared after restarting. **Restore optional defaults** restores the 32 added defaults after saving. **Cancel** or Escape discards unsaved edits.
+
+Other actions can receive a key when they have none. SpeakTab refuses duplicate app assignments, protected basic/editing keys and Insert/Caps Lock modifier keys. It cannot detect JAWS, NVDA or Windows custom assignments. Test a chosen key with your screen reader and change it if necessary. Settings stay local to your Windows user. Menus and the command palette show current assignments.
+
+The new fourteenth lesson, **Help > Guided tutorials > Assign your own keyboard shortcuts**, walks through choosing, assigning, saving, testing, clearing and restoring defaults. Saved key swaps and explicitly cleared defaults are covered by the automated checks. Real JAWS/NVDA/Braille compatibility remains untested.
+
 ## Which mode speaks?
 
 The user guide, Start Here and Help > Guided tutorials > Use the free reader microphone give step-by-step instructions.
@@ -35,7 +43,7 @@ Test voice checks spoken output, not microphone recognition. Save voice setup re
 
 ## Reading and practice
 
-Ctrl+Alt+P opens the searchable command palette. Navigate has offline descriptions and string/section actions. Practice follows Playback; Alt+R opens it. Loop the current measure, a measure range or selected beats. Ctrl+P plays; Ctrl+Shift+P stops; Practice > Clear loop removes repeat. Thirteen offline tutorials can remain open while you switch to the reader with Alt+Tab.
+Ctrl+Alt+P opens the searchable command palette. Navigate has offline descriptions and string/section actions. Practice follows Playback; Alt+R opens it. Loop the current measure, a measure range or selected beats. Ctrl+P plays; Ctrl+Shift+P stops; Practice > Clear loop removes repeat. Fourteen offline tutorials can remain open while you switch to the reader with Alt+Tab.
 
 Ctrl+3 explains the selected position. Inferred text-tab chords and estimated beats are labelled; missing music is not invented. Playback speed and voice speech speed are separate.
 
