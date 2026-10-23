@@ -1,6 +1,6 @@
 # SpeakTab
 
-SpeakTab is a free Windows app for blind and low-vision musicians to read and practise guitar tablature, chord charts and supported scores. It offers keyboard navigation, accessible text for screen readers and Braille, practice playback, and an optional AI teacher for guitar and piano.
+SpeakTab is a free Windows app for reading and practising guitar tablature, chord charts and supported scores. It is designed primarily for blind and low-vision musicians. Sighted musicians can use it too, though their experience may vary. It offers keyboard navigation, accessible text for screen readers and Braille, practice playback, and an optional AI teacher for guitar and piano.
 
 ## Download SpeakTab
 
