@@ -4,7 +4,7 @@ SpeakTab is a free Windows app for blind and low-vision musicians to read and pr
 
 ## Download SpeakTab
 
-**Current release: 10.14.18.**
+**Current release: 10.14.19.**
 
 **[Download the latest complete SpeakTab app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
 
@@ -14,9 +14,15 @@ This permanent link downloads the app ZIP directly. Choose Extract All, keep the
 
 [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest) | [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
 
-## New in 10.14.18
+## New in 10.14.19
 
-- **A thorough user guide:** 40 sections, clear headings, complete instructions, six worked examples, the 32 editable default shortcuts, a glossary and symptom-based troubleshooting. Choose headings inside the app, or open the complete guide with browser heading navigation. Release history is separate from the user instructions.
+- **Hands-free teacher controls:** with the free reader microphone on, say **start teacher** to connect the configured live lesson or **stop teacher** to end it while keeping the local listener available. Use **next measure**, **play** and **stop music** when ready. The unreliable alternate teacher-start phrase was removed following Eden's test.
+- **Optional wake word:** **Voice > Reader microphone settings** has **Require SpeakTab wake word**, off by default. Leave it off for ordinary phrases; turn it on for **SpeakTab next measure**, for example. This applies to fixed local commands, not live teacher conversation.
+- **Broader live app actions and music teaching:** the live teacher can invoke exact existing native menu commands. Its instructions cover guitar, piano, music theory and Braille music, with music-only research and code references for uncertain rules. Actual model behavior needs continued testing.
+
+Retained guide and practice features:
+
+- **A thorough user guide:** 42 sections, clear headings, complete instructions, six worked examples, the 32 editable default shortcuts, a glossary and symptom-based troubleshooting. Choose headings inside the app, or open the complete guide with browser heading navigation. Release history is separate from the user instructions.
 - **Combined loop and speed setup:** **Practice > Loop a measure range**, default **Ctrl+Shift+9**, sets the passage and optional speed increases together. Example: 60% to 100%, five percentage points after every three complete loops. Exact partial-beat endpoints can be retained. Cancel preserves both settings; manual speed changes disable automatic increases.
 - **Piano staff commands:** **Navigate > Piano staff** chooses a supplied staff, follows its notes across time, reports the chosen staff, or reads that staff's current measure without moving. Free phrases include **go to staff two**, **next note on staff two** and **read staff two**. Optional custom keys are available. Staff labels do not by themselves establish hands.
 
@@ -39,15 +45,17 @@ The 32 added shortcut defaults can be reassigned, cleared or restored in **Help 
 
 Offline reading, menus, practice, guides, tutorials and fixed reader microphone commands need no paid AI. **Voice > Exact microphone phrases** lists the local commands. **Ctrl+Alt+L** toggles listening. Windows English recognition, microphone permission and a working default input are needed. Spoken command replies are optional.
 
+The free microphone uses continuous recognition and has no app inactivity timer. Keep its window open and the computer awake. Closing it, **stop listening**, device errors or sleep can stop it; a completely off mic cannot hear a wake request. Singing and speaker audio may trigger commands. The optional prefix reduces that risk only for fixed local commands. Stop the teacher during practice if you want only local commands; an active live teacher still receives musical sound.
+
 Regular AI answers, cloud speech and the live teacher use their existing provider/account routes. **Voice > Which voice mode? Start, stop and setup help** explains the choices. **Ctrl+Alt+O** opens settings; **Ctrl+Alt+I** reads voice status. **F8** starts the selected conversation mode and **F9** stops voice and its microphone.
 
-The teacher can consult the current guide, tutorials, menu routes and assigned keys. Requested supported reading, navigation, playback, loop/speed, bookmark and piano staff actions keep the conversation active. File, part, save, account and update operations use normal controls. Practice notes open for your Save/Cancel review.
+The teacher can consult the current guide, tutorials, menu routes and assigned keys. Requested supported reading, navigation, playback, loop/speed, bookmark and piano staff actions keep the conversation active. For other requested functions, the live teacher can look up and invoke exact current native menu actions. File choices, settings, sign-in, updates and reviews retain their normal controls; invocation is not proof the operation finished. Regular typed/Windows-voice answers guide rather than execute these tools. Practice notes open for your Save/Cancel review.
 
-Teacher instructions cover piano and guitar, complete requested measure explanations, music-related research and clear separation of source facts from suggestions. Research and AI replies can fail. The live teacher uses a separate voice API key/model and credits; a ChatGPT subscription alone does not provide them. Windows voice can read regular answers locally. Check the guide for setup and routing.
+Teacher instructions cover piano, guitar, music theory and Braille music, complete requested measure explanations, music-related research and clear separation of source facts from suggestions. Braille music is distinct from ordinary screen-reader Braille text; this adds no BRF import/export or certified score transcription. Research and AI replies can fail. The live teacher uses a separate voice API key/model and credits; a ChatGPT subscription alone does not provide them. Windows voice can read regular answers locally. Check the guide for setup and routing.
 
 ## Testing and limitations
 
-Eden reported that this build worked and approved its release. Recent imported files and earlier navigation checks worked in her testing; this is not exhaustive format or device coverage. The root release gate and **28 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. Both the current updater and the public 10.14.16 updater extracted the actual complete app ZIP with the expected executable hash.
+Eden reported that the build otherwise worked, identified one nonworking advertised teacher-start alternative, and approved release after its removal. Recent imported files and earlier navigation checks worked in her testing; this is not exhaustive format or device coverage. The root release gate and **30 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. Both the current updater and the public 10.14.18 updater extracted the actual complete app ZIP with the expected executable hash.
 
 Search needs broader testing. **NVDA remains untested; NVDA testers are welcome.** Further physical JAWS/Braille/device, microphone/audio, piano staff/loop and live teacher tests remain useful. PDF/OCR can misread notes, rhythm or pages. Intermittent imported-tuning focus remains; confirm or reselect the intended part and retry Ctrl+4. An existing automated native-focus check failed once, then passed three isolated repeats and the final complete run without a navigation change; its cause remains unconfirmed. Compare readings and suggestions against source music.
 
