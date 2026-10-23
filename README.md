@@ -4,7 +4,7 @@ SpeakTab is a free Windows app for reading and practising guitar tablature, chor
 
 ## Download SpeakTab
 
-**Current release: 10.14.20.**
+**Current release: 10.14.30.**
 
 **[Download the latest complete SpeakTab app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
 
@@ -18,15 +18,18 @@ Read these documents offline with your preferred Word-compatible reader, screen 
 
 [Manual in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) | [Quick Start in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) | [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt) | [Optional HTML manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html)
 
-The full Word manual and Quick Start match SpeakTab 10.14.20. Help > User guide opens the packaged 45-section guide; download the expanded offline manuals separately using the links above.
+The full Word manual and Quick Start match SpeakTab 10.14.30. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
 
 [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest) | [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
 
-## New in 10.14.20
+## New in 10.14.30
 
-- **Return to the score while listening:** in Hands-free reader commands, Escape, Ctrl+2, Return to music, and closing the window return focus to the score and keep the free microphone in its current state. Reopen the same window from Voice > Navigation voice commands. Stop listening, Ctrl+Alt+L, or saying stop listening turns that listener off; exiting SpeakTab also stops it.
-- **Find the words inside the app:** F1, context help and Exact microphone phrases lead with numbered measure jumps, loop ranges and playback-speed examples. Try **go to measure twelve**, **loop measures four through eight**, then **play**, or **slower**, **faster**, **normal speed**. The full list retains all 90 fixed phrases, 44 alternatives and 13 numbered patterns in menu order.
-- **Clear offline manuals:** the full Word manual and Quick Start match version 10.14.20. Shortcut entries distinguish fixed shortcuts, optional defaults and actions without a default direct shortcut. All 147 menu actions include menu access and explanations.
+- **Named music sources:** F2 starts with GTPtabs. Choose one tested catalog; unsuccessful GuitarTabs.cc, KhmerChords and old GuitarAlliance.net automatic routes have been removed. Useful browser/member download routes remain with specific instructions. General search engines are used only through explicit AI web search.
+- **Choose the right source:** manuals explain each site's strengths, including Bach versus STP, Guitar Pro files versus chords, and teacher/member lesson downloads. JustinGuitar, Lauren Bateman and GuitarLessons365 are available as browser lesson routes; viewing a lesson does not guarantee a downloadable score.
+- **Ask the free microphone for examples:** say **what can I say** for four useful commands. After the reply finishes, say **next** for more. **Stop help** or an ordinary reader command leaves suggestions. **Next measure** continues to move in your music. Optional SpeakTab wake-word settings apply; enable Windows voice command replies to hear the examples.
+- **Honest website reading:** selectable text import stays available. **Read PDF or image with AI** in search opens the existing saved-file recovery flow; choose a file and review before sending. It does not capture a signed-in interactive viewer. AI recovery can be partial and needs comparison with the original.
+- **Teacher file controls and recovery safeguards:** retained updates since20 let the trusted teacher open local music and validated public downloads, choose a replacement when delegated and retain partial review copies. General PDF recovery improved, but exact notes, strings, timing, ties and techniques are not guaranteed.
+- **Updated offline documentation:** the full Word manual, Quick Start, plain text, HTML and shipped guides describe this release. Existing hands-free score return remains available with Escape or Ctrl+2 while keeping the free listener on.
 
 ## Retained voice and practice features
 
@@ -36,7 +39,7 @@ The full Word manual and Quick Start match SpeakTab 10.14.20. Help > User guide 
 
 Retained guide and practice features:
 
-- **Packaged help:** the app includes its 45-section guide, heading chooser, six worked examples and 32 editable defaults. The separately downloadable User Manual above provides the expanded operating instructions and complete references.
+- **Packaged help:** the app includes its in-app guide, heading chooser, six worked examples and 32 editable defaults. The separately downloadable User Manual above provides the expanded operating instructions and complete references.
 - **Combined loop and speed setup:** **Practice > Loop a measure range**, default **Ctrl+Shift+9**, sets the passage and optional speed increases together. Example: 60% to 100%, five percentage points after every three complete loops. Exact partial-beat endpoints can be retained. Cancel preserves both settings; manual speed changes disable automatic increases.
 - **Piano staff commands:** **Navigate > Piano staff** chooses a supplied staff, follows its notes across time, reports the chosen staff, or reads that staff's current measure without moving. Free phrases include **go to staff two**, **next note on staff two** and **read staff two**. Optional custom keys are available. Staff labels do not by themselves establish hands.
 
@@ -69,7 +72,7 @@ Teacher instructions cover piano, guitar, music theory and Braille music, comple
 
 ## Testing and limitations
 
-Eden reported that the hands-free return fix worked and approved this release. General acceptance does not establish every phrase, device or live-teacher outcome. Recent imported files and earlier navigation checks worked in her testing; this is not exhaustive format or device coverage. The root release gate and **32 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. Both the current updater and the public 10.14.19 updater extracted the actual complete app ZIP with the expected executable hash.
+The root release gate and **53 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. The production updater extracted the actual complete app ZIP with the expected executable hash. Source-search findings are specific to the songs tested; physical microphone and device acceptance is separate.
 
 Search needs broader testing. **NVDA remains untested; NVDA testers are welcome.** Further physical JAWS/Braille/device, microphone/audio, piano staff/loop and live teacher tests remain useful. PDF/OCR can misread notes, rhythm or pages. Intermittent imported-tuning focus remains; confirm or reselect the intended part and retry Ctrl+4. Compare readings and suggestions against source music.
 
