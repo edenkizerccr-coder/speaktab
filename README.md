@@ -10,7 +10,15 @@ SpeakTab is a free Windows app for reading and practising guitar tablature, chor
 
 This permanent link downloads the app ZIP directly. Choose Extract All, keep the extracted runtime, licenses and guides together, and run **SpeakTab.exe** from the extracted folder. Keep your original music and previous/recovery app copy. You need only this Windows ZIP to use the app.
 
-**[Download the full user guide with headings](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Guide.html)** and open the downloaded HTML file in your browser. The guide is also available inside SpeakTab through **Help > User guide**, default **Ctrl+Shift+U**.
+**[Download the complete user manual — Word document](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)**
+
+**[Download the Quick Start — Word document](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)**
+
+Read these documents offline with your preferred Word-compatible reader, screen reader or Braille device. The expanded manual has 14 chapters and five appendices covering all 147 menu actions, settings, shortcut customization, import-error recovery, remediation, exact reader voice phrases, examples, troubleshooting, feature requests and tests. The quick start is a shorter introduction.
+
+[Manual in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) | [Quick Start in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) | [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt) | [Optional HTML manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html)
+
+This is a documentation update for 10.14.19. The tested app and both complete ZIPs are unchanged; their packaged Help > User guide remains the shorter earlier guide. Download the expanded manual separately using the links above.
 
 [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest) | [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
 
@@ -22,7 +30,7 @@ This permanent link downloads the app ZIP directly. Choose Extract All, keep the
 
 Retained guide and practice features:
 
-- **A thorough user guide:** 42 sections, clear headings, complete instructions, six worked examples, the 32 editable default shortcuts, a glossary and symptom-based troubleshooting. Choose headings inside the app, or open the complete guide with browser heading navigation. Release history is separate from the user instructions.
+- **Packaged help:** the app retains its earlier 42-section guide, heading chooser, six worked examples and 32 editable defaults. The separately downloadable User Manual above provides the expanded operating instructions and complete references.
 - **Combined loop and speed setup:** **Practice > Loop a measure range**, default **Ctrl+Shift+9**, sets the passage and optional speed increases together. Example: 60% to 100%, five percentage points after every three complete loops. Exact partial-beat endpoints can be retained. Cancel preserves both settings; manual speed changes disable automatic increases.
 - **Piano staff commands:** **Navigate > Piano staff** chooses a supplied staff, follows its notes across time, reports the chosen staff, or reads that staff's current measure without moving. Free phrases include **go to staff two**, **next note on staff two** and **read staff two**. Optional custom keys are available. Staff labels do not by themselves establish hands.
 
