@@ -18,7 +18,7 @@ Read these documents offline with your preferred Word-compatible reader, screen 
 
 [Manual in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) | [Quick Start in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) | [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt) | [Optional HTML manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html)
 
-The expanded Word manual includes the version 33 supplement; the Quick Start covers the retained setup and operating routes. The complete ZIPs retain their tested bundled expanded Word manual; download the newest expanded manual separately. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
+The expanded Word manual includes the version 33 supplement; the Quick Start covers the retained setup and operating routes. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
 
 [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest) | [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
 
