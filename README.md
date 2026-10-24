@@ -4,7 +4,7 @@ SpeakTab is a free Windows app for reading and practising guitar tablature, chor
 
 ## Download SpeakTab
 
-**Current release: 10.14.33.**
+**Current release: 10.14.34.**
 
 **[Download the latest complete SpeakTab app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
 
@@ -14,25 +14,28 @@ This permanent link downloads the app ZIP directly. Choose Extract All, keep the
 
 **[Download the Quick Start — Word document](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)**
 
-Read these documents offline with your preferred Word-compatible reader, screen reader or Braille device. The 103-page expanded manual has a first-use teacher walkthrough, 13 numbered chapters and five appendices covering all 154 menu actions, settings, shortcut customization, import-error recovery, remediation, exact reader voice phrases, examples, troubleshooting, feature requests and tests. The quick start is a shorter introduction. Both begin with your own music; the included sample is optional. The main instructions follow File, Navigate, Playback, Practice, ChatGPT, Voice and Help in menu order, with access keys and default shortcuts beside commands. To search for music, use File > Find tabs or chords (F2; menu access Alt+F, then F).
+Read these documents offline with your preferred Word-compatible reader, screen reader or Braille device. The 105-page expanded manual has a first-use teacher walkthrough, 13 numbered chapters and five appendices covering menu actions including saved practice-note review, settings, shortcut customization, import-error recovery, remediation, exact reader voice phrases, examples, troubleshooting, feature requests and tests. The quick start is a shorter introduction. Both begin with your own music; the included sample is optional. The main instructions follow File, Navigate, Playback, Practice, ChatGPT, Voice and Help in menu order, with access keys and default shortcuts beside commands. To search for music, use File > Find tabs or chords (F2; menu access Alt+F, then F).
 
 [Manual in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) | [Quick Start in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) | [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt) | [Optional HTML manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html)
 
-The expanded Word manual includes the version 33 supplement; the Quick Start covers the retained setup and operating routes. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
+The expanded Word manual includes the version 34 practice-note instructions; the Quick Start covers the retained setup and operating routes. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
 
 [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest) | [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
 
-## New in 10.14.33
+## New in 10.14.34
 
-## What changed since 10.14.31
+## Save advice and practise without the AI teacher
 
-- General teaching preferences persist in each student's private profile across pieces, including preferences requested after onboarding. Guitar and piano fields remain separate.
-- Optional automatic piece memory keeps recognized lesson conversation locally with the corresponding piece. It starts off for new students. Explicit saved lesson summaries and passage notes remain available.
-- Fresh response context supplies current preferences and reading details. Instructions distinguish Continue from Repeat and discourage repeated setup, tuning and assurances while retaining complete requested musical explanations.
-- The teacher can search supported local music recursively in named folders and follow a changed folder direction.
-- Note events distinguish new attacks and tie starts/continuations. Written MusicXML and Guitar Pro meter is retained for teacher context and newly saved readings. Explicit spoken practice notes save and verify locally.
-- Includes 27 built-in teaching topics, 24 free reference routes and twelve original beginner studies. Each student supplies their own authorized course materials.
-- The expanded 103-page Word manual adds teacher memory, Ultimate Guitar download guidance, API costs and key privacy. The Quick Start is also available separately.
+1. Ask the teacher to save a practice note for the current passage. Wait for the actual save confirmation.
+2. Stop the teacher normally with F9, or say stop teacher through an already-on free reader microphone.
+3. With the free reader microphone on, say read practice note, next practice note or previous practice note. Windows speech reads the saved reminder and its passage location, without AI credits. These commands do not move the music or start the teacher.
+4. Say stop speaking to interrupt the local voice while keeping the free reader microphone listening. Stop listening turns that microphone off. If the optional SpeakTab wake word is enabled, prefix commands with SpeakTab.
+
+Practice note in the phrase distinguishes reminders from musical next note navigation. The first and last reminders are announced at their boundaries. Notes remain saved when the teacher stops. There is no automatic reminder timer. The Practice menu also has equivalent text actions and an optional review window for screen reader/Braille or local Windows read-aloud.
+
+## Quality and costs
+
+The teacher model, complete requested explanations, saved preferences and musical context are retained. No cheaper model, smaller answer limit or reduced lesson history was introduced. The current Realtime service does not charge merely for a truly silent connection, but detected speech, music or background sound can trigger paid responses. F9 ends the AI lesson; Ctrl+2 returns to the score and playback Pause pauses music, neither stops AI. Free reader commands, local playback and saved-note reminders do not use teacher credits. The app does not yet provide a per-lesson usage ledger.
 
 
 ## Retained voice and practice features
@@ -76,7 +79,7 @@ Teacher instructions cover piano, guitar, music theory and Braille music, comple
 
 ## Testing and limitations
 
-The root release gate and **61 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. The production updater extracted the actual complete app ZIP with the expected executable hash. Source-search findings are specific to the songs tested; physical microphone and device acceptance is separate.
+The root release gate and **62 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. The production updater extracted the actual complete app ZIP with the expected executable hash. Source-search findings are specific to the songs tested; physical microphone and device acceptance is separate.
 
 Search needs broader testing. **NVDA remains untested; NVDA testers are welcome.** Further physical JAWS/Braille/device, microphone/audio, piano staff/loop and live teacher tests remain useful. PDF/OCR can misread notes, rhythm or pages. Intermittent imported-tuning focus remains; confirm or reselect the intended part and retry Ctrl+4. Compare readings and suggestions against source music.
 
