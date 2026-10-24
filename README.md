@@ -4,7 +4,7 @@ SpeakTab is a free Windows app for reading and practising guitar tablature, chor
 
 ## Download SpeakTab
 
-**Current release: 10.14.31.**
+**Current release: 10.14.33.**
 
 **[Download the latest complete SpeakTab app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
 
@@ -14,33 +14,25 @@ This permanent link downloads the app ZIP directly. Choose Extract All, keep the
 
 **[Download the Quick Start — Word document](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)**
 
-Read these documents offline with your preferred Word-compatible reader, screen reader or Braille device. The 95-page expanded manual has a first-use teacher walkthrough, 13 numbered chapters and five appendices covering all 154 menu actions, settings, shortcut customization, import-error recovery, remediation, exact reader voice phrases, examples, troubleshooting, feature requests and tests. The quick start is a shorter introduction. Both begin with your own music; the included sample is optional. The main instructions follow File, Navigate, Playback, Practice, ChatGPT, Voice and Help in menu order, with access keys and default shortcuts beside commands. To search for music, use File > Find tabs or chords (F2; menu access Alt+F, then F).
+Read these documents offline with your preferred Word-compatible reader, screen reader or Braille device. The 103-page expanded manual has a first-use teacher walkthrough, 13 numbered chapters and five appendices covering all 154 menu actions, settings, shortcut customization, import-error recovery, remediation, exact reader voice phrases, examples, troubleshooting, feature requests and tests. The quick start is a shorter introduction. Both begin with your own music; the included sample is optional. The main instructions follow File, Navigate, Playback, Practice, ChatGPT, Voice and Help in menu order, with access keys and default shortcuts beside commands. To search for music, use File > Find tabs or chords (F2; menu access Alt+F, then F).
 
 [Manual in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) | [Quick Start in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) | [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt) | [Optional HTML manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html)
 
-The full Word manual and Quick Start match SpeakTab 10.14.31. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
+The expanded Word manual includes the version 33 supplement; the Quick Start covers the retained setup and operating routes. The complete ZIPs retain their tested bundled expanded Word manual; download the newest expanded manual separately. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
 
 [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest) | [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
 
-## New in 10.14.31
+## New in 10.14.33
 
-## Save and return to music
+## What changed since 10.14.31
 
-Opening music no longer creates automatic reading copies. **Ctrl+S** saves or updates one arrangement under **Saved Readings > Songs**. Closing or switching away from new or changed work asks whether to save, leave without saving or cancel. **File > My readings** offers the previous lesson summary, Resume and Start over. Separate source files or parts can represent different arrangements.
-
-Keep a separate chord or lyric sheet beside a detailed score through **File > Companion chord or lyric sheet**. Save the workspace to retain the imported companion. A chord chart does not supply missing picking notes. **Export reading copy as text or HTML** makes a separate outside copy.
-
-## One teacher for guitar and piano
-
-**Voice > AI teacher setup** explains naming the teacher, separate instrument preferences, voice connection and onboarding. **Start AI teacher lesson** explicitly starts the configured live teacher. **Spoken onboarding** saves the profile and requests questions immediately; missing setup opens a focused explanation with a connection-settings button. An active teacher receives the request directly, and a connecting teacher retains it without duplicate first questions. **F9** stops the lesson. Live teaching requires a voice API key and separately billed API access; the free reader microphone remains separate.
-
-Saved workspaces can hold factual lesson summaries. Ask to review a saved arrangement, start it over, switch to another saved arrangement or suggest an exercise for a passage. Read the actual save/open result; AI responses alone do not prove the action succeeded.
-
-## Piano, rhythm and textual braille
-
-- Piano labels use the current supplied **treble or bass clef**, with staff numbers retained for navigation. A single voice needs no voice-number announcement. Multiple voices are numbered locally within each staff, preserving source identities. Missing clefs stay unspecified; staff labels do not determine hands.
-- **Practice > Practice drums — no song needed** offers four original synthesized patterns with tempo and volume controls. They work independently of a song and are not synchronized backing for score playback. The existing loop window contains optional gradual-speed settings; its duplicate menu entry was removed.
-- **File > Export textual braille BRF** defaults to contracted English UEB prose through bundled Liblouis. It exports text descriptions, not braille music. It does not add MusicXML export or operate an embosser. Matching Liblouis source and licenses are included.
+- General teaching preferences persist in each student's private profile across pieces, including preferences requested after onboarding. Guitar and piano fields remain separate.
+- Optional automatic piece memory keeps recognized lesson conversation locally with the corresponding piece. It starts off for new students. Explicit saved lesson summaries and passage notes remain available.
+- Fresh response context supplies current preferences and reading details. Instructions distinguish Continue from Repeat and discourage repeated setup, tuning and assurances while retaining complete requested musical explanations.
+- The teacher can search supported local music recursively in named folders and follow a changed folder direction.
+- Note events distinguish new attacks and tie starts/continuations. Written MusicXML and Guitar Pro meter is retained for teacher context and newly saved readings. Explicit spoken practice notes save and verify locally.
+- Includes 27 built-in teaching topics, 24 free reference routes and twelve original beginner studies. Each student supplies their own authorized course materials.
+- The expanded 103-page Word manual adds teacher memory, Ultimate Guitar download guidance, API costs and key privacy. The Quick Start is also available separately.
 
 
 ## Retained voice and practice features
@@ -84,7 +76,7 @@ Teacher instructions cover piano, guitar, music theory and Braille music, comple
 
 ## Testing and limitations
 
-The root release gate and **57 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. The production updater extracted the actual complete app ZIP with the expected executable hash. Source-search findings are specific to the songs tested; physical microphone and device acceptance is separate.
+The root release gate and **61 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. The production updater extracted the actual complete app ZIP with the expected executable hash. Source-search findings are specific to the songs tested; physical microphone and device acceptance is separate.
 
 Search needs broader testing. **NVDA remains untested; NVDA testers are welcome.** Further physical JAWS/Braille/device, microphone/audio, piano staff/loop and live teacher tests remain useful. PDF/OCR can misread notes, rhythm or pages. Intermittent imported-tuning focus remains; confirm or reselect the intended part and retry Ctrl+4. Compare readings and suggestions against source music.
 
