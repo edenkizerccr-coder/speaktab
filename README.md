@@ -4,7 +4,7 @@ SpeakTab is a free Windows app for reading and practising guitar tablature, chor
 
 ## Download SpeakTab
 
-**Current release: 10.14.30.**
+**Current release: 10.14.31.**
 
 **[Download the latest complete SpeakTab app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
 
@@ -14,22 +14,34 @@ This permanent link downloads the app ZIP directly. Choose Extract All, keep the
 
 **[Download the Quick Start — Word document](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)**
 
-Read these documents offline with your preferred Word-compatible reader, screen reader or Braille device. The expanded manual has 13 chapters and five appendices covering all 147 menu actions, settings, shortcut customization, import-error recovery, remediation, exact reader voice phrases, examples, troubleshooting, feature requests and tests. The quick start is a shorter introduction. Both begin with your own music; the included sample is optional. The main instructions follow File, Navigate, Playback, Practice, ChatGPT, Voice and Help in menu order, with access keys and default shortcuts beside commands. To search for music, use File > Find tabs or chords (F2; menu access Alt+F, then F).
+Read these documents offline with your preferred Word-compatible reader, screen reader or Braille device. The 95-page expanded manual has a first-use teacher walkthrough, 13 numbered chapters and five appendices covering all 154 menu actions, settings, shortcut customization, import-error recovery, remediation, exact reader voice phrases, examples, troubleshooting, feature requests and tests. The quick start is a shorter introduction. Both begin with your own music; the included sample is optional. The main instructions follow File, Navigate, Playback, Practice, ChatGPT, Voice and Help in menu order, with access keys and default shortcuts beside commands. To search for music, use File > Find tabs or chords (F2; menu access Alt+F, then F).
 
 [Manual in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) | [Quick Start in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) | [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt) | [Optional HTML manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html)
 
-The full Word manual and Quick Start match SpeakTab 10.14.30. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
+The full Word manual and Quick Start match SpeakTab 10.14.31. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
 
 [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest) | [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
 
-## New in 10.14.30
+## New in 10.14.31
 
-- **Named music sources:** F2 starts with GTPtabs. Choose one tested catalog; unsuccessful GuitarTabs.cc, KhmerChords and old GuitarAlliance.net automatic routes have been removed. Useful browser/member download routes remain with specific instructions. General search engines are used only through explicit AI web search.
-- **Choose the right source:** manuals explain each site's strengths, including Bach versus STP, Guitar Pro files versus chords, and teacher/member lesson downloads. JustinGuitar, Lauren Bateman and GuitarLessons365 are available as browser lesson routes; viewing a lesson does not guarantee a downloadable score.
-- **Ask the free microphone for examples:** say **what can I say** for four useful commands. After the reply finishes, say **next** for more. **Stop help** or an ordinary reader command leaves suggestions. **Next measure** continues to move in your music. Optional SpeakTab wake-word settings apply; enable Windows voice command replies to hear the examples.
-- **Honest website reading:** selectable text import stays available. **Read PDF or image with AI** in search opens the existing saved-file recovery flow; choose a file and review before sending. It does not capture a signed-in interactive viewer. AI recovery can be partial and needs comparison with the original.
-- **Teacher file controls and recovery safeguards:** retained updates since20 let the trusted teacher open local music and validated public downloads, choose a replacement when delegated and retain partial review copies. General PDF recovery improved, but exact notes, strings, timing, ties and techniques are not guaranteed.
-- **Updated offline documentation:** the full Word manual, Quick Start, plain text, HTML and shipped guides describe this release. Existing hands-free score return remains available with Escape or Ctrl+2 while keeping the free listener on.
+## Save and return to music
+
+Opening music no longer creates automatic reading copies. **Ctrl+S** saves or updates one arrangement under **Saved Readings > Songs**. Closing or switching away from new or changed work asks whether to save, leave without saving or cancel. **File > My readings** offers the previous lesson summary, Resume and Start over. Separate source files or parts can represent different arrangements.
+
+Keep a separate chord or lyric sheet beside a detailed score through **File > Companion chord or lyric sheet**. Save the workspace to retain the imported companion. A chord chart does not supply missing picking notes. **Export reading copy as text or HTML** makes a separate outside copy.
+
+## One teacher for guitar and piano
+
+**Voice > AI teacher setup** explains naming the teacher, separate instrument preferences, voice connection and onboarding. **Start AI teacher lesson** explicitly starts the configured live teacher. **Spoken onboarding** saves the profile and requests questions immediately; missing setup opens a focused explanation with a connection-settings button. An active teacher receives the request directly, and a connecting teacher retains it without duplicate first questions. **F9** stops the lesson. Live teaching requires a voice API key and separately billed API access; the free reader microphone remains separate.
+
+Saved workspaces can hold factual lesson summaries. Ask to review a saved arrangement, start it over, switch to another saved arrangement or suggest an exercise for a passage. Read the actual save/open result; AI responses alone do not prove the action succeeded.
+
+## Piano, rhythm and textual braille
+
+- Piano labels use the current supplied **treble or bass clef**, with staff numbers retained for navigation. A single voice needs no voice-number announcement. Multiple voices are numbered locally within each staff, preserving source identities. Missing clefs stay unspecified; staff labels do not determine hands.
+- **Practice > Practice drums — no song needed** offers four original synthesized patterns with tempo and volume controls. They work independently of a song and are not synchronized backing for score playback. The existing loop window contains optional gradual-speed settings; its duplicate menu entry was removed.
+- **File > Export textual braille BRF** defaults to contracted English UEB prose through bundled Liblouis. It exports text descriptions, not braille music. It does not add MusicXML export or operate an embosser. Matching Liblouis source and licenses are included.
+
 
 ## Retained voice and practice features
 
@@ -47,7 +59,7 @@ The usual Left/Right timeline and Up/Down simultaneous-note navigation stay in p
 
 ## Read and practise
 
-Open supported text tab, chord charts, Guitar Pro, MusicXML, MuseScore or PDF files. PDF/OCR is experimental. Keep the original and check imported music and warnings. Save a complete text reading to reopen, or export an HTML report with headings.
+Open supported text tab, chord charts, Guitar Pro, MusicXML, MuseScore or PDF files. PDF/OCR is experimental. Keep the original and check imported music and warnings. Ctrl+S saves one song workspace; File > My readings reopens it. Separate text/HTML export is available.
 
 - **Ctrl+O:** open. **Ctrl+1/2/3:** source, score, current explanation. **Ctrl+4:** tuning. Escape from details returns to the score.
 - With score focus, **Left/Right** moves through time and **Up/Down** inspects simultaneous supplied notes. **Ctrl+PageUp/PageDown** moves measures; **Ctrl+G** jumps to a measure number.
@@ -68,11 +80,11 @@ Regular AI answers, cloud speech and the live teacher use their existing provide
 
 The teacher can consult the current guide, tutorials, menu routes and assigned keys. Requested supported reading, navigation, playback, loop/speed, bookmark and piano staff actions keep the conversation active. For other requested functions, the live teacher can look up and invoke exact current native menu actions. File choices, settings, sign-in, updates and reviews retain their normal controls; invocation is not proof the operation finished. Regular typed/Windows-voice answers guide rather than execute these tools. Practice notes open for your Save/Cancel review.
 
-Teacher instructions cover piano, guitar, music theory and Braille music, complete requested measure explanations, music-related research and clear separation of source facts from suggestions. Braille music is distinct from ordinary screen-reader Braille text; this adds no BRF import/export or certified score transcription. Research and AI replies can fail. The live teacher uses a separate voice API key/model and credits; a ChatGPT subscription alone does not provide them. Windows voice can read regular answers locally. Check the guide for setup and routing.
+Teacher instructions cover piano, guitar, music theory and Braille music, complete requested measure explanations, music-related research and clear separation of source facts from suggestions. Braille music is distinct from ordinary screen-reader Braille text; contracted textual BRF prose export is available, while braille-music import and certified score transcription are not. Research and AI replies can fail. The live teacher uses a separate voice API key/model and credits; a ChatGPT subscription alone does not provide them. Windows voice can read regular answers locally. Check the guide for setup and routing.
 
 ## Testing and limitations
 
-The root release gate and **53 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. The production updater extracted the actual complete app ZIP with the expected executable hash. Source-search findings are specific to the songs tested; physical microphone and device acceptance is separate.
+The root release gate and **57 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. The production updater extracted the actual complete app ZIP with the expected executable hash. Source-search findings are specific to the songs tested; physical microphone and device acceptance is separate.
 
 Search needs broader testing. **NVDA remains untested; NVDA testers are welcome.** Further physical JAWS/Braille/device, microphone/audio, piano staff/loop and live teacher tests remain useful. PDF/OCR can misread notes, rhythm or pages. Intermittent imported-tuning focus remains; confirm or reselect the intended part and retry Ctrl+4. Compare readings and suggestions against source music.
 
