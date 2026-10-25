@@ -1,97 +1,73 @@
 # SpeakTab
 
-SpeakTab is a free Windows app for reading and practising guitar tablature, chord charts and supported scores. It is designed primarily for blind and low-vision musicians. Sighted musicians can use it too, though their experience may vary. It offers keyboard navigation, accessible text for screen readers and Braille, practice playback, and an optional AI teacher for guitar and piano.
+SpeakTab is an accessible Windows music reader and practice companion for guitar and supported piano scores. Explore your music with a keyboard, screen reader, Braille display or free voice commands. Move to a measure, read notes and chords, hear a practice preview, slow down and loop a passage.
 
-## Download SpeakTab
+Open **Guitar Pro, MusicXML, MuseScore, PDF, text tablature and chord charts**. **Find music (F2)** searches supported sources for tabs, chord charts and score downloads, with browser guidance where needed. Choose optional AI help for explanations, file recovery or guided practice. Main reading, local playback and free voice navigation work without paid AI; voice commands require microphone setup.
 
-**Current release: 10.14.43.**
+## Download and start
 
-**[Download the latest complete SpeakTab app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
+**Current release: 10.14.44.**
 
-This permanent link downloads the app ZIP directly. Choose Extract All into your own SpeakTab folder, keep the extracted runtime, licenses and guides together, and run **SpeakTab.exe** from the extracted folder. Keep your original music and previous/recovery app copy. You need only this Windows ZIP to use the app.
+**[Download the complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
 
-**[Download the complete user manual — Word document](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)**
+Extract the complete ZIP into your own SpeakTab folder, keep the included runtime, licences and guides together, and run **SpeakTab.exe**. Keep original music and a previous or recovery app copy. The first ordinary launch offers a skippable welcome introduction; **Help > Welcome to SpeakTab** reopens it. Opening a file directly goes to that file.
 
-**[Download the Quick Start — Word document](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)**
+**[Quick Start in Word](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)** · **[Complete manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)**
 
-Read these documents offline with your preferred Word-compatible reader, screen reader or Braille device. The 105-page expanded manual has a first-use teacher walkthrough, 13 numbered chapters and five appendices covering menu actions including saved practice-note review, settings, shortcut customization, import-error recovery, remediation, exact reader voice phrases, examples, troubleshooting, feature requests and tests. The quick start is a shorter introduction. Both begin with your own music; the included sample is optional. The main instructions follow File, Navigate, Playback, Practice, ChatGPT, Voice and Help in menu order, with access keys and default shortcuts beside commands. To search for music, use File > Find tabs or chords (F2; menu access Alt+F, then F).
+The updated 10.14.44 Quick Start is two print pages; the full manual is 109. Both lead with what SpeakTab does, supported files, music discovery, voice navigation and local practice. Download these companion documents separately; native Help guides are included with the app. Use Word headings or your reader's document navigation to find a topic.
 
-[Manual in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) | [Quick Start in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) | [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt) | [Optional HTML manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html)
+[Quick Start text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) · [Manual text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) · [Manual HTML](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html) · [Native guide HTML](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Guide.html) · [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt)
 
-The expanded Word manual and Quick Start remain the reviewed 10.14.34 editions. Current 10.14.43 navigation instructions are in the packaged native guide and its standalone HTML download. The Word manual includes the version 34 practice-note instructions; the Quick Start covers retained setup and operating routes. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
+## Your first few minutes
 
-[Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest) | [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
+1. Choose **Try included music**, open your own file with **Ctrl+O**, or use **F2** to find music.
+2. Press **Ctrl+2** for the score. **Left/Right** moves through time; **Up/Down** inspects simultaneous notes or strings without editing them. **Ctrl+PageUp/PageDown** moves by measure; **Ctrl+G** jumps to a measure.
+3. Press **Ctrl+3** for the full explanation, then **Ctrl+2** to return. **Ctrl+1** lets you compare source information. **Alt+Shift+I** opens the import summary and uncertainties.
+4. Press **Ctrl+P** to play and **Ctrl+Shift+P** to stop. Playback settings changes speed and guitar sound; Practice offers loops, bookmarks, notes and count-in.
+5. Press **Ctrl+S** to save a named reading directly in Saved Readings. **File > My readings** reopens it. **F1** opens control help and **Ctrl+Alt+P** finds commands.
 
-## New in 10.14.43
+## Move through music by voice
 
-Ordinary **Left/Right** score navigation now selects a prebuilt native note row whose accessible text stays unchanged. **Up/Down** inspects simultaneous guitar strings or piano notes at the same beat. A piano staff change names the new staff; continuing on that staff does not repeat its name. Measure context returns when entering a measure. Brief note lengths remain, including **0.5 beat** for an eighth note and **0.25 beat** for a sixteenth. **Ctrl+3** opens the complete current explanation.
+Set up the **free reader microphone** from Voice. Commands include moving to a numbered measure, reading notes, playing and stopping music. **Voice > Exact microphone phrases** lists the accepted words without starting a microphone. Speech recognition depends on the microphone, language and environment; use the keyboard whenever preferred.
 
-The prior JAWS repeat was intermittent: one arrow command and one score update could still lead to two spoken lines. Changing JAWS highlighting and delaying the update did not resolve it. The new score rows stay fixed while the selection moves; no JAWS script or setting is installed. Original notes, strings/frets, rests, ties, lyrics, saved music and playback timing remain intact.
+The optional AI teacher and conversation can explain music and help plan practice. They are separate from the free navigation commands. Connected AI, AI file repair and some online voices require separate setup, internet and any provider charges; a subscription does not necessarily include API usage. No account or paid AI is required for the core reading and local practice tools.
 
-Eden physically checked basic navigation in the installed build: with **JAWS**, three guitar Right moves, three piano Right moves and one piano Up/Down move, then about ten more ordinary Left/Right moves, each spoke once. With **NVDA**, two Right moves and one Up/Down move each spoke once. These are the tested paths; broader score, Braille, device, microphone and lesson behavior still benefit from hands-on testing.
+## Files and finding music
 
-The in-app guide was embedded before these physical checks. Its local-test and public-10.14.38 status lines are earlier checkpoints; the result above is the later status.
+- **Guitar Pro:** .gp3, .gp4, .gp5, .gpx and .gp. Structured guitar parts can retain tuning, strings, frets, rhythm and techniques. **Ctrl+T** chooses another part from the original score.
+- **MusicXML:** .musicxml, .xml and .mxl. **MuseScore:** .mscz and .mscx. These can supply pitches, staves, rhythm, lyrics and other markings.
+- **Text tabs and chord charts:** .txt, .tab, .asc, .chord, .chords, .crd, .cho and .pro. Text tab can have estimated rhythm; chord charts provide accompaniment rather than every melody note.
+- **PDF:** local reading tries the available text and score information. Scans and unusual notation can need recognition or repair. Compare uncertain imports with the original.
+- **Copied webpage music:** copy the actual selectable tab or chord text and use **Ctrl+Shift+V**. A URL, picture or interactive player alone is not copied music.
 
-Since public 10.14.38, **Ctrl+S** saves one named reading file directly in **Saved Readings**. The fixed **Alt+Shift+PageDown/PageUp** keys move to the next/previous beat or note group; **Ctrl+PageDown/PageUp** still moves measures. The expanded Word manual and Quick Start remain the reviewed 10.14.34 editions; use the current packaged/native guide for these newer steps.
+F2 offers named sources and download guidance. You can also open a teacher's file or a download you are permitted to use. Member-library downloads may require the site's browser and account. SpeakTab does not unlock paid scores or turn every video lesson into a transcription.
 
-## Earlier: 10.14.38
+## New in 10.14.44
 
-Score reading introduces the measure once: “Measure 1, beat 1,” then “Beat 2,” “Beat 3,” and the supplied decimal subdivisions. Staff names are introduced once per measure rather than before every note or beat. Individual notes and both supplied staves remain available.
+- A ten-topic accessible welcome introduction explains the main uses, imports, music search, first steps, local practice, help and optional connected tools. It can be skipped, reopened and optionally shown at startup.
+- A clearer introduction, README, Word manual and Quick Start put practical benefits and free voice navigation first, with a small separate explanation of paid options.
+- More supplied Guitar Pro technique values receive readable names in the full explanation. MusicXML explanations now name explicit trills, mordents, turns, tremolo and ornament accidentals.
+- Playback follows supported written repeat barlines and numbered endings. A chosen practice loop uses its own range; score arrows remain in written order.
+- Piano and keyboard scores use sampled piano. Guitar can use optional enhanced acoustic sound. Samples load on demand, and audio preparation runs in the background with cancellation.
 
-Tied durations are included at the original attack. Ordinary navigation and playback position following skip unchanged tie-only continuations, without shortening the actual sound. Rests, lyrics, written directions and uncertain tie origins remain available. The native note list, details and free spoken beat commands now use the same concise current reading. Explicit “where am I” and “which staff” remain available.
+## Choose the right tool
 
-Text and HTML exports omit reopening data and duplicated structured-score summaries. Ctrl+S still keeps complete reopenable readings. The settings and announcements say Playback speed. These changes apply across supported scores; original notes, strings/frets, timing, saved data and AI lesson context are retained.
+SpeakTab is strongest at **accessible, step-by-step reading and focused practice** from supported files. A clear structured score generally gives more detail than a scan.
 
+Use a notation editor to compose, arrange or engrave printed scores; score writing is future work in SpeakTab. Use recording or music-production software for recording, mixing and detailed instrument performance. Use specialist transcription tools and review for embossed braille-music notation. SpeakTab's Braille access follows the screen reader and display, and BRF export is textual UEB prose, not braille music.
 
-## Retained voice and practice features
+## Verification and current limits
 
-- **Hands-free teacher controls:** with the free reader microphone on, say **start teacher** to connect the configured live lesson or **stop teacher** to end it while keeping the local listener available. Use **next measure**, **play** and **stop music** when ready. The unreliable alternate teacher-start phrase was removed following Eden's test.
-- **Optional wake word:** **Voice > Reader microphone settings** has **Require SpeakTab wake word**, off by default. Leave it off for ordinary phrases; turn it on for **SpeakTab next measure**, for example. This applies to fixed local commands, not live teacher conversation.
-- **Broader live app actions and music teaching:** the live teacher can invoke exact existing native menu commands. Its instructions cover guitar, piano, music theory and Braille music, with music-only research and code references for uncertain rules. Actual model behavior needs continued testing.
+The root release gate and **75 focused software checks passed**. Both complete packages, source manifests, native guide content, required runtimes, licences and privacy were checked. The installed 10.14.43 production updater extracted the complete new app ZIP with the expected executable hash. Existing saved music and settings were hash-checked unchanged during local installation.
 
-Retained guide and practice features:
+The basic JAWS/NVDA navigation listening acceptance recorded for 10.14.43 is retained as historical evidence. **New 10.14.44 physical screen-reader, Braille and listening checks remain pending**; software checks do not certify every file, device or musical interpretation. The immutable native score-row approach remains in use.
 
-- **Packaged help:** the app includes its in-app guide, heading chooser, six worked examples and 32 editable defaults. The separately downloadable User Manual above provides the expanded operating instructions and complete references.
-- **Combined loop and speed setup:** **Practice > Loop a measure range**, default **Ctrl+Shift+9**, sets the passage and optional speed increases together. Example: 60% to 100%, five percentage points after every three complete loops. Exact partial-beat endpoints can be retained. Cancel preserves both settings; manual speed changes disable automatic increases.
-- **Piano staff commands:** **Navigate > Piano staff** chooses a supplied staff, follows its notes across time, reports the chosen staff, or reads that staff's current measure without moving. Free phrases include **go to staff two**, **next note on staff two** and **read staff two**. Optional custom keys are available. Staff labels do not by themselves establish hands.
+Ornaments and grace notes can be described without being expanded into performed playback notes. Expressive guitar effects remain approximate. Complex D.C., D.S., Coda and malformed repeats can play linearly. Existing saved readings without repeat metadata may need reopening from a structured original to gain it. PDF/OCR and AI recovery require checking against the source.
 
-The usual Left/Right timeline and Up/Down simultaneous-note navigation stay in place. Guitar strings, frets and tuning remain guitar information. The opening title identifies the part; **Practice > Import summary and uncertainties** gives the instrument and exact part again when needed. Playback remains sampled guitar sound.
+Some frozen in-app guides and manual pages retain local-test or earlier-release checkpoint wording from preparation. This README and release page state the publication status; publishing does not convert pending listening checks into passes.
 
-## Read and practise
+## Developers and feedback
 
-Open supported text tab, chord charts, Guitar Pro, MusicXML, MuseScore or PDF files. PDF/OCR is experimental. Keep the original and check imported music and warnings. Ctrl+S saves a named reading file directly in Saved Readings; File > My readings reopens it. Separate text/HTML export is available.
+[Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip) · [Release notes and all assets](https://github.com/edenkizerccr-coder/speaktab/releases/latest) · [Report an issue](https://github.com/edenkizerccr-coder/speaktab/issues)
 
-- **Ctrl+O:** open. **Ctrl+1/2/3:** source, score, current explanation. **Ctrl+4:** tuning. Escape from details returns to the score.
-- With score focus, **Left/Right** moves through time and **Up/Down** inspects simultaneous supplied notes. Fixed **Alt+Shift+PageUp/PageDown** moves to the previous/next beat or note group. **Ctrl+PageUp/PageDown** moves measures; **Ctrl+G** jumps to a measure number.
-- **Ctrl+P:** play. **Ctrl+Shift+P:** stop. **Ctrl+Shift+PageDown/PageUp:** slower/faster. **Ctrl+Shift+5:** normal speed.
-- **Ctrl+Shift+L:** loop current measure. **Ctrl+Shift+9:** loop and optional speed settings. **Ctrl+Shift+1/2:** beat loop boundaries. **Ctrl+Shift+0:** clear loop.
-- **Ctrl+B:** bookmark. **Ctrl+Shift+J:** return to the latest bookmark. **Ctrl+Shift+Y:** practice note. **Alt+Shift+Q/F:** concise/compact explanations.
-- **Ctrl+Alt+P:** command palette with current menu routes and keys. **Help > Guided tutorials** offers fourteen lessons and optional local read-aloud.
-
-The 32 added shortcut defaults can be reassigned, cleared or restored in **Help > Customize keyboard shortcuts**. Fixed shortcuts cannot be reassigned or cleared. Menus and the palette show current assignments; test for conflicts with your screen reader.
-
-## Voice and optional teacher
-
-Offline reading, menus, practice, guides, tutorials and fixed reader microphone commands need no paid AI. **Voice > Exact microphone phrases** lists the local commands. **Ctrl+Alt+L** toggles listening. Windows English recognition, microphone permission and a working default input are needed. Spoken command replies are optional.
-
-The free microphone uses continuous recognition and has no app inactivity timer. Keep the computer awake. Closing the command window keeps the free microphone on. **Stop listening**, device errors, sleep or exiting SpeakTab can stop it; a completely off mic cannot hear a wake request. Singing and speaker audio may trigger commands. The optional prefix reduces that risk only for fixed local commands. Stop the teacher during practice if you want only local commands; an active live teacher still receives musical sound.
-
-Regular AI answers, cloud speech and the live teacher use their existing provider/account routes. **Voice > Which voice mode? Start, stop and setup help** explains the choices. **Ctrl+Alt+O** opens settings; **Ctrl+Alt+I** reads voice status. **F8** starts the selected conversation mode and **F9** stops voice and its microphone.
-
-The teacher can consult the current guide, tutorials, menu routes and assigned keys. Requested supported reading, navigation, playback, loop/speed, bookmark and piano staff actions keep the conversation active. For other requested functions, the live teacher can look up and invoke exact current native menu actions. File choices, settings, sign-in, updates and reviews retain their normal controls; invocation is not proof the operation finished. Regular typed/Windows-voice answers guide rather than execute these tools. Practice notes open for your Save/Cancel review.
-
-Teacher instructions cover piano, guitar, music theory and Braille music, complete requested measure explanations, music-related research and clear separation of source facts from suggestions. Braille music is distinct from ordinary screen-reader Braille text; contracted textual BRF prose export is available, while braille-music import and certified score transcription are not. Research and AI replies can fail. The live teacher uses a separate voice API key/model and credits; a ChatGPT subscription alone does not provide them. Windows voice can read regular answers locally. Check the guide for setup and routing.
-
-## Testing and limitations
-
-The root release gate and **69 focused software checks passed**. The physical JAWS and NVDA results above cover basic score navigation; microphone and device acceptance is separate.
-
-Search needs broader testing. Further screen-reader paths, Braille/device, microphone/audio, piano staff/loop and live teacher tests remain useful. PDF/OCR can misread notes, rhythm or pages. Intermittent imported-tuning focus remains; confirm or reselect the intended part and retry Ctrl+4. Compare readings and suggestions against source music.
-
-## Update or contribute
-
-**10.14.12 and newer:** use **Help > Check for updates > Download and install**. **10.14.11 and earlier:** install the complete current Windows ZIP manually once, because the older updater can reject guide filenames. Never update by replacing only the executable. Keep the recovery copy. Google Drive full release ZIP replacement remains manual.
-
-Developers: use **SpeakTab-Source.zip** for the complete handoff, dependencies, original fixtures, build instructions and manifest. GitHub's generated source archives are not that complete handoff. Packaged prepublication records are preparation checkpoints; the current release page records publication. Send proposed changes to Eden for review; downloading does not grant repository write access.
-
-Use **Help > Report a bug / email Eden**, **Help > Prepare feature test report**, or [open an issue](https://github.com/edenkizerccr-coder/speaktab/issues/new). Reports are reviewed before you send them; nothing is emailed automatically. Remove passwords, API keys and private music.
+Use SpeakTab-Source.zip for the complete build handoff. GitHub's generated source archives contain the repository snapshot and are not the complete application source package. Retain bundled component and audio credits. No credentials, private music, saved readings or session data are included in release packages. Downloaded ornament-test scores remain local and are not bundled.
