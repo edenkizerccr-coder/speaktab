@@ -1,33 +1,37 @@
 # SpeakTab
 
-SpeakTab is a Windows music reader and practice companion for blind and low-vision musicians. Explore supported guitar and piano music with a keyboard, screen reader or free voice commands. Read notes and chords, hear a practice preview, slow down and loop a passage, and save places and practice reminders.
+SpeakTab is a Windows music reader and practice companion for keyboard, screen-reader and Braille users. Open supported guitar and piano music, move through its accessible reading, hear a local practice preview, slow down, loop a passage and keep practice reminders. Optional connected AI is separate from the local reading tools.
 
-## Version 10.14.51
+## Download version 10.14.53
 
-**[Download the complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
+- [Complete Windows application](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)
+- [Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)
+- [Two-page Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)
+- [Complete source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
+- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v10.14.53)
 
-Version51 makes full explanations a complete current-position view, simplifies position navigation, and clears existing saved loops immediately without a separate Save. Version50 remains available in [earlier releases](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v10.14.50).
+Extract the complete application ZIP into its own folder and run SpeakTab.exe. Keep the included runtime, fixtures, licences and native guides together. The Word manual, Quick Start and their text/HTML alternatives are companion downloads beside the application ZIP and inside the complete source ZIP. Use the full source handoff for development; GitHub-generated source archives contain the repository snapshot instead.
 
-## Start and read
+## Find score information and return
 
-Extract the complete app ZIP with its runtime, licences and native guides, then run SpeakTab.exe. Ctrl+O opens music; F2 finds it. Supported import routes include Guitar Pro, MusicXML, MuseScore, PDF, text tablature and chord charts, with format-specific limits.
+Press **Ctrl+Shift+I** for **Score information**: the available opening key, time signature at the selected position, capo, part, tuning and tempo. Press **Escape** to close the window and return to the same selected score row. The local user confirmed that returning works. Missing source facts are identified rather than guessed; older saved readings may need their original score reopened to recover missing metadata. Later key changes are not reconstructed by this command.
 
-Ctrl+2 focuses the score. Left/Right moves to the previous/next note or chord position. Several positions may occur within one beat. Up/Down inspects simultaneous notes or strings. Ctrl+PageUp/PageDown moves by measure; Ctrl+G jumps to a measure. The duplicate Alt+Shift+PageUp/PageDown commands have been removed.
+The Word manual opens with the current 53 instructions, followed by its reviewed 50 reference. Its opening update supersedes older guidance about changed controls. The Quick Start includes the new shortcut and return route. The earlier 52 supplement remains available for context.
 
-F3 opens full current-position context: supplied simultaneous notes, earlier notes still sounding, rests in progress, lyrics, playing marks and the most recent written chord reminder where available. Continuing sounds are described only when written timing is established. Ordinary navigation stays quiet about continuing notes. Ctrl+3 opens the chosen explanation style; concise focuses on current musical facts, while full includes ongoing context. Compact string-fret pairs remain a separate option. F3 does not change your selected style.
+## Read and practise
 
-Ctrl+P plays; Ctrl+Shift+P stops. Ctrl+Shift+0 clears the current and existing saved loop immediately, without saving unrelated edits. A newly created loop is retained only when explicitly saved with Ctrl+S. Failure to clear an unavailable saved file is reported and can be retried.
+Ctrl+O opens music; F2 finds supported music sources. Ctrl+2 focuses the score. Right/Left move to the next/previous position; Alt+Shift+PageDown/PageUp are alternate keys for those same actions. Ctrl+PageDown/PageUp move by measure. Up/Down inspects simultaneous supplied notes, staves or guitar strings.
 
-## Guides
+F3 opens full current-position information: available simultaneous and continuing notes, rests, lyrics, marks and last-written-chord context. It preserves the selected concise or compact style. Ordinary navigation stays brief and avoids repeatedly naming ongoing untied notes. Supplied ornament names do not imply that playback expands every ornament into performed notes.
 
-**[Version51 changes and current controls in Word](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.51.Changes.and.Current.Controls.docx)** | **[Changes in text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.51.Changes.and.Current.Controls.txt)**
+Ctrl+P plays; Ctrl+Shift+P stops. Ctrl+S explicitly saves a new or changed practice loop. Ctrl+Shift+0 clears the current and saved loop immediately, without another save. Ctrl+1 reviews the source summary and Ctrl+4 opens tuning. F1 opens help; Ctrl+Alt+P finds app commands.
 
-The [full manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx) and [Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx) remain the reviewed version50 base editions. Read the51 supplement first: it supersedes their changed loop-clearing, full-explanation and duplicate beat-shortcut instructions. Current native help and keyboard references cover51. Expanded documents are companion downloads and are included in the complete source handoff.
+Supported sources include Guitar Pro, MusicXML, MuseScore, suitable PDFs, text tabs and chord charts. Source structure determines available pitches, timing, staff/voice labels, strings, frets, lyrics and techniques. PDF/OCR and uncertain imports need comparison with the original. Guitar Pro part selection currently supports six-string guitar parts; wider instrument import/playback is future work. Textual UEB BRF export is prose braille, not music-braille transcription.
 
-## Verification and limits
+## Verification and scope
 
-The main release gate and all82 focused checks passed. The actual Chopin reading was checked at representative positions: full-context generation took at most3ms in that local probe. These are software checks, not physical51 screen-reader/audio acceptance or a guarantee for every score/device. The user accepted50 navigation and authorized51 publication. An occasional empty staff label remains a minor known issue.
+The published 53 executable is the installed local build, unchanged for publication. The main release gate and all 83 focused software checks passed. Complete packages, source manifest, documentation copies, compatibility with the 52 updater and privacy scans were verified. This evidence and the user's scoped return-command report do not establish universal screen-reader, musical or audio accuracy. Native embedded preparation notes retain their earlier pre-publication status; the release records the later publication.
 
-Source pitches, timing, ties, audio banks and voice implementations are preserved. Named ornaments are described without being expanded into performed notes. Complex score jumps, PDF recognition and expressive playback have documented limits. Main local reading and practice do not require paid AI; optional connected AI needs separate working access. Future vocal-score and wider instrument work and the possible SpeakScore name are planning items rather than universal support claims.
+The existing steel-string guitar and piano sounds remain. Additional instruments, wordless vocal playback, playable instrument examples and eventual lyric singing are planned for a later build and are not included in 53. The app remains named SpeakTab. No AI account is needed for ordinary reading and local practice. Free reader microphone commands need local microphone setup; connected AI and online voices can require separate access and provider charges.
 
-Use [SpeakTab-Source.zip](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip) for the complete developer handoff. GitHub-generated source archives are not the complete build package.
+Private songs, saved readings, preferences, credentials and diagnostic dumps are excluded from downloads. Previous published releases and their assets remain available.
