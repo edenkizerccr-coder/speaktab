@@ -6,7 +6,7 @@ Open **Guitar Pro, MusicXML, MuseScore, PDF, text tablature and chord charts**. 
 
 ## Download and start
 
-**Current release: 10.14.44.**
+**Current release: 10.14.48.**
 
 **[Download the complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
 
@@ -14,7 +14,7 @@ Extract the complete ZIP into your own SpeakTab folder, keep the included runtim
 
 **[Quick Start in Word](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)** · **[Complete manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)**
 
-The updated 10.14.44 Quick Start is two print pages; the full manual is 109. Both lead with what SpeakTab does, supported files, music discovery, voice navigation and local practice. Download these companion documents separately; native Help guides are included with the app. Use Word headings or your reader's document navigation to find a topic.
+The reviewed 10.14.44 Quick Start is two print pages; the full manual is 109. They remain the current expanded editions; version48 native notes and this page supersede their sound and opening-signature details. Both lead with what SpeakTab does, supported files, music discovery, voice navigation and local practice. Download these companion documents separately; native Help guides are included with the app. Use Word headings or your reader's document navigation to find a topic.
 
 [Quick Start text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) · [Manual text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) · [Manual HTML](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html) · [Native guide HTML](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Guide.html) · [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt)
 
@@ -42,13 +42,13 @@ The optional AI teacher and conversation can explain music and help plan practic
 
 F2 offers named sources and download guidance. You can also open a teacher's file or a download you are permitted to use. Member-library downloads may require the site's browser and account. SpeakTab does not unlock paid scores or turn every video lesson into a transcription.
 
-## New in 10.14.44
+## New in 10.14.48
 
-- A ten-topic accessible welcome introduction explains the main uses, imports, music search, first steps, local practice, help and optional connected tools. It can be skipped, reopened and optionally shown at startup.
-- A clearer introduction, README, Word manual and Quick Start put practical benefits and free voice navigation first, with a small separate explanation of paid options.
-- More supplied Guitar Pro technique values receive readable names in the full explanation. MusicXML explanations now name explicit trills, mordents, turns, tremolo and ornament accidentals.
-- Playback follows supported written repeat barlines and numbered endings. A chosen practice loop uses its own range; score arrows remain in written order.
-- Piano and keyboard scores use sampled piano. Guitar can use optional enhanced acoustic sound. Samples load on demand, and audio preparation runs in the background with cancellation.
+- **Hold length once:** a note's complete sounding length is given at its first attack. Untied ongoing notes are not repeatedly named as other notes begin. A written tied continuation remains identifiable, and genuine new attacks of the same pitch are still announced.
+- **Opening score information:** the supplied time signature and MusicXML key signature appear once on the opening score row. A missing key is not guessed from notes; older readings may need the original MusicXML reopened for a key omitted by an earlier importer.
+- **Restored sounds:** steel-string acoustic guitar and the earlier sampled piano replace the intervening local instrument experiments. Existing saved readings use these sounds automatically. Optional guitar stereo processing remains available.
+- **Stable navigation:** the native focus/selection correction is retained; selection changes avoid scanning every score row. Saved loops and places are retained, and opening an active saved loop identifies it. Clear a loop with Ctrl+Shift+0, then Ctrl+S to save.
+- **Earlier features retained:** the welcome introduction, tutorials, free voice commands, optional AI, music search, supported repeats, Guitar Pro techniques and MusicXML trills, mordents, turns, tremolo and ornament accidentals remain.
 
 ## Choose the right tool
 
@@ -58,16 +58,17 @@ Use a notation editor to compose, arrange or engrave printed scores; score writi
 
 ## Verification and current limits
 
-The root release gate and **75 focused software checks passed**. Both complete packages, source manifests, native guide content, required runtimes, licences and privacy were checked. The installed 10.14.43 production updater extracted the complete new app ZIP with the expected executable hash. Existing saved music and settings were hash-checked unchanged during local installation.
+The root release gate and **79 focused software checks passed**. Complete app/source packages, required runtime files, licences, native guides, manifests and privacy were checked. Production updater extraction returns the exact tested executable. Existing saved music and settings were hash-checked unchanged during local installation.
 
-The basic JAWS/NVDA navigation listening acceptance recorded for 10.14.43 is retained as historical evidence. **New 10.14.44 physical screen-reader, Braille and listening checks remain pending**; software checks do not certify every file, device or musical interpretation. The immutable native score-row approach remains in use.
+The local user accepted the updated JAWS note announcements and reported that the earlier JAWS fixes held. The user also heard and accepted a short Windows spoken-answer test. An additional audit checked complete-answer chunking, replay, speech on/off and cancellation using simulated natural-voice responses. These results do not certify every score, device, Braille setup or external AI/live-voice service. Earlier basic NVDA/JAWS navigation acceptance remains historical evidence.
 
 Ornaments and grace notes can be described without being expanded into performed playback notes. Expressive guitar effects remain approximate. Complex D.C., D.S., Coda and malformed repeats can play linearly. Existing saved readings without repeat metadata may need reopening from a structured original to gain it. PDF/OCR and AI recovery require checking against the source.
 
-Some frozen in-app guides and manual pages retain local-test or earlier-release checkpoint wording from preparation. This README and release page state the publication status; publishing does not convert pending listening checks into passes.
+The executable is unchanged from the user-tested48 build. Frozen native/embedded guides retain preparation-time local-test and older status wording; this README and the release page record subsequent acceptance and publication. The expanded Word manual/Quick Start remain reviewed44 editions, not newly revised48 documents.
 
 ## Developers and feedback
 
 [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip) · [Release notes and all assets](https://github.com/edenkizerccr-coder/speaktab/releases/latest) · [Report an issue](https://github.com/edenkizerccr-coder/speaktab/issues)
 
 Use SpeakTab-Source.zip for the complete build handoff. GitHub's generated source archives contain the repository snapshot and are not the complete application source package. Retain bundled component and audio credits. No credentials, private music, saved readings or session data are included in release packages. Downloaded ornament-test scores remain local and are not bundled.
+
