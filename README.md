@@ -6,7 +6,7 @@ Open **Guitar Pro, MusicXML, MuseScore, PDF, text tablature and chord charts**. 
 
 ## Download and start
 
-**Current release: 10.14.48.**
+**Current release: 10.14.49.**
 
 **[Download the complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
 
@@ -14,7 +14,7 @@ Extract the complete ZIP into your own SpeakTab folder, keep the included runtim
 
 **[Quick Start in Word](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)** · **[Complete manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)**
 
-The reviewed 10.14.44 Quick Start is two print pages; the full manual is 109. They remain the current expanded editions; version48 native notes and this page supersede their sound and opening-signature details. Both lead with what SpeakTab does, supported files, music discovery, voice navigation and local practice. Download these companion documents separately; native Help guides are included with the app. Use Word headings or your reader's document navigation to find a topic.
+The current10.14.49 Quick Start is two print pages; the full manual is115. All159 menu commands,96 fixed reader phrases and44 alternatives are documented, with current menu letters and saved-note review. Both lead with what SpeakTab does, supported files, music discovery, voice navigation and local practice. Download these companion documents separately; native Help guides are included with the app. Use Word headings or your reader's document navigation to find a topic.
 
 [Quick Start text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) · [Manual text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) · [Manual HTML](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html) · [Native guide HTML](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Guide.html) · [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt)
 
@@ -42,7 +42,12 @@ The optional AI teacher and conversation can explain music and help plan practic
 
 F2 offers named sources and download guidance. You can also open a teacher's file or a download you are permitted to use. Member-library downloads may require the site's browser and account. SpeakTab does not unlock paid scores or turn every video lesson into a transcription.
 
-## New in 10.14.48
+## New in 10.14.49
+
+- **Complete documentation refresh:** manual, Quick Start, shortcut references and built-in help now match the current app. Changed menu letters and missing practice-note commands are corrected.
+- **Accepted behavior retained:** version49 changes documentation/help/version only; music reading, playback, voice and JAWS navigation code retain version48.
+
+### Reading improvements carried forward from the accepted local update
 
 - **Hold length once:** a note's complete sounding length is given at its first attack. Untied ongoing notes are not repeatedly named as other notes begin. A written tied continuation remains identifiable, and genuine new attacks of the same pitch are still announced.
 - **Opening score information:** the supplied time signature and MusicXML key signature appear once on the opening score row. A missing key is not guessed from notes; older readings may need the original MusicXML reopened for a key omitted by an earlier importer.
@@ -58,13 +63,13 @@ Use a notation editor to compose, arrange or engrave printed scores; score writi
 
 ## Verification and current limits
 
-The root release gate and **79 focused software checks passed**. Complete app/source packages, required runtime files, licences, native guides, manifests and privacy were checked. Production updater extraction returns the exact tested executable. Existing saved music and settings were hash-checked unchanged during local installation.
+The root release gate and **80 focused software checks passed**. Complete app/source packages, required runtime files, licences, native guides, manifests and privacy were checked. Production updater extraction returns the exact tested executable. Existing saved music and settings were hash-checked unchanged during local installation.
 
 The local user accepted the updated JAWS note announcements and reported that the earlier JAWS fixes held. The user also heard and accepted a short Windows spoken-answer test. An additional audit checked complete-answer chunking, replay, speech on/off and cancellation using simulated natural-voice responses. These results do not certify every score, device, Braille setup or external AI/live-voice service. Earlier basic NVDA/JAWS navigation acceptance remains historical evidence.
 
 Ornaments and grace notes can be described without being expanded into performed playback notes. Expressive guitar effects remain approximate. Complex D.C., D.S., Coda and malformed repeats can play linearly. Existing saved readings without repeat metadata may need reopening from a structured original to gain it. PDF/OCR and AI recovery require checking against the source.
 
-The executable is unchanged from the user-tested48 build. Frozen native/embedded guides retain preparation-time local-test and older status wording; this README and the release page record subsequent acceptance and publication. The expanded Word manual/Quick Start remain reviewed44 editions, not newly revised48 documents.
+Version49 updates documentation, embedded help and the version number. Runtime music, playback, selection and voice source is unchanged from the user-accepted48 implementation. The full manual and Quick Start are current49 editions.
 
 ## Developers and feedback
 
