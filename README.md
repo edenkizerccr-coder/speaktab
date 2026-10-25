@@ -4,7 +4,7 @@ SpeakTab is a free Windows app for reading and practising guitar tablature, chor
 
 ## Download SpeakTab
 
-**Current release: 10.14.38.**
+**Current release: 10.14.43.**
 
 **[Download the latest complete SpeakTab app](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)**
 
@@ -18,11 +18,23 @@ Read these documents offline with your preferred Word-compatible reader, screen 
 
 [Manual in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.txt) | [Quick Start in plain text](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.txt) | [Keyboard shortcuts by menu](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/Keyboard.Shortcuts.By.Menu.txt) | [Optional HTML manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html)
 
-The expanded Word manual and Quick Start remain the reviewed 10.14.34 editions. Current 10.14.38 reading instructions are in the packaged native guide and its standalone HTML download. The Word manual includes the version 34 practice-note instructions; the Quick Start covers retained setup and operating routes. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
+The expanded Word manual and Quick Start remain the reviewed 10.14.34 editions. Current 10.14.43 navigation instructions are in the packaged native guide and its standalone HTML download. The Word manual includes the version 34 practice-note instructions; the Quick Start covers retained setup and operating routes. Help > User guide opens the packaged in-app guide; download the expanded offline manuals separately using the links above.
 
 [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest) | [Complete developer source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
 
-## New in 10.14.38
+## New in 10.14.43
+
+Ordinary **Left/Right** score navigation now selects a prebuilt native note row whose accessible text stays unchanged. **Up/Down** inspects simultaneous guitar strings or piano notes at the same beat. A piano staff change names the new staff; continuing on that staff does not repeat its name. Measure context returns when entering a measure. Brief note lengths remain, including **0.5 beat** for an eighth note and **0.25 beat** for a sixteenth. **Ctrl+3** opens the complete current explanation.
+
+The prior JAWS repeat was intermittent: one arrow command and one score update could still lead to two spoken lines. Changing JAWS highlighting and delaying the update did not resolve it. The new score rows stay fixed while the selection moves; no JAWS script or setting is installed. Original notes, strings/frets, rests, ties, lyrics, saved music and playback timing remain intact.
+
+Eden physically checked basic navigation in the installed build: with **JAWS**, three guitar Right moves, three piano Right moves and one piano Up/Down move, then about ten more ordinary Left/Right moves, each spoke once. With **NVDA**, two Right moves and one Up/Down move each spoke once. These are the tested paths; broader score, Braille, device, microphone and lesson behavior still benefit from hands-on testing.
+
+The in-app guide was embedded before these physical checks. Its local-test and public-10.14.38 status lines are earlier checkpoints; the result above is the later status.
+
+Since public 10.14.38, **Ctrl+S** saves one named reading file directly in **Saved Readings**. The fixed **Alt+Shift+PageDown/PageUp** keys move to the next/previous beat or note group; **Ctrl+PageDown/PageUp** still moves measures. The expanded Word manual and Quick Start remain the reviewed 10.14.34 editions; use the current packaged/native guide for these newer steps.
+
+## Earlier: 10.14.38
 
 Score reading introduces the measure once: “Measure 1, beat 1,” then “Beat 2,” “Beat 3,” and the supplied decimal subdivisions. Staff names are introduced once per measure rather than before every note or beat. Individual notes and both supplied staves remain available.
 
@@ -47,10 +59,10 @@ The usual Left/Right timeline and Up/Down simultaneous-note navigation stay in p
 
 ## Read and practise
 
-Open supported text tab, chord charts, Guitar Pro, MusicXML, MuseScore or PDF files. PDF/OCR is experimental. Keep the original and check imported music and warnings. Ctrl+S saves one song workspace; File > My readings reopens it. Separate text/HTML export is available.
+Open supported text tab, chord charts, Guitar Pro, MusicXML, MuseScore or PDF files. PDF/OCR is experimental. Keep the original and check imported music and warnings. Ctrl+S saves a named reading file directly in Saved Readings; File > My readings reopens it. Separate text/HTML export is available.
 
 - **Ctrl+O:** open. **Ctrl+1/2/3:** source, score, current explanation. **Ctrl+4:** tuning. Escape from details returns to the score.
-- With score focus, **Left/Right** moves through time and **Up/Down** inspects simultaneous supplied notes. **Ctrl+PageUp/PageDown** moves measures; **Ctrl+G** jumps to a measure number.
+- With score focus, **Left/Right** moves through time and **Up/Down** inspects simultaneous supplied notes. Fixed **Alt+Shift+PageUp/PageDown** moves to the previous/next beat or note group. **Ctrl+PageUp/PageDown** moves measures; **Ctrl+G** jumps to a measure number.
 - **Ctrl+P:** play. **Ctrl+Shift+P:** stop. **Ctrl+Shift+PageDown/PageUp:** slower/faster. **Ctrl+Shift+5:** normal speed.
 - **Ctrl+Shift+L:** loop current measure. **Ctrl+Shift+9:** loop and optional speed settings. **Ctrl+Shift+1/2:** beat loop boundaries. **Ctrl+Shift+0:** clear loop.
 - **Ctrl+B:** bookmark. **Ctrl+Shift+J:** return to the latest bookmark. **Ctrl+Shift+Y:** practice note. **Alt+Shift+Q/F:** concise/compact explanations.
@@ -72,9 +84,9 @@ Teacher instructions cover piano, guitar, music theory and Braille music, comple
 
 ## Testing and limitations
 
-The root release gate and **65 focused software checks passed**, along with both complete package, source/executable/document, embedded guide, manifest, runtime/license and privacy checks. The production updater extracted the actual complete app ZIP with the expected executable hash. Source-search findings are specific to the songs tested; physical microphone and device acceptance is separate.
+The root release gate and **69 focused software checks passed**. The physical JAWS and NVDA results above cover basic score navigation; microphone and device acceptance is separate.
 
-Search needs broader testing. **NVDA remains untested; NVDA testers are welcome.** Further physical JAWS/Braille/device, microphone/audio, piano staff/loop and live teacher tests remain useful. PDF/OCR can misread notes, rhythm or pages. Intermittent imported-tuning focus remains; confirm or reselect the intended part and retry Ctrl+4. Compare readings and suggestions against source music.
+Search needs broader testing. Further screen-reader paths, Braille/device, microphone/audio, piano staff/loop and live teacher tests remain useful. PDF/OCR can misread notes, rhythm or pages. Intermittent imported-tuning focus remains; confirm or reselect the intended part and retry Ctrl+4. Compare readings and suggestions against source music.
 
 ## Update or contribute
 
