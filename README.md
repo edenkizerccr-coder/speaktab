@@ -1,40 +1,46 @@
 # SpeakTab
 
-SpeakTab is a Windows music reader and practice companion for keyboard, screen-reader and Braille users. Read supported scores, choose a musical part, hear local practice previews, slow down, loop passages and keep practice notes. Optional connected AI is separate from local reading.
+SpeakTab is a Windows music reader and practice companion for keyboard, screen-reader and Braille users. Open supported scores, move through an accessible reading, hear local practice previews, slow down, loop passages and keep practice notes. Connected AI is optional.
 
-## Download version 10.14.54
+## Download version 10.14.59
 
 - [Complete Windows application](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)
-- [54 changes and current controls](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.54.Changes.and.Current.Controls.txt)
-- [Word user manual, version 53 reference](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)
-- [Quick Start, version 53 reference](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)
+- [Current Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)
+- [One-page Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)
+- [Testing steps](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Testing.Steps.docx)
 - [Complete source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
-- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v10.14.54)
+- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v10.14.59)
 
-Extract the complete app ZIP into its own folder and run SpeakTab.exe. Keep its runtime, fixtures, licences and guides together. Windows with .NET Framework 4.8 is required. No separate MuseScore, Guitar Pro, Finale or player installation is needed to read supported files. Free microphone commands additionally require Windows English speech recognition and microphone permission. Optional AI requires separate setup and may incur provider charges.
+Extract the complete application ZIP into its own folder and run SpeakTab.exe. Keep the runtime, fixtures, licences and native guides together. Windows with .NET Framework 4.8 is required. Existing users can use the in-app updater. The current Word manuals and text/HTML alternatives are companion downloads and are included in the complete source handoff. GitHub-generated source archives contain the repository snapshot instead.
 
-## Parts, lyrics and sound
+## Simpler ChatGPT controls and quieter reading
 
-Ctrl+T chooses readable MusicXML and MuseScore parts, including separate SATB voices. Supplied staves, voices, pitches, timing and lyrics follow the chosen part. Ordinary navigation reads printed lyric syllables; F3 supplies the complete word when source syllable boundaries establish it. Incomplete words are not guessed. Text tabs and chord sheets may contain lyrics without note-aligned word context.
+**F5** focuses Ask ChatGPT. Type a question and press **Enter** to send it once. **F6** focuses the complete answer from its beginning. F5 returns to the question without resending. F4 connects ChatGPT when needed; Ctrl+2 returns to the score.
 
-Recognized parts use matching local practice sounds, including harp, wordless choir and assigned drum kits. Unknown assignments are not silently played as guitar. Playback is one selected part at a time; lyrics are not sung. Piano pedal preview and expressive performance remain approximations.
+**F12** silences enabled app voices and automatic playback announcements; press it again to resume. Music and microphone connections continue. **F9** ends the AI teacher lesson and stops its microphone. **Ctrl+Alt+L** toggles the separate free command microphone. Opening or leaving idle chat does not start listening. Routine teacher progress stays quiet, and chat labels are shorter.
 
-## Microphones and replies
-
-Ctrl+Alt+L toggles the free reader microphone and explicitly announces on/off. Returning to the score keeps listening active. F9 or Voice > Stop voice and microphone stops the separate AI lesson.
-
-Turn off Speak command replies with Windows voice in reader microphone settings, or Speak answers in AI voice settings, for screen-reader-only text. Starting conversation preserves that choice. Live output can be muted while input and the written transcript remain available; local muting does not eliminate provider usage or charges. These options do not change screen-reader settings.
+Ctrl+1 reveals source or score summary; Ctrl+2 returns to the score and hides it. Navigate > Reader status provides status on demand. Help > Welcome to SpeakTab reopens the startup introduction; Help > Guided tutorials offers fourteen local lessons. The current full manual, Quick Start, testing steps and keyboard references cover version 59.
 
 ## Read and practise
 
-Ctrl+O opens music; F2 finds supported sources. Ctrl+2 focuses the score. Right/Left move through source positions; Ctrl+PageDown/PageUp move by measure. Up/Down inspects supplied simultaneous notes, staves or strings. F3 opens full current-position details. Ctrl+Shift+I opens supplied score information; Escape returns to your place.
+Ctrl+O opens music; Ctrl+D opens included practice music; F2 finds sources. Ctrl+2 focuses the score. Right/Left follows musical time; Up/Down inspects simultaneous notes or strings. Ctrl+PageDown/PageUp changes measure and Ctrl+G jumps to a written measure number.
 
-Ctrl+P plays; Ctrl+Shift+P stops. Ctrl+S saves a reading and a newly selected loop. Ctrl+Shift+0 clears the current and saved loop immediately. Ctrl+1 reviews source information, Ctrl+4 opens tuning, F1 opens help and Ctrl+Alt+P finds app commands.
+F3 opens full current-position information, including available simultaneous and continuing notes, rests, lyrics, marks and last-written-chord context. It preserves the selected concise or compact style. Ordinary navigation avoids repeatedly naming ongoing untied notes. Ctrl+Shift+I opens supplied key, meter, capo, tuning, part and tempo. Escape returns to the selected row. Missing source facts are identified rather than guessed.
 
-Supported sources include Guitar Pro, MusicXML, MuseScore, suitable PDFs, text tabs and chord charts. Guitar Pro part selection supports six-string tracks. PDF/OCR and uncertain imports need comparison with the original. Textual UEB BRF export is prose braille, not music-braille transcription.
+Ctrl+T selects supported readable parts. MusicXML/MuseScore can include recognized instruments and SATB parts, with retained printed lyrics. Local previews include supported instrument sounds and drum kits; vocal previews are wordless. Playback is one selected part at a time. Supplied ornament names do not imply that every ornament is expanded into performed notes.
 
-## Reference and verification
+Ctrl+P plays and Ctrl+Shift+P stops. Practice > Loop a measure range sets a passage with optional gradual speed increases. Ctrl+S explicitly saves a new reading or loop. Practice > Clear loop immediately clears saved loop fields. Bookmarks, practice notes, saved-reading navigation and reading exports support continued practice.
 
-Read the 54 supplement first. Retained version 53 Word manual/Quick Start and older supplements remain references for unchanged controls; they have not been relabelled as 54 editions. Native embedded preparation notes may retain earlier development status. Use SpeakTab-Source.zip for complete source; GitHub-generated source archives contain the small repository snapshot.
+Supported sources include Guitar Pro, MusicXML, MuseScore, suitable PDFs, text tabs and chord charts. Source structure determines available pitches, timing, staff/voice labels, strings, frets, lyrics and techniques. PDF/OCR and uncertain imports need comparison with the original. Guitar Pro part selection currently supports six-string guitar parts. Textual UEB BRF export is prose braille, not music-braille transcription.
 
-The main release gate and all 87 focused software checks passed. The user reports the local microphone toggle, lyric reading and part choice work. The user also confirms that Tab reaches the explanation after a short update delay. These scoped results do not establish universal score, device or audio accuracy. Complex score jumps, complete expressive playback, ensemble performance, sung lyrics and Finale import are not promised. Private music, readings, settings and diagnostic dumps are excluded from release packages.
+## Repair a bad score in your own ChatGPT window
+
+File > Repair score in ChatGPT window lets you choose the original and describe the problem. The prepared request already explains SpeakTab and its MusicXML or text requirements. Explicitly choose Copy request and open ChatGPT, paste the request, attach the original there and download the returned copy. Open returned file imports it for checking. Compare notes, rhythm, lyrics and coverage against the original. Opening the repair tool does not automatically upload or send files.
+
+## Verification and privacy
+
+The main release gate and all 95 focused checks passed for the published executable. Complete packages, the source manifest, updater extraction and saved-key privacy checks passed. The user confirmed Enter sends, F5 returns to the question, F6 reads the answer, F12 silences speech and the interface is cleaner. This scoped evidence does not establish universal screen-reader, microphone, musical or audio accuracy.
+
+No AI account is needed for ordinary reading and local practice. Connected AI/teacher features require separate access and may incur provider charges. Optional ChatGPT read-aloud uses local Windows voice. Startup and tutorial audio begin only when requested. F1 explains the focused control and Ctrl+Alt+P finds commands.
+
+Private songs, saved readings, settings, credentials and diagnostic dumps are excluded from downloads. Previous public releases and assets remain available. Embedded preparation notes retain their earlier local-test status; the release records the later publication. Sung lyrics, Finale support and a possible rename remain future work.
