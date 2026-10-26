@@ -2,16 +2,26 @@
 
 SpeakTab is a Windows music reader and practice companion for keyboard, screen-reader and Braille users. Open supported scores, move through an accessible reading, hear local practice previews, slow down, loop passages and keep practice notes. Connected AI is optional.
 
-## Download version 10.14.60
+## Download version 10.14.62
 
 - [Complete Windows application](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)
 - [Current Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)
 - [One-page Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)
 - [Testing steps](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Testing.Steps.docx)
 - [Complete source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
-- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v10.14.60)
+- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v10.14.62)
 
 Extract the complete application ZIP into its own folder and run SpeakTab.exe. Keep the runtime, fixtures, licences and native guides together. Windows with .NET Framework 4.8 is required. Existing users can use the in-app updater. The current Word manuals and text/HTML alternatives are companion downloads and are included in the complete source handoff. GitHub-generated source archives contain the repository snapshot instead.
+
+## Written strums and current documentation
+
+Version62 preserves explicitly written Guitar Pro upstroke/downstroke and brush/arpeggio marks in the selected score row, F3 details, written-patterns view and saved readings. Marked guitar chords play with a short low-to-high spread for downstrokes and high-to-low for upstrokes. This approximates direction using the existing samples; timing, ties, loop limits and repeats are retained. Unmarked chords remain unchanged; no alternating pattern is invented.
+
+Read the [62 changes and known limitation](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.62.Changes.and.Known.Limit.txt). The reviewed65-page manual, Quick Start, testing steps and3-page podcast remain version60 references for unchanged controls, with the62 supplement covering these additions. They have not been relabelled as newly reviewed62 editions.
+
+## Known optional live teacher limitation
+
+The live AI teacher can reject dense or long passages with an instruction-token-limit error. The user encountered this with Chopin; this issue is not fixed in62 and is being investigated separately. The recording setup also prevented complete live microphone acceptance. A smaller excerpt may help but is not a guaranteed workaround. Local score reading, playback, loops and bookmarks do not need AI. The user accepted the other tests and authorized publication with this limitation documented.
 
 ## Menus and practice shortcuts
 
@@ -19,7 +29,7 @@ With a score open, press and release **Alt**, then **Down** to open a menu. Left
 
 **Ctrl+Shift+1** sets loop start; **Ctrl+Shift+2** sets the end and enables repeat. **Ctrl+Shift+0** clears the current and existing saved loop fields immediately. **Ctrl+Shift+9** opens a measure range and **Ctrl+Shift+L** loops the current measure. Save a new loop with Ctrl+S. Ctrl+P plays; Ctrl+Shift+P stops.
 
-**Ctrl+B** adds a bookmark. **Alt+Shift+1** through **9**, and **Alt+Shift+0** for bookmark 10, jump to bookmarks. Ctrl+Alt+number still jumps to practice notes. The user confirms menus and loops work; the physical bookmark check remains pending.
+**Ctrl+B** adds a bookmark. **Alt+Shift+1** through **9**, and **Alt+Shift+0** for bookmark 10, jump to bookmarks. Ctrl+Alt+number still jumps to practice notes. The user reports the local tests worked apart from the optional live teacher limitation described above.
 
 [Podcast blurb and things to try](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Podcast.Blurb.and.Test.Steps.10.14.60.docx) provides a short opening score review and current test steps.
 
@@ -49,7 +59,7 @@ File > Repair score in ChatGPT window lets you choose the original and describe 
 
 ## Verification and privacy
 
-The main release gate and all 98 focused checks passed for the published executable. Complete packages, the source manifest, updater extraction and saved-key privacy checks passed. The user confirmed Enter sends, F5 returns to the question, F6 reads the answer, F12 silences speech and the interface is cleaner. This scoped evidence does not establish universal screen-reader, microphone, musical or audio accuracy.
+The main release gate and all100 focused checks passed for the published executable. Complete packages, the source manifest, updater extraction and saved-key privacy checks passed. The user confirmed Enter sends, F5 returns to the question, F6 reads the answer, F12 silences speech and the interface is cleaner. This scoped evidence does not establish universal screen-reader, microphone, musical or audio accuracy.
 
 No AI account is needed for ordinary reading and local practice. Connected AI/teacher features require separate access and may incur provider charges. Optional ChatGPT read-aloud uses local Windows voice. Startup and tutorial audio begin only when requested. F1 explains the focused control and Ctrl+Alt+P finds commands.
 
