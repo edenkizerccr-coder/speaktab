@@ -25,7 +25,7 @@ Ctrl+O opens music, F2 finds supported sources, and Ctrl+T chooses a supplied pa
 
 ## Chords and lyrics
 
-Press Ctrl+2 to select the music. V moves to the next chord change; Alt+Right Arrow does the same, and Alt+Left Arrow moves to the previous change. Chord navigation skips a held continuation. V remains ordinary typing in text fields.
+Press Ctrl+2 to select the music. Alt+Right Arrow moves to the next chord change; Alt+Left Arrow moves to the previous change. Both are direct shortcuts throughout the main reader, without opening a menu. Chord navigation skips a held continuation.
 
 Alt+Shift+L gives only the full supplied lyrics at the selected beat or chord in Reader status. Read the words with your screen reader or Braille display, then Ctrl+2 returns to the same musical position. Up/Down in the music list also reaches supplied lyric rows. No source-summary inspection is required. Lesson 4 step 3, the manual and command palette explain these actions and their results.
 
