@@ -23,6 +23,12 @@ Guided tutorials shows one instruction at a time. Next step moves inside a task;
 
 Ctrl+O opens music, F2 finds supported sources, and Ctrl+T chooses a supplied part. Ctrl+2 focuses musical positions. Left/Right follows musical time; Up/Down inspects simultaneous notes, strings or lyrics. F3 opens full details. Ctrl+Shift+I reports supplied score information. Ctrl+P plays and Ctrl+Shift+P stops. Practice offers loops, bookmarks and comments. Ctrl+S saves a reader arrangement; My readings resumes it. Original music, companion sheets and exported reports remain distinct.
 
+## Chords and lyrics
+
+Press Ctrl+2 to select the music. V moves to the next chord change; Alt+Right Arrow does the same, and Alt+Left Arrow moves to the previous change. Chord navigation skips a held continuation. V remains ordinary typing in text fields.
+
+Alt+Shift+L gives only the full supplied lyrics at the selected beat or chord in Reader status. Read the words with your screen reader or Braille display, then Ctrl+2 returns to the same musical position. Up/Down in the music list also reaches supplied lyric rows. No source-summary inspection is required. Lesson 4 step 3, the manual and command palette explain these actions and their results.
+
 ## Write scores with beta note entry
 
 Ctrl+Shift+N opens the separate composer. Ctrl+E opens note selection. Choose the part, named staff, starting position, pitch and duration. Enter adds a note, chord or rest and advances by its duration, crossing into the next measure automatically. Tab moves between controls. A position message reports where the next note begins. Uncheck Advance to keep the position. Add this pitch to chord collects simultaneous tones without advancing; Enter records the complete chord.
