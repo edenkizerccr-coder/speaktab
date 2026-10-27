@@ -1,6 +1,6 @@
 # SpeakTab
 
-SpeakTab 10.14.75 is an accessible Windows tab and score reader with **beta note entry** for piano, six-string guitar and vocal parts. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and retain practice notes.
+SpeakTab 10.14.76 is an accessible Windows tab and score reader with **beta note entry** for piano, six-string guitar and vocal parts. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and retain practice notes.
 
 ## Downloads
 
@@ -25,9 +25,13 @@ Ctrl+O opens music, F2 finds supported sources, and Ctrl+T chooses a supplied pa
 
 ## Write scores with beta note entry
 
-Ctrl+Shift+N opens the separate composer. It starts on Enter music; Ctrl+Shift+Tab once from its description selects Score, where Score settings changes meter, key, tempo and length. Ctrl+E opens precise part, position, staff, independent voice, duration and pitch selectors. Guitar also has explicit string/fret controls. Full and short supported phrases remain available; a named measure carries within that description until changed.
+Ctrl+Shift+N opens the separate composer. Ctrl+E opens note selection. Choose the part, named staff, starting position, pitch and duration. Enter adds a note, chord or rest and advances by its duration, crossing into the next measure automatically. Tab moves between controls. A position message reports where the next note begins. Uncheck Advance to keep the position. Add this pitch to chord collects simultaneous tones without advancing; Enter records the complete chord.
 
-Preview checks a proposed edit. Read its exact changes, optionally hear it, then Apply reviewed changes. Edit existing events rather than adding duplicates over occupied time. Undo/Redo, lyrics, measure operations, supported passage expression, guitar patterns and multiple parts are available. Save an editable project and export applied music as MusicXML. Note entry remains beta; inspect every intended pitch, duration, staff, voice and lyric before sharing. The composer does not provide engraving, arbitrary imported-score editing, percussion authoring, editable grace notes or advanced guitar-technique authoring.
+Piano choices name Upper and Lower staff. Rhythm line 1 is normal entry, including on both piano staves. Additional options are hidden until requested; Use a tuplet is off for ordinary notes. Chord symbol is an optional written label; choose actual played tones separately. Supported full phrases and shorthand remain available, with a named measure continuing within a description until changed.
+
+Review several measures together, read or hear their exact proposed changes, then Apply. Edit existing events to replace music and use Undo/Redo for applied changes. Save project keeps applied music and unfinished descriptions, selected notes, choices, positions and pending review; Open project restores them. Export MusicXML writes an XML score of applied music, with a warning when unfinished work would be omitted. Examples throughout the manual and tutorials are optional suggestions.
+
+Note entry remains beta. Inspect every intended pitch, duration, staff, rhythm line and lyric before sharing. Multiple parts, lyrics, ties, supported expression, guitar patterns and measure operations are available. Authoring does not provide engraving, arbitrary imported-score editing, percussion, editable grace notes or advanced guitar techniques.
 
 ## Optional connections and accuracy
 
