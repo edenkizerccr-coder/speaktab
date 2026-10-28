@@ -1,6 +1,6 @@
 # SpeakTab
 
-SpeakTab 10.14.79 is an accessible Windows tab and score reader with a separate score composer. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+SpeakTab 10.14.80 is an accessible Windows tab and score reader with a separate score composer. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
 
 ## Downloads
 
@@ -59,6 +59,14 @@ Ctrl+Shift+F opens Find classical and instrument scores. F2 has the same route. 
 - **CPDL ChoralWiki:** choral/vocal repertoire and voicing categories, including SATB; mainly a website/PDF route.
 
 Source guide explains what each collection is useful for, returning permitted downloads to SpeakTab, and file/recognition limits. OpenScore catalogue downloads were checked with actual files. Automated MuseScore browsing met its security verification page; account downloads were not tested. Website access occurs in your normal browser, without supplying a site password to SpeakTab.
+
+## Sound verification and tutorial correction in version 80
+
+All supported composer instruments and each of the 30 selectable reader sounds produced non-silent software audio with the intended instrument program or percussion routing. The focused audit rendered 264 previews: the reader sound choices, all 128 source General MIDI programs, all 47 named composer percussion sounds, all 27 individual parts from the 16 original examples in composer and reader, and five multi-part examples. Their audio data was independently decoded and measured.
+
+Ukulele uses a guitar approximation: nylon guitar in the composer or explicit Ukulele reader choice, and acoustic guitar recordings for automatically identified fretted readings. Vocal, SATB and barbershop previews are wordless; lyrics remain written. Written technique words do not synthesize those techniques. Unknown instruments without a supplied MIDI program may need an explicit sound choice. In the reader, Alt+P then H opens Choose instrument sound; use Up/Down, Tab to Apply and Space. Ctrl+P plays and Ctrl+Shift+P stops. Physical speakers/headphones still need a local listening check.
+
+Lesson 34 Step 4 no longer tells the reader to preview again after applying the ukulele pattern. Its native lesson, manual and walkthrough now agree. The other 170 task instructions retain version 79's keyboard guidance. No musical behavior or vertical reader layout was changed.
 
 ## Keyboard guidance in version 79
 
