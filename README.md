@@ -1,6 +1,6 @@
 # SpeakTab
 
-SpeakTab 10.14.78 is an accessible Windows tab and score reader with a separate score composer. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+SpeakTab 10.14.79 is an accessible Windows tab and score reader with a separate score composer. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
 
 ## Downloads
 
@@ -60,11 +60,15 @@ Ctrl+Shift+F opens Find classical and instrument scores. F2 has the same route. 
 
 Source guide explains what each collection is useful for, returning permitted downloads to SpeakTab, and file/recognition limits. OpenScore catalogue downloads were checked with actual files. Automated MuseScore browsing met its security verification page; account downloads were not tested. Website access occurs in your normal browser, without supplying a site password to SpeakTab.
 
-## Reading and guidance changes in 78
+## Keyboard guidance in version 79
 
-Ordinary score reading and text/Markdown/HTML/BRF prose omit repeated staff numbers and known tied continuations. The starting attack gives its tie and combined length. New attacks, written rests, vertical simultaneous-note organization and source music remain. Choose a piano staff for the dedicated staff commands; ordinary arrows and exports still cover the selected part. F3 and deliberate staff queries retain full context.
+All 37 tutorials with 171 steps and the complete 163-page User Manual now explain the active window, named fields/buttons, keyboard actions, result and recovery. The review includes all reader and composer tasks, lyrics, cello, ensembles, lookup and optional connected tools. Examples are suggestions.
 
-All 37 tutorials and the full public manual explain actions, expected results and correction. Using tutorials provides separate window help. The public Word guides are User Manual (159 pages), Quick Start and Testing Steps.
+The Main menu opening keys overview lists File Alt+F, Navigate Alt+N, Playback Alt+P, Practice Alt+R, ChatGPT Alt+C, Voice Alt+V and Help Alt+H. Lesson 2 uses Practice as one example and points to the full list. All 190 command routes remain available.
+
+Ctrl+1 puts focus at the beginning of the source or score summary; Ctrl+2 returns to music. Alt+Shift+I opens the separate Import summary report; Escape closes it. The looping lesson gives the entire measure/beat-loop sequence, including Enable loop, playback, stop and clear. Composer lessons give keys for selecting notes, changing parts, lyrics, markings, review/apply, project saving and XML export.
+
+Version 78's quieter routine staff/tie reading remains: true attacks, rests and vertical rows are retained; F3 and explicit staff queries provide full context. Choosing a staff guides dedicated staff-note commands; ordinary arrows and exports cover the full part. No new staff-locking mode is added. The public Word guides are User Manual, Quick Start and Testing Steps.
 
 ## Read and practise
 
