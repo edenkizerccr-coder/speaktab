@@ -1,6 +1,6 @@
 # SpeakTab
 
-SpeakTab 10.14.77 is an accessible Windows tab and score reader with a separate score composer. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+SpeakTab 10.14.78 is an accessible Windows tab and score reader with a separate score composer. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
 
 ## Downloads
 
@@ -59,6 +59,12 @@ Ctrl+Shift+F opens Find classical and instrument scores. F2 has the same route. 
 - **CPDL ChoralWiki:** choral/vocal repertoire and voicing categories, including SATB; mainly a website/PDF route.
 
 Source guide explains what each collection is useful for, returning permitted downloads to SpeakTab, and file/recognition limits. OpenScore catalogue downloads were checked with actual files. Automated MuseScore browsing met its security verification page; account downloads were not tested. Website access occurs in your normal browser, without supplying a site password to SpeakTab.
+
+## Reading and guidance changes in 78
+
+Ordinary score reading and text/Markdown/HTML/BRF prose omit repeated staff numbers and known tied continuations. The starting attack gives its tie and combined length. New attacks, written rests, vertical simultaneous-note organization and source music remain. Choose a piano staff for the dedicated staff commands; ordinary arrows and exports still cover the selected part. F3 and deliberate staff queries retain full context.
+
+All 37 tutorials and the full public manual explain actions, expected results and correction. Using tutorials provides separate window help. The public Word guides are User Manual (159 pages), Quick Start and Testing Steps.
 
 ## Read and practise
 
