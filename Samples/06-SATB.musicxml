@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<score-partwise version="4.0">
+  <work>
+    <work-title>SATB independent-lyric practice</work-title>
+  </work>
+  <identification>
+    <rights>Original SpeakTab practice exercise. CC0 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/</rights>
+    <encoding>
+      <software>SpeakTab score composer</software>
+    </encoding>
+    <miscellaneous>
+      <miscellaneous-field name="SpeakTab authored score project">{"Version":1,"Settings":{"Title":"SATB independent-lyric practice","Numerator":4,"Denominator":4,"KeyFifths":0,"Tempo":76,"Measures":4},"Parts":[{"Id":"P1","Name":"Soprano","Kind":"Voice","Clef":"G","Tablature":false,"Capo":0,"Tuning":["E4","B3","G3","D3","A2","E2"]},{"Id":"P2","Name":"Alto","Kind":"Voice","Clef":"G","Tablature":false,"Capo":0,"Tuning":["E4","B3","G3","D3","A2","E2"]},{"Id":"P3","Name":"Tenor","Kind":"Voice","Clef":"F","Tablature":false,"Capo":0,"Tuning":["E4","B3","G3","D3","A2","E2"]},{"Id":"P4","Name":"Bass","Kind":"Voice","Clef":"F","Tablature":false,"Capo":0,"Tuning":["E4","B3","G3","D3","A2","E2"]}],"Bars":[],"Spans":[],"Events":[{"Id":"e631621cc8fd9","PartId":"P1","Measure":1,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"C5","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"Each","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"ef50f3e49f271","PartId":"P2","Measure":1,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"G4","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"Ah,","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e206286327424","PartId":"P3","Measure":1,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"E4","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"Ah,","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e0661621415c9","PartId":"P4","Measure":1,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"C3","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"Ah,","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e29342979b585","PartId":"P1","Measure":2,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"D5","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"voice","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e015cc27c260f","PartId":"P2","Measure":2,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"A4","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"oh,","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"eeb6dce46c536","PartId":"P3","Measure":2,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"F4","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"oh,","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e46561e4e84c1","PartId":"P4","Measure":2,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"D3","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"oh,","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e9621e89e32de","PartId":"P1","Measure":3,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"B4","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"sings","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e3eb7b8520ad1","PartId":"P2","Measure":3,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"G4","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"ah,","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e62b73cca86ac","PartId":"P3","Measure":3,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"D4","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"ah,","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e1d3b37ea3a0a","PartId":"P4","Measure":3,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"G2","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"ah,","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e69007327c739","PartId":"P1","Measure":4,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"C5","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"here.","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e8ae3911bad9a","PartId":"P2","Measure":4,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"G4","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"oh.","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e62708d8f1164","PartId":"P3","Measure":4,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"E4","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"oh.","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e7c6f9bcac454","PartId":"P4","Measure":4,"Staff":1,"Voice":1,"Beat":1,"Duration":"whole","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"C3","String":0,"Fret":-1,"Finger":-1,"ViolinString":0,"TieNext":false}],"Lyrics":[{"Verse":1,"Text":"oh.","Syllabic":"single","Extend":false}],"Bow":"","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false}]}</miscellaneous-field>
+    </miscellaneous>
+  </identification>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Soprano</part-name>
+      <score-instrument id="P1_I">
+        <instrument-name>Voice</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P1_I">
+        <midi-channel>1</midi-channel>
+        <midi-program>53</midi-program>
+      </midi-instrument>
+    </score-part>
+    <score-part id="P2">
+      <part-name>Alto</part-name>
+      <score-instrument id="P2_I">
+        <instrument-name>Voice</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P2_I">
+        <midi-channel>2</midi-channel>
+        <midi-program>53</midi-program>
+      </midi-instrument>
+    </score-part>
+    <score-part id="P3">
+      <part-name>Tenor</part-name>
+      <score-instrument id="P3_I">
+        <instrument-name>Voice</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P3_I">
+        <midi-channel>3</midi-channel>
+        <midi-program>53</midi-program>
+      </midi-instrument>
+    </score-part>
+    <score-part id="P4">
+      <part-name>Bass</part-name>
+      <score-instrument id="P4_I">
+        <instrument-name>Voice</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P4_I">
+        <midi-channel>4</midi-channel>
+        <midi-program>53</midi-program>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Each</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="2">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>voice</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="3">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>sings</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="4">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>here.</text>
+        </lyric>
+      </note>
+    </measure>
+  </part>
+  <part id="P2">
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ah,</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="2">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>oh,</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="3">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ah,</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="4">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>oh.</text>
+        </lyric>
+      </note>
+    </measure>
+  </part>
+  <part id="P3">
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ah,</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="2">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>oh,</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="3">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ah,</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="4">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>oh.</text>
+        </lyric>
+      </note>
+    </measure>
+  </part>
+  <part id="P4">
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Ah,</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="2">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>oh,</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="3">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ah,</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="4">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>76</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="76" />
+      </direction>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>40320</duration>
+        <voice>1</voice>
+        <type>whole</type>
+        <staff>1</staff>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>oh.</text>
+        </lyric>
+      </note>
+    </measure>
+  </part>
+</score-partwise>

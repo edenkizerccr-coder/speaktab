@@ -1,0 +1,7 @@
+SpeakTab original practice samples
+
+These 16 original practice exercises, in MusicXML, SpeakTab project and PDF form, are dedicated to the public domain under CC0 1.0 Universal. To the extent possible under law, the rights in these sample exercises are waived. You may use, copy, change and redistribute them. No attribution is required.
+
+CC0 text and details: https://creativecommons.org/publicdomain/zero/1.0/
+
+This sample-only dedication does not change the licences of SpeakTab, MuseScore or any bundled software, sound assets, fonts, third-party score or library.

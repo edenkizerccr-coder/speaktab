@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<score-partwise version="4.0">
+  <work>
+    <work-title>Viola alto-clef practice</work-title>
+  </work>
+  <identification>
+    <rights>Original SpeakTab practice exercise. CC0 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/</rights>
+    <encoding>
+      <software>SpeakTab score composer</software>
+    </encoding>
+    <miscellaneous>
+      <miscellaneous-field name="SpeakTab authored score project">{"Version":1,"Settings":{"Title":"Viola alto-clef practice","Numerator":4,"Denominator":4,"KeyFifths":0,"Tempo":80,"Measures":2},"Parts":[{"Id":"P1","Name":"Viola","Kind":"Viola","Clef":"C","Tablature":false,"Capo":0,"Tuning":["E4","B3","G3","D3","A2","E2"]}],"Bars":[],"Spans":[],"Events":[{"Id":"e4debf13bd0f2","PartId":"P1","Measure":1,"Staff":1,"Voice":1,"Beat":1,"Duration":"quarter","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"C3","PercussionKey":-1,"String":0,"Fret":-1,"Finger":0,"ViolinString":4,"TieNext":false}],"Lyrics":[],"Bow":"down","HarpPedals":"","Words":"arco","Dynamic":"mp","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e44007495640d","PartId":"P1","Measure":1,"Staff":1,"Voice":1,"Beat":2,"Duration":"quarter","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"D3","PercussionKey":-1,"String":0,"Fret":-1,"Finger":1,"ViolinString":4,"TieNext":false}],"Lyrics":[],"Bow":"up","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"eef78322112e1","PartId":"P1","Measure":1,"Staff":1,"Voice":1,"Beat":3,"Duration":"quarter","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"E3","PercussionKey":-1,"String":0,"Fret":-1,"Finger":2,"ViolinString":4,"TieNext":false}],"Lyrics":[],"Bow":"down","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"eec67ccf4478a","PartId":"P1","Measure":1,"Staff":1,"Voice":1,"Beat":4,"Duration":"quarter","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"G3","PercussionKey":-1,"String":0,"Fret":-1,"Finger":0,"ViolinString":3,"TieNext":false}],"Lyrics":[],"Bow":"up","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e8b308d845ed7","PartId":"P1","Measure":2,"Staff":1,"Voice":1,"Beat":1,"Duration":"quarter","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"A3","PercussionKey":-1,"String":0,"Fret":-1,"Finger":1,"ViolinString":3,"TieNext":false}],"Lyrics":[],"Bow":"down","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"e9468e5557d41","PartId":"P1","Measure":2,"Staff":1,"Voice":1,"Beat":2,"Duration":"quarter","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"B3","PercussionKey":-1,"String":0,"Fret":-1,"Finger":2,"ViolinString":3,"TieNext":false}],"Lyrics":[],"Bow":"up","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"eb77fb6cc7c85","PartId":"P1","Measure":2,"Staff":1,"Voice":1,"Beat":3,"Duration":"quarter","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"C4","PercussionKey":-1,"String":0,"Fret":-1,"Finger":3,"ViolinString":3,"TieNext":false}],"Lyrics":[],"Bow":"down","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false},{"Id":"eaf4777df6dda","PartId":"P1","Measure":2,"Staff":1,"Voice":1,"Beat":4,"Duration":"quarter","TupletActual":1,"TupletNormal":1,"Rest":false,"Pitches":[{"Name":"D4","PercussionKey":-1,"String":0,"Fret":-1,"Finger":0,"ViolinString":2,"TieNext":false}],"Lyrics":[],"Bow":"up","HarpPedals":"","Words":"","Dynamic":"","Articulation":"","ChordSymbol":"","Stroke":"","Muted":false}]}</miscellaneous-field>
+    </miscellaneous>
+  </identification>
+  <part-list>
+    <score-part id="P1">
+      <part-name>Viola</part-name>
+      <score-instrument id="P1_I">
+        <instrument-name>Viola</instrument-name>
+      </score-instrument>
+      <midi-instrument id="P1_I">
+        <midi-channel>1</midi-channel>
+        <midi-program>42</midi-program>
+      </midi-instrument>
+    </score-part>
+  </part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>C</sign>
+          <line>3</line>
+        </clef>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>80</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="80" />
+      </direction>
+      <direction>
+        <direction-type>
+          <words>arco</words>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <direction>
+        <direction-type>
+          <dynamics>
+            <mp />
+          </dynamics>
+        </direction-type>
+        <staff>1</staff>
+      </direction>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+        <notations>
+          <technical>
+            <down-bow />
+            <fingering>0</fingering>
+            <string>4</string>
+          </technical>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+        <notations>
+          <technical>
+            <up-bow />
+            <fingering>1</fingering>
+            <string>4</string>
+          </technical>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+        <notations>
+          <technical>
+            <down-bow />
+            <fingering>2</fingering>
+            <string>4</string>
+          </technical>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+        <notations>
+          <technical>
+            <up-bow />
+            <fingering>0</fingering>
+            <string>3</string>
+          </technical>
+        </notations>
+      </note>
+    </measure>
+    <measure number="2">
+      <attributes>
+        <divisions>10080</divisions>
+        <key>
+          <fifths>0</fifths>
+        </key>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+      </attributes>
+      <direction>
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>80</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="80" />
+      </direction>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+        <notations>
+          <technical>
+            <down-bow />
+            <fingering>1</fingering>
+            <string>3</string>
+          </technical>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+        <notations>
+          <technical>
+            <up-bow />
+            <fingering>2</fingering>
+            <string>3</string>
+          </technical>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+        <notations>
+          <technical>
+            <down-bow />
+            <fingering>3</fingering>
+            <string>3</string>
+          </technical>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <staff>1</staff>
+        <notations>
+          <technical>
+            <up-bow />
+            <fingering>0</fingering>
+            <string>2</string>
+          </technical>
+        </notations>
+      </note>
+    </measure>
+  </part>
+</score-partwise>
