@@ -60,13 +60,15 @@ Ctrl+Shift+F opens Find classical and instrument scores. F2 has the same route. 
 
 Source guide explains what each collection is useful for, returning permitted downloads to SpeakTab, and file/recognition limits. OpenScore catalogue downloads were checked with actual files. Automated MuseScore browsing met its security verification page; account downloads were not tested. Website access occurs in your normal browser, without supplying a site password to SpeakTab.
 
-## Sound verification and tutorial correction in version 80
+## Clearer controls and voice guidance in version 80
 
-All supported composer instruments and each of the 30 selectable reader sounds produced non-silent software audio with the intended instrument program or percussion routing. The focused audit rendered 264 previews: the reader sound choices, all 128 source General MIDI programs, all 47 named composer percussion sounds, all 27 individual parts from the 16 original examples in composer and reader, and five multi-part examples. Their audio data was independently decoded and measured.
+The app, full manual and affected tutorials now distinguish reading a score, writing musical notes, saving a written practice reminder and making a proposed edit. Open music file includes structured non-guitar scores. Loop guidance starts with one selected measure; speed-plan status is separate from changing playback speed. Ctrl+3 follows the chosen reading style; F3 supplies full beat details.
 
-Ukulele uses a guitar approximation: nylon guitar in the composer or explicit Ukulele reader choice, and acoustic guitar recordings for automatically identified fretted readings. Vocal, SATB and barbershop previews are wordless; lyrics remain written. Written technique words do not synthesize those techniques. Unknown instruments without a supplied MIDI program may need an explicit sound choice. In the reader, Alt+P then H opens Choose instrument sound; use Up/Down, Tab to Apply and Space. Ctrl+P plays and Ctrl+Shift+P stops. Physical speakers/headphones still need a local listening check.
+Voice control uses Ctrl+Alt+L for supported spoken app commands; Ctrl+Shift+X opens its phrase reference without starting listening. AI teacher uses F8 to start and F9 to end its configured conversational session. F12 controls spoken output. ChatGPT microphone questions explicitly say they send after a pause; composer dictation only fills text for review. The manual explains each route before its controls, including how to stop or return.
 
-Lesson 34 Step 4 no longer tells the reader to preview again after applying the ukulele pattern. Its native lesson, manual and walkthrough now agree. The other 170 task instructions retain version 79's keyboard guidance. No musical behavior or vertical reader layout was changed.
+The whole manual, menus, controls and all 37 complete lessons were reviewed for first-time app use. Composer lessons name the entry-window exits and Preview/Apply transitions; selector and typed methods are explicit alternatives. Optional patterns use empty measures, and later lookup steps reopen lookup after a file opens. All 37 lessons with 171 steps remain available. Existing shortcut keys and stored assignments are preserved. The musical reader layout, supplied music and playback behavior remain unchanged. The accepted held-only staff-selection limitation remains documented.
+
+The earlier sound audit independently decoded 264 non-silent software previews: all 30 reader choices, 128 source General MIDI programs, 47 percussion sounds, each of 27 parts from the 16 original examples in composer and reader, and five ensembles. Ukulele uses nylon guitar in the composer or explicit Ukulele reader choice, and acoustic guitar recordings for automatic fretted readings. Vocal, SATB and barbershop previews remain wordless. Written technique words do not synthesize those techniques. Physical speakers/headphones still need a listening check.
 
 ## Keyboard guidance in version 79
 
@@ -104,10 +106,10 @@ The full manual and 37 guided tasks with 171 steps explain the actual controls, 
 
 Next step advances within a task; Next lesson changes subjects. Show whole lesson displays its complete reference. Optional Read displayed text uses local Windows voice. F1 explains relevant controls. The composer’s How to compose opens its full reference. The existing musical reader layout is preserved.
 
-The full reference includes all supported composer phrases and shorthand, the meaning of two beats in different meters, 98 fixed reader voice commands, 44 alternatives and 13 numbered patterns with results. Composer dictation, free reader commands and connected teacher conversation are separate routes.
+The full reference includes all supported composer phrases and shorthand, the meaning of two beats in different meters, 98 fixed reader voice commands, 44 alternatives and 13 numbered patterns with results. Composer dictation, Voice control commands and connected teacher conversation are separate routes.
 
 ## Optional connections and accuracy
 
-F4 connects written ChatGPT, F5 focuses its question, Enter sends and F6 reads the answer. Ctrl+Alt+L controls the separate free reader-command microphone. F8 starts the configured connected teacher and F9 stops it. F12 silences app speech without changing microphone state. Connected services may incur charges. Current-file/another-file AI remediation can start automatically with a saved connection; the separate ChatGPT-window handoff requires your paste, attachment and send in the browser.
+F4 connects written ChatGPT, F5 focuses its question, Enter sends and F6 reads the answer. Ctrl+Alt+L controls the separate Voice control microphone. F8 starts the configured connected teacher and F9 stops it. F12 silences app speech without changing microphone state. Connected services may incur charges. Current-file/another-file AI remediation can start automatically with a saved connection; the separate ChatGPT-window handoff requires your paste, attachment and send in the browser.
 
 PDF recognition and AI recovery can omit or misread music. Read coverage, compare the original and retain warnings with provisional output. Importable does not mean complete or correct. Playback effects are practice approximations, and vocal previews are wordless. Physical screen-reader, Braille, microphone, audio and live-model quality need hands-on review. Public packages exclude private music, readings, settings, profiles, credentials and diagnostic dumps. Previous public releases remain available.
