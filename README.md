@@ -1,6 +1,16 @@
 # SpeakTab
 
-SpeakTab 10.14.80 is an accessible Windows tab and score reader with a separate score composer. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+SpeakTab 10.14.81 is a Windows music reader and composer for reading, practising and writing supported TAB and standard notation. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+
+## Manual and command cleanup in version 81
+
+The Word manual starts with why and when to use SpeakTab, a complete brief feature overview, connection costs and comparisons with MuseScore and GOODFEEL. Reader and practice lessons come before the separate composing course. It retains all 37 guided tasks and 171 steps, explains textual Braille and supported natural-language note entry, and distinguishes the speech and microphone tools before teaching their controls.
+
+F5 remains the written-question key, F8 starts the configured AI teacher, F9 stops it and F12 toggles enabled app speech. The duplicate Type a question and second teacher-start menu entries are removed, along with two obsolete Voice control feedback menu entries. Ctrl+Shift+Q, Ctrl+Alt+Space and Ctrl+Alt+Shift+Space are retired. Precise Silence speech and Resume speech remain available in the menu without default keys. Surviving menu access letters and saved action identities are preserved.
+
+Local reading, practice, composing and fixed spoken app commands need no AI account. Written ChatGPT uses its saved connection. The live teacher uses a separate OpenAI voice API key and may incur provider charges. Claude remains an option for text answers and score repair through its own API key; this update adds no Claude live voice teacher. The manual explains each route and its costs.
+
+The musical import, playback, sound and composing implementation and vertical reader layout are retained. Focused software checks cover changed controls, keys and guidance. Physical screen-reader, Braille, microphone, speaker and live-provider acceptance are separate hands-on checks.
 
 ## Downloads
 
