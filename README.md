@@ -1,6 +1,10 @@
 # SpeakTab
 
-SpeakTab 10.14.81 is a Windows music reader and composer for reading, practising and writing supported TAB and standard notation. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+SpeakTab 10.14.82 is a Windows music reader and composer for reading, practising and writing supported TAB and standard notation. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+
+## Updated help in version 82
+
+Welcome to SpeakTab introduces supported instrument and vocal music, the instrument-score search and available playback sounds. It explains the music list and written description before introducing concise reading, compact string-fret pairs and F3. It also explains how to return to the music with Ctrl+2. The previously reviewed Word manual and companion guides remain applicable and are included unchanged.
 
 ## Manual and command cleanup in version 81
 
