@@ -1,6 +1,16 @@
 # SpeakTab
 
-SpeakTab 10.14.82 is a Windows music reader and composer for reading, practising and writing supported TAB and standard notation. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+SpeakTab 10.14.84 is a Windows music reader and composer for reading, practising and writing supported TAB and standard notation. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+
+## PDF repair and saved continuation in version 84
+
+PDF repair shows the original page and measure range, actual provider stages and a separate elapsed timer. Long scores can take several minutes per passage; the update does not guarantee speed or accurate transcription. Reconnect inside the repair window keeps your file and request and sends nothing by itself.
+
+If repair stops, choose **File > Continue saved PDF repair** in the main reader, or press **Alt+F, then 1**. SpeakTab finds saved repairs by music filename, directly opens a unique match for the current original or provisional reading, or offers named choices. Check the next range, then choose **Continue unfinished repair**. Loading progress sends nothing and runs no recognition. Completed passages remain saved; processed uncertain passages remain provisional. Keep the original PDF and the named repair folder, including its Repair progress subfolder, to continue later.
+
+The updated [174-page Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.84/SpeakTab.User.Manual.docx) explains this route, PDF limitations, connection renewal and choosing an appropriate AI route. All 37 lessons and 171 steps are retained and synchronized. The help also distinguishes local Voice control, written ChatGPT, the spoken teacher and the separate website handoff, with broader music-source guidance while preserving guitar and song sources.
+
+All 66 software checks passed the exact supplied application. The complete source package independently compiles with its bundled dependencies. Musical accuracy, whole-score timing and physical devices remain separate checks.
 
 ## Updated help in version 82
 
