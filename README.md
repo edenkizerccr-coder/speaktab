@@ -1,6 +1,16 @@
 # SpeakTab
 
-SpeakTab 10.14.84 is a Windows music reader and composer for reading, practising and writing supported TAB and standard notation. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+SpeakTab 10.14.86 is a Windows music reader and composer for reading, practising and writing supported TAB and standard notation. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
+
+## Automatic PDF recovery and assembly in version 86
+
+PDF repair now waits longer for slow passages and retries an interrupted unfinished passage up to twice. Completed passages are kept. Each attempt has a thirty-minute limit; the saved ChatGPT stream allows ten minutes without new reply data. There is no whole-PDF timer, and Cancel remains available.
+
+Bounded MusicXML replies are checked for the requested original measure labels in every part and duration totals where a meter is supplied. A failed check triggers one correction request for that passage. Repair prompts ask the AI to compare the source and correct its own draft within the same request. Once all passages arrive, SpeakTab joins and checks them automatically, preserving individual octave and duration settings and avoiding verified staff/TAB duplication. Unresolved material remains provisional.
+
+Choose **File > Continue saved PDF repair** (Alt+F, then 1) to restore progress. Completed received work can be rebuilt locally without a new provider request. A genuine sign-in renewal still requires the browser. For longer or complex PDFs, the separate ChatGPT app or website is a suggested first route; local recognition is optional for simple short files.
+
+The [174-page Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.86/SpeakTab.User.Manual.docx) and all 37 lessons / 171 steps are synchronized. All **69 software checks** passed the exact included app. Controlled interruption tests and a no-send saved-passage replay passed; a new live-provider whole-PDF run has not been tested. These checks do not certify musical accuracy or prevent every connection failure.
 
 ## PDF repair and saved continuation in version 84
 
