@@ -47,14 +47,14 @@ This 1.0.1 release continues the existing Windows application. Earlier releases,
 
 The developer is open to further development and welcomes collaboration. Help from a developer with iOS experience would be especially welcome to explore bringing SpeakTab to iPhone and iPad. An iOS version is not currently available. The complete Windows source and build instructions are available from the existing GitHub releases. Developers can use the repository issues to discuss ideas and collaboration.
 
-## SpeakTab for Android 0.4.1
+## SpeakTab for Android 0.4.2
 
-SpeakTab for Android provides accessible reading by measure and beat, instrument-sample playback, practice loops, notes, bookmarks and named passages. Compose supported pitched music with fields or musical phrases, review changes and export MusicXML. Single-Control shortcuts and local spoken commands provide direct routes to common tasks.
+SpeakTab for Android provides accessible reading by measure and beat, instrument-sample playback, practice loops, notes, bookmarks and named passages. Compose supported pitched music with fields or musical phrases, review changes and export MusicXML. Control shortcuts and local spoken commands provide direct routes to common tasks. Control+K opens help for the screen you are using, with one shortcut and action per line. While reading, Control+N writes or edits a practice note. In Composer, Control+E enters musical notes, chords or rests. No Alt shortcuts are assigned.
 
-- [Android APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Android.apk)
-- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.docx)
-- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.rtf)
-- [Android keystrokes in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.Keystrokes.rtf)
+- [Android APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Android-0.4.2.apk)
+- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.0.4.2.docx)
+- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.0.4.2.rtf)
+- [Android keystrokes in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.Keystrokes.0.4.2.rtf)
 
 Install over the existing SpeakTab Practice app as an update. Earlier reading, navigation and completed typed answers have been used on BrailleSense 7. The new composer, looper, samples, keys and voice features still need hands-on checking; BrailleSense 6 and phones have not been tested. The Android composer uses a separate project format and has fewer features than the Windows composer. MusicXML exchanges applied music.
 
