@@ -1,159 +1,52 @@
-# SpeakTab
-
-SpeakTab 10.14.87 is a Windows music reader and composer for reading, practising and writing supported TAB and standard notation. Use a keyboard, screen reader or Braille display to read supported music, inspect notes and lyrics, hear local practice previews, loop passages and keep practice notes. The composer writes piano, guitar, ukulele, solo voice, violin, viola, cello, harp, drum-kit/unpitched percussion and timpani, including supported ensembles.
-
-## Spoken teacher and compact readings in version 87
+# SpeakTab
 
-F8 starts the configured spoken AI teacher and microphone. **F12 only quiets or resumes automatic playback announcements. Teacher replies stay spoken**, with a readable transcript. F9 ends the teacher and microphone. Written ChatGPT can remain text-only or use its separate optional read-aloud setting.
+**SpeakTab 1.0 for Windows — accessible scores for reading, practice and natural-language composition.**
 
-Offline text, textual Braille, Markdown and HTML put the beat label and note groups together on one compact line, without extra blank beat separators. Equal-onset notes share a duration only when their complete lengths agree; different lengths and retained lyrics/techniques stay explicit. The live reader uses full words and reduces repeated labels while moving through simultaneous notes. Supplied title, part, key, time, tempo, tuning and capo facts appear at the beginning.
+SpeakTab is a Windows music reader and composer built with accessibility from the ground up. Read, practise and write supported instrumental and vocal music, including standard notation and tablature. MusicXML, MuseScore, Guitar Pro, text tablature and chord charts come into a consistent textual reading experience; PDF scores and scans have experimental recognition and assisted recovery. Musical information is arranged as positions you can navigate with a keyboard, screen reader or refreshable Braille display. You can open an existing score directly in the reader without first entering a composition screen. Braille access uses ordinary musical descriptions; SpeakTab does not produce formal Braille music notation.
 
-Version 87 also retains saved PDF recovery and assembly checks, rejects ordinary numeric PDF lists as false TAB, supports longer practice playback and clarifies save/sound choices. Ctrl+Shift+R prepares an independent original-file request for ChatGPT in its app or website. A SpeakTab AI pass is not required, and copying a request does not send it. Markdown and HTML keep provisional source notices and missing-range cautions.
+The developer reads Braille fluently, but Braille music has always been a struggle. Wonderful applications already help musicians read and write Braille music. SpeakTab grew from a personal wish for an easy-to-read way to explore scores of different types without going through a composition screen or a complicated interface. Its ordinary textual descriptions offer another way to read and practise music, including for people who do not read Braille music code.
 
-The updated [179-page Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.87/SpeakTab.User.Manual.docx) explains these controls. All 37 lessons / 171 steps are retained. **80 isolated software checks** passed the exact included executable. Physical screen-reader/audio acceptance, foreground-dependent interface checks and musical-source accuracy require separate review. No new live provider call was made for this voice fix.
+## Natural-language composition
 
-## Earlier PDF recovery and assembly in version 86
-
-PDF repair now waits longer for slow passages and retries an interrupted unfinished passage up to twice. Completed passages are kept. Each attempt has a thirty-minute limit; the saved ChatGPT stream allows ten minutes without new reply data. There is no whole-PDF timer, and Cancel remains available.
-
-Bounded MusicXML replies are checked for the requested original measure labels in every part and duration totals where a meter is supplied. A failed check triggers one correction request for that passage. Repair prompts ask the AI to compare the source and correct its own draft within the same request. Once all passages arrive, SpeakTab joins and checks them automatically, preserving individual octave and duration settings and avoiding verified staff/TAB duplication. Unresolved material remains provisional.
-
-Choose **File > Continue saved PDF repair** (Alt+F, then 1) to restore progress. Completed received work can be rebuilt locally without a new provider request. A genuine sign-in renewal still requires the browser. For longer or complex PDFs, the separate ChatGPT app or website is a suggested first route; local recognition is optional for simple short files.
-
-The [174-page Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.86/SpeakTab.User.Manual.docx) and all 37 lessons / 171 steps are synchronized. All **69 software checks** passed the exact included app. Controlled interruption tests and a no-send saved-passage replay passed; a new live-provider whole-PDF run has not been tested. These checks do not certify musical accuracy or prevent every connection failure.
-
-## PDF repair and saved continuation in version 84
-
-PDF repair shows the original page and measure range, actual provider stages and a separate elapsed timer. Long scores can take several minutes per passage; the update does not guarantee speed or accurate transcription. Reconnect inside the repair window keeps your file and request and sends nothing by itself.
-
-If repair stops, choose **File > Continue saved PDF repair** in the main reader, or press **Alt+F, then 1**. SpeakTab finds saved repairs by music filename, directly opens a unique match for the current original or provisional reading, or offers named choices. Check the next range, then choose **Continue unfinished repair**. Loading progress sends nothing and runs no recognition. Completed passages remain saved; processed uncertain passages remain provisional. Keep the original PDF and the named repair folder, including its Repair progress subfolder, to continue later.
-
-The updated [174-page Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.84/SpeakTab.User.Manual.docx) explains this route, PDF limitations, connection renewal and choosing an appropriate AI route. All 37 lessons and 171 steps are retained and synchronized. The help also distinguishes local Voice control, written ChatGPT, the spoken teacher and the separate website handoff, with broader music-source guidance while preserving guitar and song sources.
-
-All 66 software checks passed the exact supplied application. The complete source package independently compiles with its bundled dependencies. Musical accuracy, whole-score timing and physical devices remain separate checks.
-
-## Updated help in version 82
-
-Welcome to SpeakTab introduces supported instrument and vocal music, the instrument-score search and available playback sounds. It explains the music list and written description before introducing concise reading, compact string-fret pairs and F3. It also explains how to return to the music with Ctrl+2. The previously reviewed Word manual and companion guides remain applicable and are included unchanged.
-
-## Manual and command cleanup in version 81
-
-The Word manual starts with why and when to use SpeakTab, a complete brief feature overview, connection costs and comparisons with MuseScore and GOODFEEL. Reader and practice lessons come before the separate composing course. It retains all 37 guided tasks and 171 steps, explains textual Braille and supported natural-language note entry, and distinguishes the speech and microphone tools before teaching their controls.
-
-F5 remains the written-question key, F8 starts the configured AI teacher, F9 stops it and F12 now toggles playback announcements only; the teacher stays spoken. The duplicate Type a question and second teacher-start menu entries are removed, along with two obsolete Voice control feedback menu entries. Ctrl+Shift+Q, Ctrl+Alt+Space and Ctrl+Alt+Shift+Space are retired. Separate Silence ChatGPT speech and Resume ChatGPT speech remain available in the menu without default keys. Surviving menu access letters and saved action identities are preserved.
-
-Local reading, practice, composing and fixed spoken app commands need no AI account. Written ChatGPT uses its saved connection. The live teacher uses a separate OpenAI voice API key and may incur provider charges. Claude remains an option for text answers and score repair through its own API key; this update adds no Claude live voice teacher. The manual explains each route and its costs.
-
-The musical import, playback, sound and composing implementation and vertical reader layout are retained. Focused software checks cover changed controls, keys and guidance. Physical screen-reader, Braille, microphone, speaker and live-provider acceptance are separate hands-on checks.
-
-## Downloads
-
-- [Complete Windows application](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Windows.zip)
-- [Latest release and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/latest)
-- [Free sample bundle](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Samples.zip)
-- [Browse the actual Samples folder](https://github.com/edenkizerccr-coder/speaktab/tree/main/Samples)
-- [Full User Manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.docx)
-- [Full User Manual in HTML](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.User.Manual.html)
-- [Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab.Quick.Start.docx)
-- [Complete source handoff](https://github.com/edenkizerccr-coder/speaktab/releases/latest/download/SpeakTab-Source.zip)
-
-Extract the complete Windows ZIP and run SpeakTab.exe. Keep its recognition runtime, instrument assets, fixtures, licences, Samples and guides together. Windows with .NET Framework 4.8 is required. The complete source is in SpeakTab-Source.zip; GitHub-generated source archives contain this repository snapshot.
-
-## Read an example or edit your own copy
-
-The 16 short original exercises each have three matching files. **Read the .musicxml file as supplied** in the reader with Ctrl+O, or Ctrl+Shift+F then Try included practice samples. No editing or Apply step is required. Ctrl+T chooses a supplied part; Ctrl+2 focuses the music; F3 opens full details.
-
-**To change the example**, open the composer with Ctrl+Shift+N, choose Open project and its matching .speaktabscore file. Use Save project as to keep a personal copy. You can change notes, lyrics, instruments and measures, review a proposal, then Apply reviewed changes. Save project keeps the working composition; Export MusicXML makes a separate applied score for reading or sharing.
-
-The matching PDF is a printed reference or an optional recognition experiment. Prefer MusicXML to read the supplied notes and rhythm directly. The examples include piano, guitar, solo voice, voice with piano, violin, harp, SATB, barbershop, high-G and low-G ukulele, violin with harp, viola, cello, string quartet, drum kit and timpani. The sample-only CC0 licence permits using, copying and changing these original exercises.
-
-Open project edits SpeakTab compositions. Downloaded MusicXML, MuseScore and PDF scores open in the reader; they do not become arbitrary editable composer projects. A MusicXML export made by SpeakTab can also reopen for composing when its embedded project still matches its music. The separate project is the clearest working copy.
-
-## Instruments in the reader and composer
-
-This comparison refers mainly to supplied MusicXML and MuseScore data. PDF recognition may still be needed for any instrument. Search results alone do not establish support or musical accuracy.
-
-| Instrument | Reader | Composer |
-|---|---|---|
-| Piano | Supplied pitches, rhythm and upper/lower staves | Two staves, notes, chords and supported expressions |
-| Guitar | Six-string Guitar Pro; supplied fretted structured parts; text TAB/charts with stated limits | Six-string staff or TAB, explicit tuning/capo/frets, chords and picking/strum patterns |
-| Ukulele | Declared four-string structured parts; supplied tuning and frets | High-G, low-G or custom four-string tuning; staff or TAB and supported patterns |
-| Violin | Structured staff notes and retained supported details | Own sound, bow direction and supplied finger/string markings |
-| Viola | Structured staff notes; real cases checked in the earlier reader audit | Alto clef, own sound and supported bow/finger/string markings |
-| Cello | Structured staff notes; an actual OpenScore Arriaga cello part and original samples checked | Bass or optional part-wide tenor clef, own sound and supported bow/finger/string markings |
-| Harp | Supplied notes and both staves | Two staves, own sound and written seven-pedal diagrams |
-| Solo voice or voice with accompaniment | Supplied vocal notes and lyric verses | One unaccompanied singer or supported accompaniments; words and syllables beside notes |
-| SATB or barbershop | Separately supplied vocal parts and words | Separately named singers with independent notes and lyrics |
-| String quartet | Supplied violin, viola and cello parts | Two violins, viola and cello |
-| Drum kit / unpitched percussion | Supplied named sounds and timing | Named General MIDI sounds, rests, simultaneous hits and written rhythms |
-| Timpani | Supplied pitched percussion notes and timing | Ordinary sounding pitches, bass clef and own practice sound |
-
-Other structured instrument parts may open when the format supplies pitches and rhythm; they do not all have the same verification or a dedicated composer type. The full instrument guide is in the manual and Source guide in score lookup. Cello checks are specific examples, rather than a new broad cello corpus audit.
-
-## Find classical and instrument scores
-
-Ctrl+Shift+F opens Find classical and instrument scores. F2 has the same route. Enter a composer or artist, piece title or catalogue number, and optional instrument keywords.
-
-- **MuseScore:** broad instrumentation and community arrangements, searched on its website. Use your own account there if needed; an account does not make every score exportable.
-- **OpenScore songs:** actual catalogue results with MusicXML/MuseScore downloads; varied vocal scorings, often with piano.
-- **OpenScore string quartets:** violin, viola and cello scores, with structured files and full or named PDF parts where supplied.
-- **IMSLP:** historical editions, instrumental parts and instrumentation browsing, mainly PDFs.
-- **Mutopia:** newly typeset classical PDFs; its LilyPond source is not MusicXML.
-- **MusicXML example library:** small structured examples with PDFs or images; many are excerpts.
-- **CPDL ChoralWiki:** choral/vocal repertoire and voicing categories, including SATB; mainly a website/PDF route.
-
-Source guide explains what each collection is useful for, returning permitted downloads to SpeakTab, and file/recognition limits. OpenScore catalogue downloads were checked with actual files. Automated MuseScore browsing met its security verification page; account downloads were not tested. Website access occurs in your normal browser, without supplying a site password to SpeakTab.
-
-## Clearer controls and voice guidance in version 80
-
-The app, full manual and affected tutorials now distinguish reading a score, writing musical notes, saving a written practice reminder and making a proposed edit. Open music file includes structured non-guitar scores. Loop guidance starts with one selected measure; speed-plan status is separate from changing playback speed. Ctrl+3 follows the chosen reading style; F3 supplies full beat details.
-
-Voice control uses Ctrl+Alt+L for supported spoken app commands; Ctrl+Shift+X opens its phrase reference without starting listening. AI teacher uses F8 to start and F9 to end its configured conversational session. F12 controls spoken output. ChatGPT microphone questions explicitly say they send after a pause; composer dictation only fills text for review. The manual explains each route before its controls, including how to stop or return.
-
-The whole manual, menus, controls and all 37 complete lessons were reviewed for first-time app use. Composer lessons name the entry-window exits and Preview/Apply transitions; selector and typed methods are explicit alternatives. Optional patterns use empty measures, and later lookup steps reopen lookup after a file opens. All 37 lessons with 171 steps remain available. Existing shortcut keys and stored assignments are preserved. The musical reader layout, supplied music and playback behavior remain unchanged. The accepted held-only staff-selection limitation remains documented.
-
-The earlier sound audit independently decoded 264 non-silent software previews: all 30 reader choices, 128 source General MIDI programs, 47 percussion sounds, each of 27 parts from the 16 original examples in composer and reader, and five ensembles. Ukulele uses nylon guitar in the composer or explicit Ukulele reader choice, and acoustic guitar recordings for automatic fretted readings. Vocal, SATB and barbershop previews remain wordless. Written technique words do not synthesize those techniques. Physical speakers/headphones still need a listening check.
-
-## Keyboard guidance in version 79
-
-All 37 tutorials with 171 steps and the complete 163-page User Manual now explain the active window, named fields/buttons, keyboard actions, result and recovery. The review includes all reader and composer tasks, lyrics, cello, ensembles, lookup and optional connected tools. Examples are suggestions.
-
-The Main menu opening keys overview lists File Alt+F, Navigate Alt+N, Playback Alt+P, Practice Alt+R, ChatGPT Alt+C, Voice Alt+V and Help Alt+H. Lesson 2 uses Practice as one example and points to the full list. All 190 command routes remain available.
-
-Ctrl+1 puts focus at the beginning of the source or score summary; Ctrl+2 returns to music. Alt+Shift+I opens the separate Import summary report; Escape closes it. The looping lesson gives the entire measure/beat-loop sequence, including Enable loop, playback, stop and clear. Composer lessons give keys for selecting notes, changing parts, lyrics, markings, review/apply, project saving and XML export.
-
-Version 78's quieter routine staff/tie reading remains: true attacks, rests and vertical rows are retained; F3 and explicit staff queries provide full context. Choosing a staff guides dedicated staff-note commands; ordinary arrows and exports cover the full part. No new staff-locking mode is added. The public Word guides are User Manual, Quick Start and Testing Steps.
-
-## Read and practise
-
-Ctrl+O opens music; Ctrl+T chooses a supplied part. Ctrl+2 focuses musical positions. Left/Right follows musical time; Up/Down inspects simultaneous notes, strings or lyrics. F3 opens full details. Ctrl+Shift+I reports supplied score information. Ctrl+P plays and Ctrl+Shift+P stops. Practice offers loops, bookmarks and comments. Ctrl+S saves a reader arrangement; My readings resumes it.
-
-Alt+Right Arrow moves to the next chord change; Alt+Left Arrow moves to the previous change. They work directly in the main reader without opening a menu and skip held continuations. Alt+Shift+L gives only the full supplied lyrics at the selected position in Reader status; Ctrl+2 returns to the music. Up/Down also reaches supplied lyric rows.
-
-## Write music
-
-Ctrl+Shift+N opens the composer. New score offers the instrument, solo voice and ensemble templates. Solo voice means one singer with no accompaniment. Add part builds other supported combinations. SATB names Soprano, Alto, Tenor and Bass; barbershop names Tenor, Lead, Baritone and Bass. Each singer has independent notes and words. The composer does not harmonize a melody automatically or condense four singers onto two staves.
-
-Ctrl+E opens note selection. Choose the part, named staff, position, note or percussion sound and duration. Enter records a note, chord, hit group or rest and advances by duration when Advance is checked, crossing into the next measure automatically. Tab moves among controls. A position message reports where the next event begins. Add this pitch to chord or Add this percussion sound gathers simultaneous sounds before Enter records the group.
-
-Type an optional lyric beside its new note. Verse 1 is ordinary entry; later verses add lyric lines. Syllable choices and extenders are retained. Ctrl+L edits words on a selected applied note. Copy lyrics to aligned voices is an explicit reviewed action, protects existing words by default and skips different timing. Local vocal playback remains wordless.
-
-Piano and harp have named upper/lower staves. Other parts use one staff. Rhythm line 1 is normal entry; another line is needed only for overlapping rhythms on the same staff. Additional options are hidden until requested, and tuplets are off for ordinary notes. Chord symbol is a written label; choose played tones separately. Supported full phrases and m/b/duration shorthand remain available.
-
-Review several measures together, inspect or hear the proposal, then Apply. Edit selected event replaces music; Undo/Redo restores applied states. Save project keeps applied music and unfinished descriptions, raw lyrics, selected notes or hits, choices, positions and pending review. Open project restores them. Export MusicXML writes applied music and asks before omitting unfinished work.
-
-Violin, viola and cello markings are written choices; they do not calculate positions or synthesize arco, pizzicato or other named techniques. Harp diagrams do not retune notes or certify playability. Drum rolls, flams, rudiments, specialized sticking and timpani pedal changes are not automatically expanded or synthesized. Engraving, arbitrary imported-score editing, editable grace notes and advanced guitar authoring remain unsupported. Written repeats export while composer playback runs through the written measures once.
-
-## Learn the controls
-
-The full manual and 37 guided tasks with 171 steps explain the actual controls, choices, expected results and ways to correct a result. They assume ordinary computer skills and basic musical knowledge, without prior notation-software experience. Examples are optional suggestions.
-
-Next step advances within a task; Next lesson changes subjects. Show whole lesson displays its complete reference. Optional Read displayed text uses local Windows voice. F1 explains relevant controls. The composer’s How to compose opens its full reference. The existing musical reader layout is preserved.
-
-The full reference includes all supported composer phrases and shorthand, the meaning of two beats in different meters, 98 fixed reader voice commands, 44 alternatives and 13 numbered patterns with results. Composer dictation, Voice control commands and connected teacher conversation are separate routes.
-
-## Optional connections and accuracy
-
-F4 connects written ChatGPT, F5 focuses its question, Enter sends and F6 reads the answer. Ctrl+Alt+L controls the separate Voice control microphone. F8 starts the configured connected teacher and F9 stops it. F12 silences app speech without changing microphone state. Connected services may incur charges. Current-file/another-file AI remediation can start automatically with a saved connection; the separate ChatGPT-window handoff requires your paste, attachment and send in the browser.
-
-PDF recognition and AI recovery can omit or misread music. Read coverage, compare the original and retain warnings with provisional output. Importable does not mean complete or correct. Playback effects are practice approximations, and vocal previews are wordless. Physical screen-reader, Braille, microphone, audio and live-model quality need hands-on review. Public packages exclude private music, readings, settings, profiles, credentials and diagnostic dumps. Previous public releases remain available.
+Some musicians find the note-entry syntax in music software difficult to learn or remember. SpeakTab offers supported natural-language composition: describe notes, chords, rests, lengths and lyrics in musical words, review a proposed result, then accept it. Direct supported phrases work locally; optional connected ChatGPT interpretation can handle broader descriptions and still requires review. Precise named selectors remain available. The composer creates supported parts for piano, guitar, ukulele, solo voice, violin, viola, cello, harp, unpitched percussion and timpani, including SATB, barbershop and string-quartet templates. Save a working project including unfinished entry and export MusicXML. It edits SpeakTab projects rather than arbitrary downloaded scores. Begin with Before the composing lessons and tasks 15 through 22; tasks 31 through 34, 36 and 37 cover further instruments and lyrics.
+
+## Take your readings with you
+
+Save text and Markdown readings to take with you for on-the-go reading on a compatible device or reader. You can also export HTML or textual BRF, or exchange matching practice comments through Markdown. Keep a portable reading alongside your practice materials so you can revisit the music away from your Windows computer.
+
+## Working alongside other music tools
+
+MuseScore, GOODFEEL and specialist Braille-music applications offer valuable ways to read and write music. MuseScore also opens multiple file formats and has accessibility tools. SpeakTab was built with accessibility from the ground up around navigable musical descriptions, keyboard access, screen-reader text and textual Braille. Its purpose is to bring supported score formats into a consistent reading and practice experience, with a separate natural-language composing route when you want to write music. The comparison below explains overlaps and different approaches so you can choose tools that suit your music and access needs.
+
+MuseScore documents its own [accessibility tools](https://musescore.org/en/accessibility) and [file-format support](https://musescore.org/en/handbook/4/file-formats). Multiple-format import is a SpeakTab capability shared with other music applications; the distinction is SpeakTab's integrated textual reading and practice approach.
+
+## Windows downloads
+
+- [Complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.88/SpeakTab-Windows.zip)
+- [Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.88/SpeakTab.User.Manual.docx)
+- [Word Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.88/SpeakTab.Quick.Start.docx)
+- [Complete source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.88/SpeakTab-Source.zip)
+
+Extract the complete Windows ZIP and run SpeakTab.exe. Keep the included runtime, instrument sounds, licences and guides together. Windows and .NET Framework 4.8 are required. Existing installations can check for updates. Save your work before updating and keep your previous copy. Internal build 10.14.88 preserves compatibility with earlier Windows updaters; the app displays SpeakTab 1.0.
+
+## Scope and available tools
+
+The reader handles supported standard notation, tablature, chord charts and instrumental or vocal parts. Exact available detail depends on the source. Guitar Pro import supports six-string guitar parts. MusicXML and MuseScore support broader supplied parts, including piano, voice and strings. You can move by musical position and measure, inspect full details, hear local practice previews, change speed, loop passages and keep notes and bookmarks.
+
+Local reading, playback, practice, direct supported composition and Windows Voice control do not require an AI account. Optional written questions, broader composition interpretation, connected score recovery and the conversational teacher use their own connections and may have provider charges. PDF recognition and AI recovery are experimental and require review. Braille output is ordinary musical descriptions in Braille, not formal Braille music notation. The separate Android app has fewer features and cannot open PDFs directly.
+
+## Original practice examples
+
+Sixteen original examples include piano, guitar, solo voice, voice with piano, violin, harp, SATB, barbershop, ukulele, violin with harp, viola, cello, string quartet, drum kit and timpani. Open MusicXML to read and hear the music; open the matching .speaktabscore project to change it in the composer. Matching PDFs are references or optional recognition experiments. The sample-only CC0 licence permits using, copying and changing these exercises.
+
+## Release history
+
+This 1.0 release continues the existing Windows application. Earlier releases, including 10.14.87, remain available with their original assets. All 37 guided tasks and 171 steps are retained. Software checks do not certify every score's musical accuracy or every screen reader and audio device.
+
+## Further development
+
+The developer is open to further development and welcomes collaboration. Help from a developer with iOS experience would be especially welcome to explore bringing SpeakTab to iPhone and iPad. An iOS version is not currently available. The complete Windows source and build instructions are available from the existing GitHub releases. Developers can use the repository issues to discuss ideas and collaboration.
+
+## Android keyboard access
+
+The Android app includes a full set of app keyboard commands for reading, navigation, playback and practice. You can use these functions directly from the keyboard without repeatedly moving through Android controls. Android system dialogs and browser sign-in retain their own controls. The Android app remains a separate release with its own downloads and feature set; this 1.0 release is for Windows.
