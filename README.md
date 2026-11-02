@@ -1,6 +1,6 @@
 # SpeakTab
 
-**SpeakTab 1.0 for Windows — accessible scores for reading, practice and natural-language composition.**
+**SpeakTab 1.0.1 for Windows — accessible scores for reading, practice and natural-language composition.**
 
 SpeakTab is a Windows music reader and composer built with accessibility from the ground up. Read, practise and write supported instrumental and vocal music, including standard notation and tablature. MusicXML, MuseScore, Guitar Pro, text tablature and chord charts come into a consistent textual reading experience; PDF scores and scans have experimental recognition and assisted recovery. Musical information is arranged as positions you can navigate with a keyboard, screen reader or refreshable Braille display. You can open an existing score directly in the reader without first entering a composition screen. Braille access uses ordinary musical descriptions; SpeakTab does not produce formal Braille music notation.
 
@@ -22,12 +22,12 @@ MuseScore documents its own [accessibility tools](https://musescore.org/en/acces
 
 ## Windows downloads
 
-- [Complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.88/SpeakTab-Windows.zip)
-- [Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.88/SpeakTab.User.Manual.docx)
-- [Word Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.88/SpeakTab.Quick.Start.docx)
-- [Complete source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.88/SpeakTab-Source.zip)
+- [Complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Windows.zip)
+- [Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.User.Manual.docx)
+- [Word Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Quick.Start.docx)
+- [Complete source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Source.zip)
 
-Extract the complete Windows ZIP and run SpeakTab.exe. Keep the included runtime, instrument sounds, licences and guides together. Windows and .NET Framework 4.8 are required. Existing installations can check for updates. Save your work before updating and keep your previous copy. Internal build 10.14.88 preserves compatibility with earlier Windows updaters; the app displays SpeakTab 1.0.
+Extract the complete Windows ZIP and run SpeakTab.exe. Keep the included runtime, instrument sounds, licences and guides together. Windows and .NET Framework 4.8 are required. Existing installations can check for updates. Save your work before updating and keep your previous copy. Internal build 10.14.89 preserves compatibility with earlier Windows updaters; the app displays SpeakTab 1.0.
 
 ## Scope and available tools
 
@@ -41,12 +41,21 @@ Sixteen original examples include piano, guitar, solo voice, voice with piano, v
 
 ## Release history
 
-This 1.0 release continues the existing Windows application. Earlier releases, including 10.14.87, remain available with their original assets. All 37 guided tasks and 171 steps are retained. Software checks do not certify every score's musical accuracy or every screen reader and audio device.
+This 1.0.1 release continues the existing Windows application. Earlier releases, including 10.14.87, remain available with their original assets. All 37 guided tasks and 171 steps are retained. Software checks do not certify every score's musical accuracy or every screen reader and audio device.
 
 ## Further development
 
 The developer is open to further development and welcomes collaboration. Help from a developer with iOS experience would be especially welcome to explore bringing SpeakTab to iPhone and iPad. An iOS version is not currently available. The complete Windows source and build instructions are available from the existing GitHub releases. Developers can use the repository issues to discuss ideas and collaboration.
 
-## Android keyboard access
+## SpeakTab for Android 0.4.1
 
-The Android app includes a full set of app keyboard commands for reading, navigation, playback and practice. You can use these functions directly from the keyboard without repeatedly moving through Android controls. Android system dialogs and browser sign-in retain their own controls. The Android app remains a separate release with its own downloads and feature set; this 1.0 release is for Windows.
+SpeakTab for Android provides accessible reading by measure and beat, instrument-sample playback, practice loops, notes, bookmarks and named passages. Compose supported pitched music with fields or musical phrases, review changes and export MusicXML. Single-Control shortcuts and local spoken commands provide direct routes to common tasks.
+
+- [Android APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Android.apk)
+- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.docx)
+- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.rtf)
+- [Android keystrokes in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.Keystrokes.rtf)
+
+Install over the existing SpeakTab Practice app as an update. Earlier reading, navigation and completed typed answers have been used on BrailleSense 7. The new composer, looper, samples, keys and voice features still need hands-on checking; BrailleSense 6 and phones have not been tested. The Android composer uses a separate project format and has fewer features than the Windows composer. MusicXML exchanges applied music.
+
+Optional written questions, connected composition interpretation and AI Teacher have their own connections. They are additional features; the app opens with its music tools.
