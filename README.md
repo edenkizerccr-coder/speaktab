@@ -1,14 +1,16 @@
 # SpeakTab
 
-**SpeakTab 1.0.1 for Windows — accessible scores for reading, practice and natural-language composition.**
+**SpeakTab 1.0.2 for Windows — accessible scores for reading, practice and natural-language composition.**
 
 SpeakTab is a Windows music reader and composer built with accessibility from the ground up. Read, practise and write supported instrumental and vocal music, including standard notation and tablature. MusicXML, MuseScore, Guitar Pro, text tablature and chord charts come into a consistent textual reading experience; PDF scores and scans have experimental recognition and assisted recovery. Musical information is arranged as positions you can navigate with a keyboard, screen reader or refreshable Braille display. You can open an existing score directly in the reader without first entering a composition screen. Braille access uses ordinary musical descriptions; SpeakTab does not produce formal Braille music notation.
 
 The developer reads Braille fluently, but Braille music has always been a struggle. Wonderful applications already help musicians read and write Braille music. SpeakTab grew from a personal wish for an easy-to-read way to explore scores of different types without going through a composition screen or a complicated interface. Its ordinary textual descriptions offer another way to read and practise music, including for people who do not read Braille music code.
 
+Windows 1.0.2 adds a dedicated four-string Bass instrument, Bass and piano and Voice and bass templates, sounding-pitch or string/fret entry, four-line TAB export and a complete bass lesson. Five- and six-string bass, automatic bass-line generation and dedicated slap/pop authoring are not available.
+
 ## Natural-language composition
 
-Some musicians find the note-entry syntax in music software difficult to learn or remember. SpeakTab offers supported natural-language composition: describe notes, chords, rests, lengths and lyrics in musical words, review a proposed result, then accept it. Direct supported phrases work locally; optional connected ChatGPT interpretation can handle broader descriptions and still requires review. Precise named selectors remain available. The composer creates supported parts for piano, guitar, ukulele, solo voice, violin, viola, cello, harp, unpitched percussion and timpani, including SATB, barbershop and string-quartet templates. Save a working project including unfinished entry and export MusicXML. It edits SpeakTab projects rather than arbitrary downloaded scores. Begin with Before the composing lessons and tasks 15 through 22; tasks 31 through 34, 36 and 37 cover further instruments and lyrics.
+Some musicians find the note-entry syntax in music software difficult to learn or remember. SpeakTab offers supported natural-language composition: describe notes, chords, rests, lengths and lyrics in musical words, review a proposed result, then accept it. Direct supported phrases work locally; optional connected ChatGPT interpretation can handle broader descriptions and still requires review. Precise named selectors remain available. The composer creates supported parts for piano, guitar, four-string bass, ukulele, solo voice, violin, viola, cello, harp, unpitched percussion and timpani, including SATB, barbershop and string-quartet templates. Save a working project including unfinished entry and export MusicXML. It edits SpeakTab projects rather than arbitrary downloaded scores. Begin with Before the composing lessons and tasks 15 through 22; tasks 31 through 34, 36, 37 and 38 cover further instruments and lyrics.
 
 ## Take your readings with you
 
@@ -22,12 +24,12 @@ MuseScore documents its own [accessibility tools](https://musescore.org/en/acces
 
 ## Windows downloads
 
-- [Complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Windows.zip)
-- [Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.User.Manual.Readings.docx)
-- [Word Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Quick.Start.docx)
-- [Complete source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Source.zip)
+- [Complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.90/SpeakTab-Windows.zip)
+- [Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.90/SpeakTab.User.Manual.Readings.docx)
+- [Word Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.90/SpeakTab.Quick.Start.docx)
+- [Complete source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.90/SpeakTab-Source.zip)
 
-Extract the complete Windows ZIP and run SpeakTab.exe. Keep the included runtime, instrument sounds, licences and guides together. Windows and .NET Framework 4.8 are required. Existing installations can check for updates. Save your work before updating and keep your previous copy. Internal build 10.14.89 preserves compatibility with earlier Windows updaters; the app displays SpeakTab 1.0.1.
+Extract the complete Windows ZIP and run SpeakTab.exe. Keep the included runtime, instrument sounds, licences and guides together. Windows and .NET Framework 4.8 are required. Existing installations can check for updates. Save your work before updating and keep your previous copy. Internal build 10.14.90 preserves compatibility with earlier Windows updaters; the app displays SpeakTab 1.0.2.
 
 ## Scope and available tools
 
@@ -41,23 +43,25 @@ Sixteen original examples include piano, guitar, solo voice, voice with piano, v
 
 ## Release history
 
-This 1.0.1 release continues the existing Windows application. Earlier releases, including 10.14.87, remain available with their original assets. All 37 guided tasks and 171 steps are retained. Software checks do not certify every score's musical accuracy or every screen reader and audio device.
+This 1.0.2 release continues the existing Windows application. Earlier releases, including 10.14.87, remain available with their original assets. The app offers 38 guided tasks and 176 steps, including a complete four-string bass exercise. Software checks do not certify every score's musical accuracy or every screen reader and audio device.
 
 ## Further development
 
 The developer is open to further development and welcomes collaboration. Help from a developer with iOS experience would be especially welcome to explore bringing SpeakTab to iPhone and iPad. An iOS version is not currently available. The complete Windows source and build instructions are available from the existing GitHub releases. Developers can use the repository issues to discuss ideas and collaboration.
 
-## SpeakTab for Android 0.4.3
+## SpeakTab for Android 0.4.4
+
+Requires Android 15 or later. Seven optional Learn by doing lessons teach reading, listening, loops, practice notes, first-note entry, piano chords and violin phrases beside the real controls. Each uses its own original practice work and saves progress. Simpler Reading groups and basic note entry keep the first actions easy to find. Written bow direction, finger/string marks, lever-harp directions and optional seven-pedal harp diagrams are now available; these markings do not simulate technique or retune the entered pitches.
 
 SpeakTab for Android provides accessible reading by measure and beat, instrument-sample playback, practice loops, notes, bookmarks and named passages. Compose supported pitched music with fields or musical phrases, review changes and export MusicXML. Control shortcuts and local spoken commands provide direct routes to common tasks. Control+K opens help for the screen you are using, with one shortcut and action per line. While reading, Control+N writes or edits a practice note. In Composer, Control+E enters musical notes, chords or rests. Control+Shift+B goes to the beginning of the music; Control+Shift+E goes to the end. No Alt shortcuts are assigned.
 
-- [Android APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Android-0.4.3.apk)
-- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.0.4.3.docx)
-- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.0.4.3.rtf)
-- [Android keystrokes in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.Keystrokes.0.4.3.rtf)
+- [Android APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.90/SpeakTab-Android-0.4.4.apk)
+- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.90/SpeakTab.Android.User.Guide.0.4.4.docx)
+- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.90/SpeakTab.Android.User.Guide.0.4.4.rtf)
+- [Android keystrokes in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.90/SpeakTab.Android.Keystrokes.0.4.4.rtf)
 
 Install over the existing SpeakTab Practice app as an update. Earlier reading, navigation and completed typed answers have been used on BrailleSense 7. The new composer, looper, samples, keys and voice features still need hands-on checking; BrailleSense 6 and phones have not been tested. The Android composer uses a separate project format and has fewer features than the Windows composer. MusicXML exchanges applied music.
 
 Optional written questions, connected composition interpretation and AI Teacher have their own connections. They are additional features; the app opens with its music tools.
 
-The Android guide teaches Android on its own, with all local voice-command phrases, a complete supported local composer phrase reference, worked examples and limits. Broader connected AI interpretation has no finite list of accepted English sentences. The revised Windows Word manual retains its original 179 pages and adds two pages about reading exchange. The Windows app and its bundled guide are unchanged by this downloadable manual revision.
+The Android guide teaches Android independently, with all local voice-command phrases, supported composer phrases, instrument examples and limits. The full native Windows Word manual has 149 pages; the Android Word and RTF guides each have 45 pages, and the Android shortcut references each have three pages. Both guides introduce the controls and complete tasks before relying on them. Broader connected AI interpretation has no finite list of accepted English sentences.
