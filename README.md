@@ -65,3 +65,17 @@ Install over the existing SpeakTab Practice app as an update. Earlier reading, n
 Optional written questions, connected composition interpretation and AI Teacher have their own connections. They are additional features; the app opens with its music tools.
 
 The Android guide teaches Android independently, with all local voice-command phrases, supported composer phrases, instrument examples and limits. The full native Windows Word manual has 149 pages; the Android Word and RTF guides each have 45 pages, and the Android shortcut references each have three pages. Both guides introduce the controls and complete tasks before relying on them. Broader connected AI interpretation has no finite list of accepted English sentences.
+
+
+## Optional Android 12 or later beta
+
+SpeakTab 0.4.5 beta 1 permits Android 12 and later, including Android 15. **This is an untested beta: it has not been tested on a physical Android 12 device or BrailleSense 6 because the developer has no device running an older Android version.** Device compatibility, Braille and keyboard access, audio and microphone operation remain unverified. The current 0.4.4 Android 15 release above remains available separately.
+
+The same app features are retained; this is one APK for Android 12 and later, rather than a reduced-feature edition. The compatibility changes use the interfaces available on each Android version. All 959 existing software checks pass, which does not establish physical device compatibility or guarantee no regressions.
+
+- [Android 12 or later beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.4.5-beta1/SpeakTab-Android-0.4.5-beta1.apk)
+- [Beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.4.5-beta1/SpeakTab.Android.User.Guide.0.4.5-beta1.docx)
+- [Beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.4.5-beta1/SpeakTab.Android.User.Guide.0.4.5-beta1.rtf)
+- [Beta shortcut reference in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.4.5-beta1/SpeakTab.Android.Keystrokes.0.4.5-beta1.rtf)
+
+Keep exported backups before testing. Install as Update without uninstalling. The higher beta version code means returning to 0.4.4 is not an ordinary Android update; uninstalling to force a rollback removes local app data.
