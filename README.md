@@ -12,7 +12,7 @@ Some musicians find the note-entry syntax in music software difficult to learn o
 
 ## Take your readings with you
 
-Save text and Markdown readings to take with you for on-the-go reading on a compatible device or reader. You can also export HTML or textual BRF, or exchange matching practice comments through Markdown. Keep a portable reading alongside your practice materials so you can revisit the music away from your Windows computer.
+Save text and Markdown readings to take with you for on-the-go reading on a compatible device or reader. Both manuals now give step-by-step instructions for transferring readings between SpeakTab for Windows and SpeakTab for Android. The libraries do not synchronize automatically. Windows saved-reading text opens in Android for reading; import the original supported score for playback. Android readable exports preserve the text and optionally comments, but do not restore a complete Windows arrangement or map comments to its positions. You can also export HTML or textual BRF, or exchange matching practice comments through Markdown. Keep a portable reading alongside your practice materials so you can revisit the music away from your Windows computer.
 
 ## Working alongside other music tools
 
@@ -23,11 +23,11 @@ MuseScore documents its own [accessibility tools](https://musescore.org/en/acces
 ## Windows downloads
 
 - [Complete Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Windows.zip)
-- [Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.User.Manual.docx)
+- [Word user manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.User.Manual.Readings.docx)
 - [Word Quick Start](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Quick.Start.docx)
 - [Complete source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Source.zip)
 
-Extract the complete Windows ZIP and run SpeakTab.exe. Keep the included runtime, instrument sounds, licences and guides together. Windows and .NET Framework 4.8 are required. Existing installations can check for updates. Save your work before updating and keep your previous copy. Internal build 10.14.89 preserves compatibility with earlier Windows updaters; the app displays SpeakTab 1.0.
+Extract the complete Windows ZIP and run SpeakTab.exe. Keep the included runtime, instrument sounds, licences and guides together. Windows and .NET Framework 4.8 are required. Existing installations can check for updates. Save your work before updating and keep your previous copy. Internal build 10.14.89 preserves compatibility with earlier Windows updaters; the app displays SpeakTab 1.0.1.
 
 ## Scope and available tools
 
@@ -47,15 +47,17 @@ This 1.0.1 release continues the existing Windows application. Earlier releases,
 
 The developer is open to further development and welcomes collaboration. Help from a developer with iOS experience would be especially welcome to explore bringing SpeakTab to iPhone and iPad. An iOS version is not currently available. The complete Windows source and build instructions are available from the existing GitHub releases. Developers can use the repository issues to discuss ideas and collaboration.
 
-## SpeakTab for Android 0.4.2
+## SpeakTab for Android 0.4.3
 
-SpeakTab for Android provides accessible reading by measure and beat, instrument-sample playback, practice loops, notes, bookmarks and named passages. Compose supported pitched music with fields or musical phrases, review changes and export MusicXML. Control shortcuts and local spoken commands provide direct routes to common tasks. Control+K opens help for the screen you are using, with one shortcut and action per line. While reading, Control+N writes or edits a practice note. In Composer, Control+E enters musical notes, chords or rests. No Alt shortcuts are assigned.
+SpeakTab for Android provides accessible reading by measure and beat, instrument-sample playback, practice loops, notes, bookmarks and named passages. Compose supported pitched music with fields or musical phrases, review changes and export MusicXML. Control shortcuts and local spoken commands provide direct routes to common tasks. Control+K opens help for the screen you are using, with one shortcut and action per line. While reading, Control+N writes or edits a practice note. In Composer, Control+E enters musical notes, chords or rests. Control+Shift+B goes to the beginning of the music; Control+Shift+E goes to the end. No Alt shortcuts are assigned.
 
-- [Android APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Android-0.4.2.apk)
-- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.0.4.2.docx)
-- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.0.4.2.rtf)
-- [Android keystrokes in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.Keystrokes.0.4.2.rtf)
+- [Android APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab-Android-0.4.3.apk)
+- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.0.4.3.docx)
+- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.User.Guide.0.4.3.rtf)
+- [Android keystrokes in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.89/SpeakTab.Android.Keystrokes.0.4.3.rtf)
 
 Install over the existing SpeakTab Practice app as an update. Earlier reading, navigation and completed typed answers have been used on BrailleSense 7. The new composer, looper, samples, keys and voice features still need hands-on checking; BrailleSense 6 and phones have not been tested. The Android composer uses a separate project format and has fewer features than the Windows composer. MusicXML exchanges applied music.
 
 Optional written questions, connected composition interpretation and AI Teacher have their own connections. They are additional features; the app opens with its music tools.
+
+The Android guide teaches Android on its own, with all local voice-command phrases, a complete supported local composer phrase reference, worked examples and limits. Broader connected AI interpretation has no finite list of accepted English sentences. The revised Windows Word manual retains its original 179 pages and adds two pages about reading exchange. The Windows app and its bundled guide are unchanged by this downloadable manual revision.
