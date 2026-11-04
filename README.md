@@ -55,39 +55,39 @@ This 1.0.7 release continues the existing Windows application. Earlier releases,
 
 The developer is open to further development and welcomes collaboration. Help from a developer with iOS experience would be especially welcome to explore bringing SpeakTab to iPhone and iPad. An iOS version is not currently available. The complete Windows source and build instructions are available from the existing GitHub releases. Developers can use the repository issues to discuss ideas and collaboration.
 
-## SpeakTab for Android 0.4.6
+## SpeakTab for Android 0.4.7
 
-Requires Android 15 or later. Version 0.4.6 adds clearer supplied guitar techniques and changed dynamics, Full explanation of this beat, supplied lyrics, cautious English lyric-word suggestions, and navigation by supplied chord changes or markings. Existing one-step shortcuts retain their assignments. Only missing Android reading actions also use Control+Z followed by another Control chord; named controls provide the same actions. Windows commands remain unchanged.
+Requires Android 15 or later. Version 0.4.7 adds clearer supplied guitar techniques and changed dynamics, Full explanation of this beat, supplied lyrics, cautious English lyric-word suggestions, and navigation by supplied chord changes or markings. Ordinary one-step shortcuts retain their assignments. Unreliable Android Shift boundary chords are replaced by Control+Z then Control+B for beginning and Control+Z then Control+T for end. Detailed full reading uses Control+Z then Control+R. Existing full explanation remains Control+Z then Control+E. Each feature is introduced with its key or exact keyboard route, including tuning, beat and measure movement, and every named control. Windows commands remain unchanged.
 
 Seven optional Learn by doing lessons teach reading, listening, loops, practice notes, first-note entry, piano chords and violin phrases beside the real controls. Each uses its own original practice work and saves progress. Simpler Reading groups and basic note entry keep the first actions easy to find. Written bow direction, finger/string marks, lever-harp directions and optional seven-pedal harp diagrams are now available; these markings do not simulate technique or retune the entered pitches.
 
 SpeakTab for Android provides accessible reading by measure and beat, instrument-sample playback, practice loops, notes, bookmarks and named passages. Compose supported pitched music with fields or musical phrases, review changes and export MusicXML. Control shortcuts and local spoken commands provide direct routes to common tasks. Control+K opens help for the screen you are using, with one shortcut and action per line. While reading, Control+N writes or edits a practice note. In Composer, Control+E enters musical notes, chords or rests. Control+Shift+B goes to the beginning of the music; Control+Shift+E goes to the end. No Alt shortcuts are assigned.
 
-- [Android APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab-Android-0.4.6.apk)
-- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.User.Guide.0.4.6.docx)
-- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.User.Guide.0.4.6.rtf)
-- [Android keystrokes in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.Keystrokes.0.4.6.docx)
-- [Android source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab-Android-Source-0.4.6.zip)
-- [Android keystrokes in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.Keystrokes.0.4.6.rtf)
+- [Android APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab-Android-0.4.7.apk)
+- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.User.Guide.0.4.7.docx)
+- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.User.Guide.0.4.7.rtf)
+- [Android keystrokes in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.Keystrokes.0.4.7.docx)
+- [Android source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab-Android-Source-0.4.7.zip)
+- [Android keystrokes in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.Keystrokes.0.4.7.rtf)
 
 Install over the existing SpeakTab Practice app as an update. Earlier reading, navigation and completed typed answers have been used on BrailleSense 7. The new composer, looper, samples, keys and voice features still need hands-on checking; BrailleSense 6 and phones have not been tested. The Android composer uses a separate project format and has fewer features than the Windows composer. MusicXML exchanges applied music.
 
 Optional written questions, connected composition interpretation and AI Teacher have their own connections. They are additional features; the app opens with its music tools.
 
-The Android guide teaches Android independently, with all local voice-command phrases, supported composer phrases, instrument examples and limits. The Android Word and RTF guides each have 48 pages, and the Android shortcut references each have three pages. Both guides introduce the controls and complete tasks before relying on them. Broader connected AI interpretation has no finite list of accepted English sentences.
+The Android guide teaches Android independently, with all local voice-command phrases, supported composer phrases, instrument examples and limits. The Android Word and RTF guides each have 58 pages, and the Android shortcut references each have three pages. Both guides introduce the controls and complete tasks before relying on them. Broader connected AI interpretation has no finite list of accepted English sentences.
 
 
 ## Optional Android 12 or later beta
 
-SpeakTab 0.4.6 beta 1 permits Android 12 and later, including Android 15. **This is an untested beta: it has not been tested on a physical Android 12 device or BrailleSense 6 because the developer has no device running an older Android version.** Device compatibility, Braille and keyboard access, audio and microphone operation remain unverified. The current 0.4.6 Android 15 release above remains available separately.
+SpeakTab 0.4.7 beta 1 permits Android 12 and later, including Android 15. **This is an untested beta: it has not been tested on a physical Android 12 device or BrailleSense 6 because the developer has no device running an older Android version.** Device compatibility, Braille and keyboard access, audio and microphone operation remain unverified. The current 0.4.7 Android 15 release above remains available separately.
 
-The same app features are retained; this is one APK for Android 12 and later, rather than a reduced-feature edition. The compatibility changes use the interfaces available on each Android version. The existing software checks and 48 added guitar-reading and shortcut checks pass, which does not establish physical device compatibility or guarantee no regressions.
+The same app features are retained; this is one APK for Android 12 and later, rather than a reduced-feature edition. The compatibility changes use the interfaces available on each Android version. The baseline, guided-learning and guitar checks pass, together with expanded sequence regression checks and 84 complete assigned-command coverage checks, which does not establish physical device compatibility or guarantee no regressions.
 
-- [Android 12 or later beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab-Android-0.4.6-beta1.apk)
-- [Beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.User.Guide.0.4.6-beta1.docx)
-- [Beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.User.Guide.0.4.6-beta1.rtf)
-- [Beta shortcut reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.Keystrokes.0.4.6-beta1.docx)
-- [Beta source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab-Android-Source-0.4.6-beta1.zip)
-- [Beta shortcut reference in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.Keystrokes.0.4.6-beta1.rtf)
+- [Android 12 or later beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab-Android-0.4.7-beta1.apk)
+- [Beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.User.Guide.0.4.7-beta1.docx)
+- [Beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.User.Guide.0.4.7-beta1.rtf)
+- [Beta shortcut reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.Keystrokes.0.4.7-beta1.docx)
+- [Beta source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab-Android-Source-0.4.7-beta1.zip)
+- [Beta shortcut reference in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.95/SpeakTab.Android.Keystrokes.0.4.7-beta1.rtf)
 
-Keep exported backups before testing. Install as Update without uninstalling. The higher beta version code means returning to 0.4.6 is not an ordinary Android update; uninstalling to force a rollback removes local app data.
+Keep exported backups before testing. Install as Update without uninstalling. The higher beta version code means returning to 0.4.7 is not an ordinary Android update; uninstalling to force a rollback removes local app data.
