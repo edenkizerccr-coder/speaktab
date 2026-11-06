@@ -1,17 +1,20 @@
 # SpeakTab
 
-SpeakTab Windows 1.0.9 and Android 0.4.9 provide accessible score reading, practice and local composition. Read musical descriptions with the keyboard, screen reader or refreshable Braille display; this is textual access, not formal Braille music notation. Open supported scores directly without entering the composer.
+
+Windows 1.0.10 reads supplied Guitar Pro and MusicXML instrument parts, including bass, ukulele, extended-range guitar, keyboards, voices and percussion. Ctrl+T chooses a part. Staves, voices, rests, tuning and complete decoded notes remain in the reading. MusicXML dense chords retain every supplied note; selectable PDF TAB uses its complete string group, and recognized PDF MusicXML retains all recovered parts. Ukulele now uses the dedicated GeneralUser GS preset. The corrected Word manual integrates these instructions in the reading chapters. Existing Windows commands are unchanged.
+
+SpeakTab Windows 1.0.10 and Android 0.4.9 provide accessible score reading, practice and local composition. Read musical descriptions with the keyboard, screen reader or refreshable Braille display; this is textual access, not formal Braille music notation. Open supported scores directly without entering the composer.
 
 ## Downloads and manuals
 
 The complete Windows package includes the app, runtimes, samples, licences and native Word manuals. Android has a regular Android 15 build and separately labelled Android 12 compatibility beta. Install Android as an update with the same package and certificate; preserve projects and readings.
 
-- [Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.97/SpeakTab-Windows.zip)
-- [Windows Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.97/SpeakTab.User.Manual.docx)
-- [Composition lessons and phrase reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.97/SpeakTab.Composition.Lessons.docx)
-- [Android Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.97/SpeakTab.Android.User.Guide.0.4.9.docx)
-- [Android app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.97/SpeakTab-Android-0.4.9.apk)
-- [Complete Windows source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.97/SpeakTab-Source.zip)
+- [Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.98/SpeakTab-Windows.zip)
+- [Windows Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.98/SpeakTab.User.Manual.docx)
+- [Composition lessons and phrase reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.98/SpeakTab.Composition.Lessons.docx)
+- [Android Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.98/SpeakTab.Android.User.Guide.0.4.9.docx)
+- [Android app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.98/SpeakTab-Android-0.4.9.apk)
+- [Complete Windows source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.98/SpeakTab-Source.zip)
 - [Website and all downloads](https://speaktab.pages.dev/)
 
 ## Reading and practice
