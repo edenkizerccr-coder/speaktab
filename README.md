@@ -8,7 +8,7 @@ Windows1.0.12 offers a part chooser for original scores with multiple parts, pit
 
 Windows 1.0.12 reads supplied Guitar Pro and MusicXML instrument parts, including bass, ukulele, extended-range guitar, keyboards, voices and percussion. Ctrl+T chooses a part. Staves, voices, rests, tuning and complete decoded notes remain in the reading. MusicXML dense chords retain every supplied note; selectable PDF TAB uses its complete string group, and recognized PDF MusicXML retains all recovered parts. Ukulele now uses the dedicated GeneralUser GS preset. The corrected Word manual integrates these instructions in the reading chapters. Existing Windows commands are unchanged.
 
-SpeakTab Windows 1.0.12 and Android 0.4.9 provide accessible score reading, practice and local composition. Read musical descriptions with the keyboard, screen reader or refreshable Braille display; this is textual access, not formal Braille music notation. Open supported scores directly without entering the composer.
+SpeakTab Windows 1.0.12 and Android 0.5.0 provide accessible score reading, practice and local composition. Read musical descriptions with the keyboard, screen reader or refreshable Braille display; this is textual access, not formal Braille music notation. Open supported scores directly without entering the composer.
 
 ## Downloads and manuals
 
@@ -16,11 +16,13 @@ The complete Windows package includes the app, runtimes, samples, licences and n
 
 - [Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.100/SpeakTab-Windows.zip)
 - [Windows Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.100/SpeakTab.User.Manual.docx)
-- [Composition lessons and phrase reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.100/SpeakTab.Composition.Lessons.docx)
-- [Android Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.100/SpeakTab.Android.User.Guide.0.4.9.docx)
-- [Android app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.100/SpeakTab-Android-0.4.9.apk)
+- [Composition lessons and phrase reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.100/SpeakTab.Android.Composition.Reference.0.5.0.docx)
+- [Android Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.100/SpeakTab.Android.User.Guide.0.5.0.docx)
+- [Android app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.100/SpeakTab-Android-0.5.0.apk)
 - [Complete Windows source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.100/SpeakTab-Source.zip)
 - [Website and all downloads](https://speaktab.pages.dev/)
+
+Android 0.5.0 adds saved PDF and score repair with original-source preservation, explicit output formats, discussion and actual corrections. If in-app repair takes too long, export the prepared website request and attach the original and current MusicXML through ChatGPT’s own controls. Continuing vibrato, palm mute and let ring announce start/end boundaries; non-fretted parts use pitches, and dotted wording is used. Reading dynamics: Control+Z then Control+D next, Control+Z then Control+F previous, Control+Z then Control+S chooses a marking type. Existing one-step commands remain.
 
 ## Reading and practice
 
@@ -30,7 +32,7 @@ Supported score formats include MusicXML, MuseScore, Guitar Pro and textual musi
 
 Precise selectors and documented local phrases work without an AI account or interpretation charge. Enter notes, simultaneous chords, independent staff/voice rhythms, rests, lyrics, directions and all standard point dynamics. Numeric lengths such as 1.5 beats work for piano and guitar. The local catalog includes 23 guitar shapes and 14 explicit-root piano chord qualities. Enter natural/artificial harmonics with explicit base and touching fret, or adjacent hammer-on, pull-off and slide notes. Review before Apply. Save an editable project and export applied MusicXML. Projects are separate from arbitrary imported scores.
 
-Windows supports Piano, Guitar, Bass, Ukulele, Voice, Violin, Viola, Cello, Harp, Percussion and Timpani. Android supports the nine pitched types; imported percussion playback is separate. Windows passage-expression tools remain; Android retains other instructions as written text and explicit point dynamics. Read the current manuals for exact forms and limits.
+Windows supports Piano, Guitar, Bass, Ukulele, Voice, Violin, Viola, Cello, Harp, Percussion and Timpani. Android also supports those composing instrument types, including named percussion and pitched timpani. Both apps offer supported passage expressions; Android adds reviewed measure tools, slight/wide vibrato playback and real Guitar Pro companion export with a MusicXML master. Read the current manuals for exact forms and limits.
 
 Optional ChatGPT interpretation requires a deliberately selected connection/model. Windows F4 loads/connects models, F5 focuses a pending composer answer and F6 reads its reply. Android uses named controls through F3 and Enter. Questions, replies and unfinished answers are retained; model proposals still need review and Apply. Local entry errors do not trigger automatic online interpretation. Provider features may have separate charges.
 
