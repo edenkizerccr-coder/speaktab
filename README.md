@@ -1,29 +1,27 @@
 # SpeakTab
 
-Windows 1.0.14 and Android 0.5.2 skip tied-only main-reading entries, preserve complete tied durations and full details, and correct Guitar Pro conversion of supplied string tuning. Inside Windows repair, Alt+Z saves the selected format locally without another AI request. Expanded repair instructions preserve recent source detail, and AI-assisted drafts cannot narrow original-page correction scope. This includes prior quiet let-ring fixes. Per-note flags remain in full beat details and saved source data; ordinary reading is quiet. PDF repair follow-ups retain earlier recovered measures and include the current draft; the app and manual distinguish flagged issues, unfinished passages and actual corrections. All existing commands, notes and timing remain. Manuals include the latest reading and cross-platform composition corrections.
-
-Windows 1.0.14 and Android 0.5.2 correct repeated let-ring announcements. Per-note flags remain in full beat details and saved source data; ordinary reading is quiet. PDF repair follow-ups retain earlier recovered measures and include the current draft; the app and manual distinguish flagged issues, unfinished passages and actual corrections. All existing commands, notes and timing remain. Manuals include the latest reading and cross-platform composition corrections.
-
 **SpeakTab — Read, hear, and compose music.**
 
-Windows1.0.14 offers a part chooser for original scores with multiple parts, pitch-name reading for non-fretted Guitar Pro instruments, direct dynamics search (Ctrl+Shift+D next, Ctrl+Alt+D previous), start/end announcements for continuing vibrato and palm mute; per-note let ring remains in full details, and dotted wording. Slight and wide vibrato can be composed, heard in the practice preview, saved and exported as MusicXML or Guitar Pro. Existing Windows commands and PDF repair workflows remain available. The Word manual teaches these features in their task and control sections.
+Windows 1.0.15 uses concise dynamic labels such as f and ff in the main reading. F3 opens full beat details with the full dynamic names; Ctrl+2 returns to music. Missing staff identifiers no longer produce an announcement, while supplied staff labels and useful voice distinctions remain. These changes apply throughout the Windows reader and preserve notes, timing, source instructions and playback loudness. Android remains 0.5.2.
+
+Windows1.0.15 offers a part chooser for original scores with multiple parts, pitch-name reading for non-fretted Guitar Pro instruments, direct dynamics search (Ctrl+Shift+D next, Ctrl+Alt+D previous), start/end announcements for continuing vibrato and palm mute; per-note let ring remains in full details, and dotted wording. Slight and wide vibrato can be composed, heard in the practice preview, saved and exported as MusicXML or Guitar Pro. Existing Windows commands and PDF repair workflows remain available. The Word manual teaches these features in their task and control sections.
 
 
 
-Windows 1.0.14 reads supplied Guitar Pro and MusicXML instrument parts, including bass, ukulele, extended-range guitar, keyboards, voices and percussion. Ctrl+T chooses a part. Staves, voices, rests, tuning and complete decoded notes remain in the reading. MusicXML dense chords retain every supplied note; selectable PDF TAB uses its complete string group, and recognized PDF MusicXML retains all recovered parts. Ukulele now uses the dedicated GeneralUser GS preset. The corrected Word manual integrates these instructions in the reading chapters. Existing Windows commands are unchanged.
+Windows 1.0.15 reads supplied Guitar Pro and MusicXML instrument parts, including bass, ukulele, extended-range guitar, keyboards, voices and percussion. Ctrl+T chooses a part. Staves, voices, rests, tuning and complete decoded notes remain in the reading. MusicXML dense chords retain every supplied note; selectable PDF TAB uses its complete string group, and recognized PDF MusicXML retains all recovered parts. Ukulele now uses the dedicated GeneralUser GS preset. The corrected Word manual integrates these instructions in the reading chapters. Existing Windows commands are unchanged.
 
-SpeakTab Windows 1.0.14 and Android 0.5.2 provide accessible score reading, practice and local composition. Read musical descriptions with the keyboard, screen reader or refreshable Braille display; this is textual access, not formal Braille music notation. Open supported scores directly without entering the composer.
+SpeakTab Windows 1.0.15 and Android 0.5.2 provide accessible score reading, practice and local composition. Read musical descriptions with the keyboard, screen reader or refreshable Braille display; this is textual access, not formal Braille music notation. Open supported scores directly without entering the composer.
 
 ## Downloads and manuals
 
 The complete Windows package includes the app, runtimes, samples, licences and native Word manuals. Android has a regular Android 15 build and separately labelled Android 12 compatibility beta. Install Android as an update with the same package and certificate; preserve projects and readings.
 
-- [Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.102/SpeakTab-Windows.zip)
-- [Windows Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.102/SpeakTab.User.Manual.docx)
-- [Composition lessons and phrase reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.102/SpeakTab.Android.Composition.Reference.0.5.2.docx)
-- [Android Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.102/SpeakTab.Android.User.Guide.0.5.2.docx)
-- [Android app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.102/SpeakTab-Android-0.5.2.apk)
-- [Complete Windows source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.102/SpeakTab-Source.zip)
+- [Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.103/SpeakTab-Windows.zip)
+- [Windows Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.103/SpeakTab.User.Manual.docx)
+- [Composition lessons and phrase reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.103/SpeakTab.Android.Composition.Reference.0.5.2.docx)
+- [Android Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.103/SpeakTab.Android.User.Guide.0.5.2.docx)
+- [Android app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.103/SpeakTab-Android-0.5.2.apk)
+- [Complete Windows source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.103/SpeakTab-Source.zip)
 - [Website and all downloads](https://speaktab.pages.dev/)
 
 Android 0.5.2 adds saved PDF and score repair with original-source preservation, explicit output formats, discussion and actual corrections. If in-app repair takes too long, export the prepared website request and attach the original and current MusicXML through ChatGPT’s own controls. Continuing vibrato and palm mute announce start/end boundaries; per-note let ring stays in full details; non-fretted parts use pitches, and dotted wording is used. Reading dynamics: Control+Z then Control+D next, Control+Z then Control+F previous, Control+Z then Control+S chooses a marking type. Existing one-step commands remain.
