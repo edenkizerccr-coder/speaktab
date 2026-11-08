@@ -2,27 +2,29 @@
 
 Read, hear, practise and compose music.
 
-## IsolatedProbeRunner.cs
+## SpeakTab Windows 1.0.27 and Android 0.5.7
+
+Ctrl+Shift+0 uses the zero above the letters to clear a loop. The active Reader can recognize the shortcut even when Windows does not deliver the normal key message. In that case, the Reader clears the loop when you release zero and announces Loop cleared. The Practice menu still offers Clear loop with Alt+R, then C. Both routes clear the saved loop too when the reading is available.
 
 Windows has 20 checked practice exercises. Press Ctrl+Shift+H in the reader, Tab to Checked practice exercises and press Space. Choose an exercise with Up or Down. Tab to Open this step's task and press Space, follow the displayed keyboard instructions, then return with Alt+Tab and use Check this step and continue. The check observes the result of real Reader and Composer actions. Use Delete this lesson's practice copy and confirm the name to discard its work. Windows retains 38 guided reference topics. Within a topic, use Alt+Tab or Tab to Return to SpeakTab and press Space. Ctrl+Shift+H from the reader reopens the same topic and step. Opening the separate exercises also retains the selected guided topic.
 
 Android has 20 Learn by doing lessons. In Library or Help and testing, or in Reading's Learning and settings, use F3 to Learn by doing and Enter, then choose an exercise by name. The eight new exercises cover fractional piano rhythms, strumming, guitar harmonics and hammer-ons, voice lyrics and dynamics, violin bowing, harp pedals, and pitched timpani. Reading Control+W opens Bookmarks and practice notes. Use F3 and Enter on Go to most recent bookmark or on the named Remove bookmark action. In Reading, Control+V turns the local microphone on. Say SpeakTab start for short commands and SpeakTab stop to pause those commands. SpeakTab stop listening turns the microphone off. Stop music stops music.
 
-Both editions include step checks for musical work and named routes to remove practice work. Windows shortcut assignments are retained. Windows passed 47 software suites. The signed Android builds passed 213 guided checks each. Physical BrailleSense and screen-reader sessions were outside these tests.
+Both editions include step checks for musical work and named routes to remove practice work. Windows shortcut assignments are retained. Windows passed 48 release suites and three additional practice suites. The signed Android builds passed 213 guided checks each. Physical BrailleSense and screen-reader sessions were outside these tests.
 
 ## Direct downloads
 
-- [Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Windows.zip)
-- [Windows User Manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.User.Manual.docx)
-- [Windows User Manual in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.User.Manual.rtf)
+- [Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab-Windows.zip)
+- [Windows User Manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab.User.Manual.docx)
+- [Windows User Manual in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab.User.Manual.rtf)
 - [Android 15 or later APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Android-0.5.7.apk)
 - [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7.docx)
 - [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7.rtf)
 - [Android 12 or later compatibility beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Android-0.5.7-beta1.apk)
 - [Android compatibility beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7-beta1.docx)
 - [Android compatibility beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7-beta1.rtf)
-- [Windows composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Composition.Lessons.docx)
-- [Complete Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Source.zip)
+- [Windows composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab.Composition.Lessons.docx)
+- [Complete Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab-Source.zip)
 
 [SpeakTab website](https://speaktab.pages.dev/)
 
