@@ -18,9 +18,11 @@ Android 0.5.8 adds a keyboard action layer outside text fields. Press Control+H,
 - [Android 15 or later APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab-Android-0.5.8.apk)
 - [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.User.Guide.0.5.8.docx)
 - [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.User.Guide.0.5.8.rtf)
+- [Android 15 or later keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.Keystrokes.0.5.8.docx)
 - [Android 12 or later compatibility beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab-Android-0.5.8-beta1.apk)
 - [Android compatibility beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.User.Guide.0.5.8-beta1.docx)
 - [Android compatibility beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.User.Guide.0.5.8-beta1.rtf)
+- [Android compatibility beta keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.Keystrokes.0.5.8-beta1.docx)
 - [Windows composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Composition.Lessons.docx)
 - [Complete Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab-Source.zip)
 
