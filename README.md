@@ -1,30 +1,30 @@
 # SpeakTab
 
-**SpeakTab — Read, hear, and compose music.**
+Read, hear, practise and compose music.
 
-Windows 1.0.16 announces a tie at its original attack with the complete held duration, then skips linked continuation-only positions until a new note or actual rest. Encoded metadata on a continuation no longer creates extra reading entries or generic messages. Independent new notes alongside held notes remain readable. Full source details and playback retain all notes, ties and instructions. Main readings use concise dynamic labels such as f and ff and omit missing-staff announcements. F3 opens full beat details; Ctrl+2 returns to music. Android remains 0.5.2.
+## IsolatedProbeRunner.cs
 
-Windows1.0.16 offers a part chooser for original scores with multiple parts, pitch-name reading for non-fretted Guitar Pro instruments, direct dynamics search (Ctrl+Shift+D next, Ctrl+Alt+D previous), start/end announcements for continuing vibrato and palm mute; per-note let ring remains in full details, and dotted wording. Slight and wide vibrato can be composed, heard in the practice preview, saved and exported as MusicXML or Guitar Pro. Existing Windows commands and PDF repair workflows remain available. The Word manual teaches these features in their task and control sections.
+Windows has 20 checked practice exercises. Press Ctrl+Shift+H in the reader, Tab to Checked practice exercises and press Space. Choose an exercise with Up or Down. Tab to Open this step's task and press Space, follow the displayed keyboard instructions, then return with Alt+Tab and use Check this step and continue. The check observes the result of real Reader and Composer actions. Use Delete this lesson's practice copy and confirm the name to discard its work. Windows retains 38 guided reference topics. Within a topic, use Alt+Tab or Tab to Return to SpeakTab and press Space. Ctrl+Shift+H from the reader reopens the same topic and step. Opening the separate exercises also retains the selected guided topic.
 
+Android has 20 Learn by doing lessons. In Library or Help and testing, or in Reading's Learning and settings, use F3 to Learn by doing and Enter, then choose an exercise by name. The eight new exercises cover fractional piano rhythms, strumming, guitar harmonics and hammer-ons, voice lyrics and dynamics, violin bowing, harp pedals, and pitched timpani. Reading Control+W opens Bookmarks and practice notes. Use F3 and Enter on Go to most recent bookmark or on the named Remove bookmark action. In Reading, Control+V turns the local microphone on. Say SpeakTab start for short commands and SpeakTab stop to pause those commands. SpeakTab stop listening turns the microphone off. Stop music stops music.
 
+Both editions include step checks for musical work and named routes to remove practice work. Windows shortcut assignments are retained. Windows passed 47 software suites. The signed Android builds passed 213 guided checks each. Physical BrailleSense and screen-reader sessions were outside these tests.
 
-Windows 1.0.16 reads supplied Guitar Pro and MusicXML instrument parts, including bass, ukulele, extended-range guitar, keyboards, voices and percussion. Ctrl+T chooses a part. Staves, voices, rests, tuning and complete decoded notes remain in the reading. MusicXML dense chords retain every supplied note; selectable PDF TAB uses its complete string group, and recognized PDF MusicXML retains all recovered parts. Ukulele now uses the dedicated GeneralUser GS preset. The corrected Word manual integrates these instructions in the reading chapters. Existing Windows commands are unchanged.
+## Direct downloads
 
-SpeakTab Windows 1.0.16 and Android 0.5.2 provide accessible score reading, practice and local composition. Read musical descriptions with the keyboard, screen reader or refreshable Braille display; this is textual access, not formal Braille music notation. Open supported scores directly without entering the composer.
+- [Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Windows.zip)
+- [Windows User Manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.User.Manual.docx)
+- [Windows User Manual in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.User.Manual.rtf)
+- [Android 15 or later APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Android-0.5.7.apk)
+- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7.docx)
+- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7.rtf)
+- [Android 12 or later compatibility beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Android-0.5.7-beta1.apk)
+- [Android compatibility beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7-beta1.docx)
+- [Android compatibility beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7-beta1.rtf)
+- [Windows composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Composition.Lessons.docx)
+- [Complete Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Source.zip)
 
-## Downloads and manuals
-
-The complete Windows package includes the app, runtimes, samples, licences and native Word manuals. Android has a regular Android 15 build and separately labelled Android 12 compatibility beta. Install Android as an update with the same package and certificate; preserve projects and readings.
-
-- [Windows app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.104/SpeakTab-Windows.zip)
-- [Windows Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.104/SpeakTab.User.Manual.docx)
-- [Composition lessons and phrase reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.103/SpeakTab.Android.Composition.Reference.0.5.2.docx)
-- [Android Word manual](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.103/SpeakTab.Android.User.Guide.0.5.2.docx)
-- [Android app](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.103/SpeakTab-Android-0.5.2.apk)
-- [Complete Windows source](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.104/SpeakTab-Source.zip)
-- [Website and all downloads](https://speaktab.pages.dev/)
-
-Android 0.5.2 adds saved PDF and score repair with original-source preservation, explicit output formats, discussion and actual corrections. If in-app repair takes too long, export the prepared website request and attach the original and current MusicXML through ChatGPT’s own controls. Continuing vibrato and palm mute announce start/end boundaries; per-note let ring stays in full details; non-fretted parts use pitches, and dotted wording is used. Reading dynamics: Control+Z then Control+D next, Control+Z then Control+F previous, Control+Z then Control+S chooses a marking type. Existing one-step commands remain.
+[SpeakTab website](https://speaktab.pages.dev/)
 
 ## Reading and practice
 
