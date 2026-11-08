@@ -2,29 +2,27 @@
 
 Read, hear, practise and compose music.
 
-## SpeakTab Windows 1.0.27 and Android 0.5.7
+## SpeakTab Windows 1.0.28 and Android 0.5.8
 
-Ctrl+Shift+0 uses the zero above the letters to clear a loop. The active Reader can recognize the shortcut even when Windows does not deliver the normal key message. In that case, the Reader clears the loop when you release zero and announces Loop cleared. The Practice menu still offers Clear loop with Alt+R, then C. Both routes clear the saved loop too when the reading is available.
+Windows 1.0.28 teaches New score in the first composing instructions. Press Ctrl+Shift+N, or Tab to New score in Composer and press Space. Ctrl+Enter previews typed entry. After reviewing it, Tab to Apply reviewed changes and press Space or Enter. Ctrl+Shift+Enter applies directly. Checked practice uses its own score and reports what it found, including a proposal waiting to be applied. Piano has its own composing reference, with examples for its notes, rhythms and staves. Review changes starts with the actual proposed music. The lesson accepts lowercase and uppercase pitch letters and checks the resulting notes, timing and written marking. Ctrl+Shift+0 clears the loop. Use the zero above the letters.
 
-Windows has 20 checked practice exercises. Press Ctrl+Shift+H in the reader, Tab to Checked practice exercises and press Space. Choose an exercise with Up or Down. Tab to Open this step's task and press Space, follow the displayed keyboard instructions, then return with Alt+Tab and use Check this step and continue. The check observes the result of real Reader and Composer actions. Use Delete this lesson's practice copy and confirm the name to discard its work. Windows retains 38 guided reference topics. Within a topic, use Alt+Tab or Tab to Return to SpeakTab and press Space. Ctrl+Shift+H from the reader reopens the same topic and step. Opening the separate exercises also retains the selected guided topic.
+Both apps accept several ways to write the same music. Try measure 1 beat 1 C4 quarter note then E4 quarter note, or m1 b1 C4 qn then E4 qn. The manuals show both forms and the same notes on separate lines with explicit positions. Checked practice looks for the resulting music. The Windows marking exercise uses D4 as its second note. In either app, enter crescendo from beat 1 to beat 2 or get louder from beat 1 to beat 2 in the description box to add the expression. Windows tutorial navigation stays responsive while local narration stops.
 
-Android has 20 Learn by doing lessons. In Library or Help and testing, or in Reading's Learning and settings, use F3 to Learn by doing and Enter, then choose an exercise by name. The eight new exercises cover fractional piano rhythms, strumming, guitar harmonics and hammer-ons, voice lyrics and dynamics, violin bowing, harp pedals, and pitched timpani. Reading Control+W opens Bookmarks and practice notes. Use F3 and Enter on Go to most recent bookmark or on the named Remove bookmark action. In Reading, Control+V turns the local microphone on. Say SpeakTab start for short commands and SpeakTab stop to pause those commands. SpeakTab stop listening turns the microphone off. Stop music stops music.
-
-Both editions include step checks for musical work and named routes to remove practice work. Windows shortcut assignments are retained. Windows passed 48 release suites and three additional practice suites. The signed Android builds passed 213 guided checks each. Physical BrailleSense and screen-reader sessions were outside these tests.
+Android 0.5.8 adds a keyboard action layer outside text fields. Press Control+H, release it, then press the second Control chord. Control+H then Control+N starts a new score from Library, Reading or Composer. Control+H then Control+L opens Learn by doing. On a lesson step, Control+H then Control+O opens the task, Control+H then Control+C checks or continues, and Control+H then Control+Q pauses. Press Control+H twice to list available buttons. Control+K still opens keyboard help. The Reading lesson practises Control+Z then Control+B for the beginning and Control+Z then Control+T for the end. AI Teacher on Android now listens throughout the conversation. Control+O connects on the AI Teacher screen, and the teacher answers when you finish speaking. Speak to interrupt a reply. Control+F pauses the microphone, Control+S resumes it and Control+X ends the conversation. Physical Android keyboard, microphone and live audio still need a device check.
 
 ## Direct downloads
 
-- [Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab-Windows.zip)
-- [Windows User Manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab.User.Manual.docx)
-- [Windows User Manual in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab.User.Manual.rtf)
-- [Android 15 or later APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Android-0.5.7.apk)
-- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7.docx)
-- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7.rtf)
-- [Android 12 or later compatibility beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab-Android-0.5.7-beta1.apk)
-- [Android compatibility beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7-beta1.docx)
-- [Android compatibility beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.114/SpeakTab.Android.User.Guide.0.5.7-beta1.rtf)
-- [Windows composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab.Composition.Lessons.docx)
-- [Complete Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.115/SpeakTab-Source.zip)
+- [Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab-Windows.zip)
+- [Windows User Manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.User.Manual.docx)
+- [Windows User Manual in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.User.Manual.rtf)
+- [Android 15 or later APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab-Android-0.5.8.apk)
+- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.User.Guide.0.5.8.docx)
+- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.User.Guide.0.5.8.rtf)
+- [Android 12 or later compatibility beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab-Android-0.5.8-beta1.apk)
+- [Android compatibility beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.User.Guide.0.5.8-beta1.docx)
+- [Android compatibility beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Android.User.Guide.0.5.8-beta1.rtf)
+- [Windows composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab.Composition.Lessons.docx)
+- [Complete Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.116/SpeakTab-Source.zip)
 
 [SpeakTab website](https://speaktab.pages.dev/)
 
