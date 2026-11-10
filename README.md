@@ -4,7 +4,7 @@ Read, hear, practise and compose music.
 
 ## Choose your download
 
-The Windows downloads are grouped under `v10.14.121`. The Android downloads are grouped under `v10.14.119`. The headings show the app versions.
+The Windows downloads are grouped under `v10.14.121`. The Android downloads are grouped under `android-0.6.3`. The headings show the app versions.
 
 ### Windows 1.0.33
 
@@ -13,25 +13,21 @@ The Windows downloads are grouped under `v10.14.121`. The Android downloads are 
 - [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab.User.Manual.rtf)
 - [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab.Composition.Lessons.docx)
 
-### Android 0.6.2 for Android 15 or later
+### Android 0.6.3 for Android 15 or later
 
-- [Download the standard Android 0.6.2 installer (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab-Android-0.6.2.apk)
-- [Standard Android user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Android.User.Guide.0.6.2.docx)
-- [Standard Android user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Android.User.Guide.0.6.2.rtf)
-- [Standard Android keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Android.Keystrokes.0.6.2.docx)
+- [Download the standard Android 0.6.3 installer (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab-Android-0.6.3.apk)
+- [Standard Android user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.User.Guide.0.6.3.docx)
+- [Standard Android user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.User.Guide.0.6.3.rtf)
+- [Standard Android keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.Keystrokes.0.6.3.docx)
 
 Choose this version for a BrailleSense 7 running Android 15.
 
-### Android 0.6.2-beta1 for Android 12 or later
+### Android 0.6.3-beta1 for Android 12 or later
 
-- [Download the Android 12 compatibility beta (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab-Android-0.6.2-beta1.apk)
-- [Compatibility beta user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Android.User.Guide.0.6.2-beta1.docx)
-- [Compatibility beta user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Android.User.Guide.0.6.2-beta1.rtf)
-- [Compatibility beta keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Android.Keystrokes.0.6.2-beta1.docx)
-
-### Preview example
-
-- [Android Braille preview example (MusicXML)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Braille.Preview.Example.musicxml)
+- [Download the Android 12 compatibility beta (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab-Android-0.6.3-beta1.apk)
+- [Compatibility beta user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.User.Guide.0.6.3-beta1.docx)
+- [Compatibility beta user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.User.Guide.0.6.3-beta1.rtf)
+- [Compatibility beta keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.Keystrokes.0.6.3-beta1.docx)
 
 ### Source files
 
@@ -44,11 +40,10 @@ Choose this version for a BrailleSense 7 running Android 15.
 - Windows withdrew the experimental music Braille panel after a JAWS display test. Press Ctrl+2 for word-based reading. To save the reading as textual Braille, press Ctrl+S, choose **Textual Braille** with the arrow keys, and press Enter.
 - Composer has 45 standard-tuning guitar shapes and 26 piano chord qualities. Try *Am(add9) chord quarter* or *Cmaj9/E chord quarter*. Use exact pitches or string-fret pairs for your own voicing.
 - Windows follows supported MusicXML D.C. and D.S. jumps. Android follows supported playback repeats. Practice ranges stay within the selected measures.
-- Android 0.6.2 has a very experimental read-only music Braille preview. In Reading, use F3 and Enter on **Music details and files**, then **Open Braille music preview**. Use **Return to words** to keep your reading position.
 
 ## Testing for this release
 
-Windows software checks cover score reading, textual Braille export, chord entry, playback and practice. The Android music Braille preview still needs hands-on display testing.
+Windows software checks cover score reading, textual Braille export, chord entry, playback and practice.
 
 ## Reading and practice
 
