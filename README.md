@@ -2,25 +2,25 @@
 
 Read, hear, practise and compose music.
 
-## SpeakTab Windows 1.0.29 and Android 0.6.0
+## SpeakTab Windows 1.0.30 and Android 0.6.1
 
-Both readers list each supplied downstrum or upstrum once at its beat. Windows announces it on the first row of the beat, then reads the individual strings as you arrow down. Each dynamic marking is listed once at its beat.
+Both editions accept an optional quick form for a passage with notes, chords and rests. Try quick m1 b1 C4q E4e re G4h. The full-word and selector routes remain available. Windows keeps sequential entry feedback brief and can review and save a correction in a separate MusicXML copy. Android can match a freshly saved Windows text reading to the same original MusicXML or Guitar Pro score and part. It brings over the saved place, position notes, bookmarks and a matching loop as a saved passage in the playable score.
 
 ## Direct downloads
 
-- [Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab-Windows.zip)
-- [Windows User Manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab.User.Manual.docx)
-- [Windows User Manual in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab.User.Manual.rtf)
-- [Android 15 or later APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab-Android-0.6.0.apk)
-- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab.Android.User.Guide.0.6.0.docx)
-- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab.Android.User.Guide.0.6.0.rtf)
-- [Android 15 or later keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab.Android.Keystrokes.0.6.0.docx)
-- [Android 12 or later compatibility beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab-Android-0.6.0-beta1.apk)
-- [Android compatibility beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab.Android.User.Guide.0.6.0-beta1.docx)
-- [Android compatibility beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab.Android.User.Guide.0.6.0-beta1.rtf)
-- [Android compatibility beta keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab.Android.Keystrokes.0.6.0-beta1.docx)
-- [Windows composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab.Composition.Lessons.docx)
-- [Complete Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.117/SpeakTab-Source.zip)
+- [Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab-Windows.zip)
+- [Windows User Manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab.User.Manual.docx)
+- [Windows User Manual in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab.User.Manual.rtf)
+- [Android 15 or later APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab-Android-0.6.1.apk)
+- [Android User Guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab.Android.User.Guide.0.6.1.docx)
+- [Android User Guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab.Android.User.Guide.0.6.1.rtf)
+- [Android 15 or later keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab.Android.Keystrokes.0.6.1.docx)
+- [Android 12 or later compatibility beta APK](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab-Android-0.6.1-beta1.apk)
+- [Android compatibility beta guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab.Android.User.Guide.0.6.1-beta1.docx)
+- [Android compatibility beta guide in RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab.Android.User.Guide.0.6.1-beta1.rtf)
+- [Android compatibility beta keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab.Android.Keystrokes.0.6.1-beta1.docx)
+- [Windows composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab.Composition.Lessons.docx)
+- [Complete Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.118/SpeakTab-Source.zip)
 
 [SpeakTab website](https://speaktab.pages.dev/)
 
