@@ -4,46 +4,46 @@ Read, hear, practise and compose music.
 
 ## Choose your download
 
-The Windows downloads are grouped under `v10.14.121`. The Android downloads are grouped under `android-0.6.3`. The headings show the app versions.
+The GitHub tag `v10.14.122` groups the downloads. The headings show the app versions.
 
-### Windows 1.0.33
+### Windows 1.0.34
 
-- [Download SpeakTab 1.0.33 for Windows (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab-Windows.zip)
-- [Windows user manual (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab.User.Manual.docx)
-- [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab.User.Manual.rtf)
-- [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab.Composition.Lessons.docx)
+- [Download SpeakTab 1.0.34 for Windows (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab-Windows.zip)
+- [Windows user manual (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.User.Manual.docx)
+- [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.User.Manual.rtf)
+- [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Composition.Lessons.docx)
 
-### Android 0.6.3 for Android 15 or later
+### Android 0.6.4 for Android 15 or later
 
-- [Download the standard Android 0.6.3 installer (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab-Android-0.6.3.apk)
-- [Standard Android user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.User.Guide.0.6.3.docx)
-- [Standard Android user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.User.Guide.0.6.3.rtf)
-- [Standard Android keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.Keystrokes.0.6.3.docx)
+- [Download the standard Android 0.6.4 installer (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab-Android-0.6.4.apk)
+- [Standard Android user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4.docx)
+- [Standard Android user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4.rtf)
+- [Standard Android keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.Keystrokes.0.6.4.docx)
 
 Choose this version for a BrailleSense 7 running Android 15.
 
-### Android 0.6.3-beta1 for Android 12 or later
+### Android 0.6.4-beta1 for Android 12 or later
 
-- [Download the Android 12 compatibility beta (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab-Android-0.6.3-beta1.apk)
-- [Compatibility beta user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.User.Guide.0.6.3-beta1.docx)
-- [Compatibility beta user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.User.Guide.0.6.3-beta1.rtf)
-- [Compatibility beta keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-0.6.3/SpeakTab.Android.Keystrokes.0.6.3-beta1.docx)
+- [Download the Android 12 compatibility beta (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab-Android-0.6.4-beta1.apk)
+- [Compatibility beta user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4-beta1.docx)
+- [Compatibility beta user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4-beta1.rtf)
+- [Compatibility beta keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.Keystrokes.0.6.4-beta1.docx)
 
 ### Source files
 
-- [Complete Windows source (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab-Source.zip)
+- [Complete Windows source (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab-Source.zip)
 
 [SpeakTab website](https://speaktab.pages.dev/)
 
 ## What's new
 
-- Windows withdrew the experimental music Braille panel after a JAWS display test. Press Ctrl+2 for word-based reading. To save the reading as textual Braille, press Ctrl+S, choose **Textual Braille** with the arrow keys, and press Enter.
-- Composer has 45 standard-tuning guitar shapes and 26 piano chord qualities. Try *Am(add9) chord quarter* or *Cmaj9/E chord quarter*. Use exact pitches or string-fret pairs for your own voicing.
-- Windows follows supported MusicXML D.C. and D.S. jumps. Android follows supported playback repeats. Practice ranges stay within the selected measures.
+- Create an editable copy of a supported MusicXML score. In Windows Reader, press Alt+F, then 5. In Android Reading, use F3 and Enter on **Music details and files**, then **Edit as composition**. Read the review before opening the copy.
+- Android Composer can tie individual pitches in a chord, set a pickup, and change the written meter at a measure. Windows Composer also has a pickup field in **Score settings**.
+- Enter a chord by exact pitches and rhythm. Try `C#4 plus Gb4 plus B4 16th` and preview to hear the spelling and duration.
 
-## Testing for this release
+## Testing
 
-Windows software checks cover score reading, textual Braille export, chord entry, playback and practice.
+Software checks covered a two-staff piano import, sixteenth notes, partial chord ties, meter changes and saving and reopening an edited project. Hands-on BrailleSense and screen reader checks are pending.
 
 ## Reading and practice
 
