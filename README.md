@@ -4,14 +4,14 @@ Read, hear, practise and compose music.
 
 ## Choose your download
 
-The GitHub tag `v10.14.122` groups the downloads. The headings show the app versions.
+Windows downloads are grouped under `v10.14.123`. Android downloads are grouped under `v10.14.122`. The headings show the app versions.
 
-### Windows 1.0.34
+### Windows 1.0.35
 
-- [Download SpeakTab 1.0.34 for Windows (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab-Windows.zip)
-- [Windows user manual (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.User.Manual.docx)
-- [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.User.Manual.rtf)
-- [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Composition.Lessons.docx)
+- [Download SpeakTab 1.0.35 for Windows (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.123/SpeakTab-Windows.zip)
+- [Windows user manual (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.123/SpeakTab.User.Manual.docx)
+- [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.123/SpeakTab.User.Manual.rtf)
+- [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.123/SpeakTab.Composition.Lessons.docx)
 
 ### Android 0.6.4 for Android 15 or later
 
@@ -31,19 +31,21 @@ Choose this version for a BrailleSense 7 running Android 15.
 
 ### Source files
 
-- [Complete Windows source (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab-Source.zip)
+- [Complete Windows source (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.123/SpeakTab-Source.zip)
 
 [SpeakTab website](https://speaktab.pages.dev/)
 
-## What's new
+## What's new in Windows
 
-- Create an editable copy of a supported MusicXML score. In Windows Reader, press Alt+F, then 5. In Android Reading, use F3 and Enter on **Music details and files**, then **Edit as composition**. Read the review before opening the copy.
-- Android Composer can tie individual pitches in a chord, set a pickup, and change the written meter at a measure. Windows Composer also has a pickup field in **Score settings**.
-- Enter a chord by exact pitches and rhythm. Try `C#4 plus Gb4 plus B4 16th` and preview to hear the spelling and duration.
+- In step 3 of **Compose and review marked music**, choose **Open this step’s task** to open your practice score in Reader. Move by beat or measure and play the applied music there.
+- Composer stays usable while the Reader preview is open. **Alt+Tab** switches windows and **Alt+F4** closes the preview.
+- **Ctrl+K** opens Composer commands. Search for **louder**, **tie** or **read score**, then choose a result with Down Arrow and Enter.
+- Enter a crescendo or diminuendo on a new line below your notes and preview both with **Ctrl+Enter**. Lesson 5 teaches typed entry and the named controls.
+- **Ctrl+Tab** and **Ctrl+Shift+Tab** switch Composer pages.
 
 ## Testing
 
-Software checks covered a two-staff piano import, sixteenth notes, partial chord ties, meter changes and saving and reopening an edited project. Hands-on BrailleSense and screen reader checks are pending.
+The Windows software checks opened the Reader from the lesson, moved to another beat and started playback preparation. Hands-on screen-reader and audio checks are separate.
 
 ## Reading and practice
 
