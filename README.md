@@ -4,14 +4,14 @@ Read, hear, practise and compose music.
 
 ## Choose your download
 
-GitHub calls this set of downloads `v10.14.119`. The headings below show the version you install on each device.
+The Windows downloads are grouped under `v10.14.121`. The Android downloads are grouped under `v10.14.119`. The headings show the app versions.
 
-### Windows 1.0.31
+### Windows 1.0.33
 
-- [Download SpeakTab 1.0.31 for Windows (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab-Windows.zip)
-- [Windows user manual (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.User.Manual.docx)
-- [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.User.Manual.rtf)
-- [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Composition.Lessons.docx)
+- [Download SpeakTab 1.0.33 for Windows (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab-Windows.zip)
+- [Windows user manual (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab.User.Manual.docx)
+- [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab.User.Manual.rtf)
+- [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab.Composition.Lessons.docx)
 
 ### Android 0.6.2 for Android 15 or later
 
@@ -31,24 +31,24 @@ Choose this version for a BrailleSense 7 running Android 15.
 
 ### Preview example
 
-- [Braille music preview example (MusicXML)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Braille.Preview.Example.musicxml)
+- [Android Braille preview example (MusicXML)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab.Braille.Preview.Example.musicxml)
 
 ### Source files
 
-- [Complete Windows source (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.119/SpeakTab-Source.zip)
+- [Complete Windows source (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.121/SpeakTab-Source.zip)
 
 [SpeakTab website](https://speaktab.pages.dev/)
 
 ## What's new
 
-- Composer has 45 standard-tuning guitar shapes and 26 piano chord qualities. Try `Am(add9) chord quarter` or `Cmaj9/E chord quarter`. Use exact pitches or string-fret pairs for your own voicing.
-- The optional Braille music preview is very experimental. It displays basic MusicXML notes, rests and chords by staff and voice. In Windows Reader, press Alt+N, then 5. Ctrl+2 returns to words. In Android Reading, use F3 and Enter on **Music details and files**, then **Open Braille music preview**. Use **Return to words** to keep your original reading position.
+- Windows withdrew the experimental music Braille panel after a JAWS display test. Press Ctrl+2 for word-based reading. To save the reading as textual Braille, press Ctrl+S, choose **Textual Braille** with the arrow keys, and press Enter.
+- Composer has 45 standard-tuning guitar shapes and 26 piano chord qualities. Try *Am(add9) chord quarter* or *Cmaj9/E chord quarter*. Use exact pitches or string-fret pairs for your own voicing.
 - Windows follows supported MusicXML D.C. and D.S. jumps. Android follows supported playback repeats. Practice ranges stay within the selected measures.
+- Android 0.6.2 has a very experimental read-only music Braille preview. In Reading, use F3 and Enter on **Music details and files**, then **Open Braille music preview**. Use **Return to words** to keep your reading position.
 
 ## Testing for this release
 
-- Windows and both Android editions passed software checks. The preview example covers two staves, separate voices, and treble and bass chord intervals.
-- Physical JAWS and BrailleSense checks for the very experimental preview are pending.
+Windows software checks cover score reading, textual Braille export, chord entry, playback and practice. The Android music Braille preview still needs hands-on display testing.
 
 ## Reading and practice
 
