@@ -13,18 +13,18 @@ Windows downloads are grouped under `v10.14.126`. Android downloads are grouped 
 - [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab.User.Manual.rtf)
 - [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab.Composition.Lessons.docx)
 
-### Android 0.6.5 for Android 15 or later
+### Android 0.6.6 for Android 15 or later
 
-- [Download the standard Android 0.6.5 installer (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab-Android-0.6.5.apk)
+- [Download the standard Android 0.6.6 installer (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab-Android-0.6.6.apk)
 - [Standard Android user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4.docx)
 - [Standard Android user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4.rtf)
 - [Standard Android keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.Keystrokes.0.6.4.docx)
 
 Choose this version for a BrailleSense 7 running Android 15.
 
-### Android 0.6.5-beta1 for Android 12 or later
+### Android 0.6.6-beta1 for Android 12 or later
 
-- [Download the Android 12 compatibility beta (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab-Android-0.6.5-beta1.apk)
+- [Download the Android 12 compatibility beta (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab-Android-0.6.6-beta1.apk)
 - [Compatibility beta user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4-beta1.docx)
 - [Compatibility beta user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4-beta1.rtf)
 - [Compatibility beta keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.Keystrokes.0.6.4-beta1.docx)
