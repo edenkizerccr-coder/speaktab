@@ -4,14 +4,14 @@ Read, hear, practise and compose music.
 
 ## Choose your download
 
-Windows downloads are grouped under `v10.14.124`. Android downloads are grouped under `v10.14.122`. The headings show the app versions.
+Windows downloads are grouped under `v10.14.125`. Android downloads are grouped under `v10.14.122`. The headings show the app versions.
 
-### Windows 1.0.36
+### Windows 1.0.37
 
-- [Download SpeakTab 1.0.36 for Windows (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.124/SpeakTab-Windows.zip)
-- [Windows user manual (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.124/SpeakTab.User.Manual.docx)
-- [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.124/SpeakTab.User.Manual.rtf)
-- [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.124/SpeakTab.Composition.Lessons.docx)
+- [Download SpeakTab 1.0.37 for Windows (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.125/SpeakTab-Windows.zip)
+- [Windows user manual (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.125/SpeakTab.User.Manual.docx)
+- [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.125/SpeakTab.User.Manual.rtf)
+- [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.125/SpeakTab.Composition.Lessons.docx)
 
 ### Android 0.6.4 for Android 15 or later
 
@@ -31,15 +31,15 @@ Choose this version for a BrailleSense 7 running Android 15.
 
 ### Source files
 
-- [Complete Windows source (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.124/SpeakTab-Source.zip)
+- [Complete Windows source (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.125/SpeakTab-Source.zip)
 
 [SpeakTab website](https://speaktab.pages.dev/)
 
 ## What's new in Windows
 
-Press **Alt+Shift+B** to switch between the score and its Braille music panel. For JAWS 2026 or 2027, press **Alt+H, then 7** to set up Braille. Braille features still need rigorous testing.
+Press **Alt+Shift+B** to switch between the score and its Braille music panel. For JAWS 2026 or 2027, press **Alt+H, then 7** to set up Braille. Press **Alt+H, then 8** for Braille music lessons. Use **Alt+F, then 6** to export an open Guitar Pro score as MusicXML using MuseScore Studio 4. Braille features still need rigorous testing.
 
-[Braille music lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.124/SpeakTab.Braille.Music.Lessons.docx)
+[Braille music lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.125/SpeakTab.Braille.Music.Lessons.docx)
 
 - In step 3 of **Compose and review marked music**, choose **Open this step’s task** to open your practice score in Reader. Move by beat or measure and play the applied music there.
 - Composer stays usable while the Reader preview is open. **Alt+Tab** switches windows and **Alt+F4** closes the preview.
