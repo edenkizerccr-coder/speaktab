@@ -13,18 +13,18 @@ Windows downloads are grouped under `v10.14.126`. Android downloads are grouped 
 - [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab.User.Manual.rtf)
 - [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab.Composition.Lessons.docx)
 
-### Android 0.6.4 for Android 15 or later
+### Android 0.6.5 for Android 15 or later
 
-- [Download the standard Android 0.6.4 installer (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab-Android-0.6.4.apk)
+- [Download the standard Android 0.6.5 installer (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab-Android-0.6.5.apk)
 - [Standard Android user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4.docx)
 - [Standard Android user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4.rtf)
 - [Standard Android keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.Keystrokes.0.6.4.docx)
 
 Choose this version for a BrailleSense 7 running Android 15.
 
-### Android 0.6.4-beta1 for Android 12 or later
+### Android 0.6.5-beta1 for Android 12 or later
 
-- [Download the Android 12 compatibility beta (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab-Android-0.6.4-beta1.apk)
+- [Download the Android 12 compatibility beta (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.126/SpeakTab-Android-0.6.5-beta1.apk)
 - [Compatibility beta user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4-beta1.docx)
 - [Compatibility beta user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.User.Guide.0.6.4-beta1.rtf)
 - [Compatibility beta keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.122/SpeakTab.Android.Keystrokes.0.6.4-beta1.docx)
@@ -66,3 +66,5 @@ Optional ChatGPT interpretation requires a deliberately selected connection/mode
 ## Building and verification
 
 Use the included Build instructions and checks. Public packages preserve runtime and licence material. Do not include personal scores, settings, tokens, signing keys or private diagnostics. Software checks do not replace hands-on device, screen-reader and physical-audio assessment. See Release Notes and the package manifests for the current build and checks.
+
+Please send the developer any file that does not work, along with your SpeakTab version, device, and what happened. Send only a score you have permission to share. This helps us reproduce the problem and improve support. [Contact the developer](https://speaktab.pages.dev/contact.html).
