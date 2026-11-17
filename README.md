@@ -1,73 +1,47 @@
 # SpeakTab
 
-Read, hear, practise and compose music.
+SpeakTab reads, plays and helps you compose music with keyboard and screen reader access. The Windows Reader supports MusicXML, MIDI, Guitar Pro, guitar tablature and standard 10-hole major Richter harmonica hole-number tablature. Composer saves editable projects and exports MusicXML. The Android app is a separate installer.
 
-## Choose your download
+## Current downloads
 
-Windows downloads are grouped under `v10.14.127`. Android downloads are grouped under `v10.14.127`. The headings show the app versions.
+### Windows 1.0.65
 
-### Windows 1.0.39
+- [Complete Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab-Windows.zip)
+- [Windows user manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.User.Manual.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.User.Manual.rtf)
+- [Windows Quick Start in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Quick.Start.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Quick.Start.rtf)
+- [Composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Composition.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Composition.Lessons.rtf)
+- [Introductory Braille music lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Braille.Music.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Braille.Music.Lessons.rtf)
 
-- [Download SpeakTab 1.0.39 for Windows (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab-Windows.zip)
-- [Windows user manual (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.User.Manual.docx)
-- [Windows user manual (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.User.Manual.rtf)
-- [Composition lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.Composition.Lessons.docx)
+### Android 0.6.9 for Android 15 or later
 
-### Android 0.6.7 for Android 15 or later
+- [Standard Android installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab-Android-0.6.9.apk)
+- [Android user guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.User.Guide.0.6.9.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.User.Guide.0.6.9.rtf)
+- [Android keystrokes in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.Keystrokes.0.6.9.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.Keystrokes.0.6.9.rtf)
+- [Introductory Android Braille music lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.Braille.Music.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.Braille.Music.Lessons.rtf)
 
-- [Download the standard Android 0.6.7 installer (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab-Android-0.6.7.apk)
-- [Standard Android user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.Android.User.Guide.0.6.7.docx)
-- [Standard Android user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.Android.User.Guide.0.6.7.rtf)
-- [Standard Android keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.Android.Keystrokes.0.6.7.docx)
+The standard installer is the choice for a BrailleSense 7 running Android 15. Android 0.6.9 itself is unchanged in this Windows release.
 
-Choose this version for a BrailleSense 7 running Android 15.
+### Android 0.6.9 compatibility beta for Android 12 through 14
 
-### Android 0.6.7-beta1 for Android 12 through 14
+- [Compatibility installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab-Android-0.6.9-beta1.apk)
+- [Compatibility guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.User.Guide.0.6.9-beta1.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.User.Guide.0.6.9-beta1.rtf)
+- [Compatibility keystrokes in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.Keystrokes.0.6.9-beta1.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab.Android.Keystrokes.0.6.9-beta1.rtf)
 
-- [Download the Android 12 compatibility beta (APK)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab-Android-0.6.7-beta1.apk)
-- [Compatibility beta user guide (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.Android.User.Guide.0.6.7-beta1.docx)
-- [Compatibility beta user guide (RTF)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.Android.User.Guide.0.6.7-beta1.rtf)
-- [Compatibility beta keyboard reference (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.Android.Keystrokes.0.6.7-beta1.docx)
+The compatibility beta still needs hands-on testing on Android 12 through 14 devices.
 
-### Source files
+## Start reading on Windows
 
-- [Complete Windows source (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab-Source.zip)
+Press **Ctrl+O** to open a score and **Ctrl+2** to return focus to its beats and chords. Left and Right Arrow move by musical position; **Ctrl+Page Up** and **Ctrl+Page Down** move by measure. **Tab** opens the full Beat attributes; **Shift+Tab** returns to the score. **Alt+Shift+P** reports your location, while **Alt+Shift+E** reports the current beat in your chosen reading style. **Ctrl+P** starts, pauses or resumes playback, and **Ctrl+Shift+P** stops. The Windows manual explains every control and shortcut in task order.
 
-[SpeakTab website](https://speaktab.pages.dev/)
+**Help > Keyboard** opens with **Alt+H, then K**. It contains focused-control help, the full keyboard reference and shortcut settings. **Ctrl+Alt+P** opens the separate Find a command tool. **Ctrl+Shift+H** opens 41 read-only Guided tutorials; a separate button opens 20 checked practice exercises. **Alt+H, then 8** opens the introductory Braille music course with 22 read-only lessons and 23 checked entry exercises.
 
-## What's new in Windows
+## Files, sound and limits
 
-Press **Alt+Shift+B** to switch between the score and its Braille music panel. Press **Alt+P, then F** to toggle Follow playback in either view. For JAWS 2026 or 2027, press **Alt+H, then 7** to set up Braille. Press **Alt+H, then 8** for Braille music lessons. Press **Alt+F, then 7** for Export. MusicXML from Guitar Pro is the first choice. Guitar Pro conversion uses MuseScore Studio 4. Braille features still need rigorous testing.
+The complete Windows ZIP includes the Airfont 380 Final General MIDI SoundFont and its attribution. It also has an embedded built-in sound library. Recall Score is not required for either sound option; the separate Airfont download is for people who want the bank file by itself. Harmonica hole-number TAB often lacks written rhythm, so SpeakTab labels its one-beat practice timing as inferred. Unsupported harmonica signs stay in the source without guessed pitches. PDF recognition and conversion require musical review. The introductory Braille lessons do not claim complete formal Music Braille Code transcription. Software checks do not replace direct testing with a screen reader, Braille display, Android device, speaker or microphone.
 
-[Braille music lessons (Word)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.127/SpeakTab.Braille.Music.Lessons.docx)
+- [Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/SpeakTab-Source.zip)
+- [Airfont 380 Final SoundFont](https://github.com/edenkizerccr-coder/speaktab/releases/download/v10.14.153/Airfont_380_final.sf2)
+- [SpeakTab website](https://speaktab.pages.dev/)
+- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v10.14.153)
 
-- In step 3 of **Compose and review marked music**, choose **Open this step’s task** to open your practice score in Reader. Move by beat or measure and play the applied music there.
-- Composer stays usable while the Reader preview is open. **Alt+Tab** switches windows and **Alt+F4** closes the preview.
-- **Ctrl+K** opens Composer commands. Search for **louder**, **tie** or **read score**, then choose a result with Down Arrow and Enter.
-- Enter a crescendo or diminuendo on a new line below your notes and preview both with **Ctrl+Enter**. Lesson 5 teaches typed entry and the named controls.
-- **Ctrl+Tab** and **Ctrl+Shift+Tab** switch Composer pages.
-
-## Testing
-
-The Windows software checks opened the Reader from the lesson, moved to another beat and started playback preparation. Hands-on screen-reader and audio checks are separate.
-
-## Reading and practice
-
-Supported score formats include MusicXML, MuseScore, Guitar Pro and textual music. PDF recognition and repair remain experimental and require musical review. Navigate supplied beats, measures, parts, lyrics, chords and markings; use supported practice playback, loops and saved reminders. Vocal parts present note names and octaves without guitar fingering labels. Missing lyric text is not invented. Existing Windows shortcuts and Android Control commands are preserved.
-
-## Composition
-
-Precise selectors and documented local phrases work without an AI account or interpretation charge. Enter notes, simultaneous chords, independent staff/voice rhythms, rests, lyrics, directions and all standard point dynamics. Numeric lengths such as 1.5 beats work for piano and guitar. The local catalog includes 45 guitar shapes and 26 piano chord qualities. Enter natural/artificial harmonics with explicit base and touching fret, or adjacent hammer-on, pull-off and slide notes. Review before Apply. Save an editable project and export applied MusicXML. Projects are separate from arbitrary imported scores.
-
-Windows supports Piano, Guitar, Bass, Ukulele, Voice, Violin, Viola, Cello, Harp, Percussion and Timpani. Android also supports those composing instrument types, including named percussion and pitched timpani. Both apps offer supported passage expressions; Android adds reviewed measure tools, slight/wide vibrato playback and real Guitar Pro companion export with a MusicXML master. Read the current manuals for exact forms and limits.
-
-Optional ChatGPT interpretation requires a deliberately selected connection/model. Windows F4 loads/connects models, F5 focuses a pending composer answer and F6 reads its reply. Android uses named controls through F3 and Enter. Questions, replies and unfinished answers are retained; model proposals still need review and Apply. Local entry errors do not trigger automatic online interpretation. Provider features may have separate charges.
-
-## Building and verification
-
-Use the included Build instructions and checks. Public packages preserve runtime and licence material. Do not include personal scores, settings, tokens, signing keys or private diagnostics. Software checks do not replace hands-on device, screen-reader and physical-audio assessment. See Release Notes and the package manifests for the current build and checks.
-
-Please send the developer any file that does not work, along with your SpeakTab version, device, and what happened. Send only a score you have permission to share. This helps us reproduce the problem and improve support. [Contact the developer](https://speaktab.pages.dev/contact.html).
-
-
-In Android Reading, press **F3**, then **Enter** on **Follow playback** from either score view. Set the display to computer Braille for music notation.
+Thanks to Chris (Chessel85), creator of [Recall Score](https://github.com/Chessel85/RecallScore), for ideas behind pitch-focused reading, direct MIDI playback and web TAB import. Airfont 380 Final is by Milton Paredes of mpj factory studios; its attribution is included with the Windows download. For a problem, tell the developer your app version, file or exercise, keys pressed, expected result and actual result. [Contact the developer](https://speaktab.pages.dev/contact.html).
