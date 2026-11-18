@@ -4,6 +4,8 @@ SpeakTab lets you read Guitar Pro files, plain-text tablature, chord charts and 
 
 In SpeakTab for Windows 1.0.74, press Ctrl+O in the Reader or Composer to open your music. You can also choose File > Open (Alt+F, then O). The file list opens on All files, so you can open a Guitar Pro tab, another score, a PDF, a scan, a saved reading or an editable SpeakTab project without changing the file type.
 
+[Source code for developers](#for-developers)
+
 ## Current downloads
 
 ### Windows 1.0.74
@@ -12,14 +14,13 @@ In SpeakTab for Windows 1.0.74, press Ctrl+O in the Reader or Composer to open y
 - [Windows user manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.User.Manual.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.User.Manual.rtf)
 - [Windows keyboard shortcuts in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Windows.Keyboard.Shortcuts.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Windows.Keyboard.Shortcuts.rtf)
 
-#### Optional Windows guides, courses and source
+#### Optional Windows guides and courses
 
 - [Windows Quick Start in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Quick.Start.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Quick.Start.rtf)
 - [Guided tutorials in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Guided.Tutorials.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Guided.Tutorials.rtf)
 - [Composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Composition.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Composition.Lessons.rtf)
 - [Introductory Braille music lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Braille.Music.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Braille.Music.Lessons.rtf)
 - [Practice scores for the guided tutorials (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab-Samples.zip)
-- [Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab-Source.zip)
 
 **Updating from Windows 1.0.67 or earlier:** Download the complete ZIP, extract it to a new folder, and open SpeakTab.exe there. Keep the previous folder until you have found your personal Saved Readings and My Music. The older update checker cannot find the new public 1.x tag. From 1.0.68 onward, use Help > Check for updates for future releases. Settings > Saved readings > Choose saved readings folder (Alt+S, then S, then F) can point to an existing folder.
 
@@ -41,6 +42,14 @@ This is the main Android download for a BrailleSense 7 running Android 15. The i
 - [Compatibility keystrokes in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab.Android.Keystrokes.0.6.9-beta1.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab.Android.Keystrokes.0.6.9-beta1.rtf)
 
 The compatibility beta still needs hands-on testing on Android 12 through 14 devices.
+
+## For developers
+
+Download the source for the edition you want to build. Each ZIP includes build instructions.
+
+- [Windows 1.0.74 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab-Source.zip)
+- [Android 15 or later, 0.6.11 beta 4 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta4/SpeakTab-Android-Source-0.6.11-beta4.zip)
+- [Android 12–14, 0.6.9 compatibility beta source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab-Android-Source-0.6.9-beta1.zip)
 
 ## Start reading on Windows
 
