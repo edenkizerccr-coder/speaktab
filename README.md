@@ -43,6 +43,10 @@ This is the main Android download for a BrailleSense 7 running Android 15. The i
 
 Beta 2 fixes startup on Android 12 and 12L. To update an existing compatibility installation, open the APK and choose Update. Physical-device testing is still pending.
 
+### Voice commands for Windows and Android
+
+The voice reference explains how to start listening and which phrases SpeakTab recognises on each platform. [Download the Word reference](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Voice.Commands.docx) or [download the RTF reference](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab.Voice.Commands.rtf).
+
 ## For developers
 
 Download the source for the edition you want to build. Each ZIP includes build instructions.
