@@ -35,13 +35,13 @@ In SpeakTab for Windows 1.0.74, press Ctrl+O in the Reader or Composer to open y
 
 This is the main Android download for a BrailleSense 7 running Android 15. The installed app is named SpeakTab. Its main score reading is navigable musical text. Braille music output for supported MusicXML is experimental and should be checked against the source score. The beta updates existing main Android installations in place; the older separate Braille music test app remains separate.
 
-### Android 0.6.9 compatibility beta for Android 12 through 14
+### Android 0.6.9 compatibility beta 2 for Android 12 through 14
 
-- [Compatibility installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab-Android-0.6.9-beta1.apk)
+- [Compatibility installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab-Android-0.6.9-beta2.apk)
 - [Compatibility guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab.Android.User.Guide.0.6.9-beta1.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab.Android.User.Guide.0.6.9-beta1.rtf)
 - [Compatibility keystrokes in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab.Android.Keystrokes.0.6.9-beta1.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab.Android.Keystrokes.0.6.9-beta1.rtf)
 
-The compatibility beta still needs hands-on testing on Android 12 through 14 devices.
+Beta 2 fixes startup on Android 12 and 12L. To update an existing compatibility installation, open the APK and choose Update. Physical-device testing is still pending.
 
 ## For developers
 
@@ -49,7 +49,7 @@ Download the source for the edition you want to build. Each ZIP includes build i
 
 - [Windows 1.0.74 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.74/SpeakTab-Source.zip)
 - [Android 15 or later, 0.6.11 beta 4 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta4/SpeakTab-Android-Source-0.6.11-beta4.zip)
-- [Android 12–14, 0.6.9 compatibility beta source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab-Android-Source-0.6.9-beta1.zip)
+- [Android 12–14, 0.6.9 compatibility beta 2 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.69/SpeakTab-Android-Source-0.6.9-beta2.zip)
 
 ## Start reading on Windows
 
