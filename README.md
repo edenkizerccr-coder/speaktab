@@ -4,17 +4,17 @@ SpeakTab reads, plays and helps you compose music with keyboard, screen reader a
 
 ## Current downloads
 
-### Windows 1.0.70
+### Windows 1.0.71
 
-- [Complete Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab-Windows.zip)
-- [Windows user manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab.User.Manual.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab.User.Manual.rtf)
-- [Windows Quick Start in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab.Quick.Start.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab.Quick.Start.rtf)
-- [Composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab.Composition.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab.Composition.Lessons.rtf)
-- [Introductory Braille music lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab.Braille.Music.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab.Braille.Music.Lessons.rtf)
+- [Complete Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab-Windows.zip)
+- [Windows user manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab.User.Manual.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab.User.Manual.rtf)
+- [Windows Quick Start in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab.Quick.Start.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab.Quick.Start.rtf)
+- [Composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab.Composition.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab.Composition.Lessons.rtf)
+- [Introductory Braille music lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab.Braille.Music.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab.Braille.Music.Lessons.rtf)
 
 **Updating from Windows 1.0.67 or earlier:** Download the complete ZIP, extract it to a new folder, and open SpeakTab.exe there. Keep the previous folder until you have found your personal Saved Readings and My Music. The older update checker cannot find the new public 1.x tag. From 1.0.68 onward, use Help > Check for updates for future releases. Settings > Saved readings > Choose saved readings folder (Alt+S, then S, then F) can point to an existing folder.
 
-**Already using Windows 1.0.68 or 1.0.69?** Help > Check for updates (Alt+H, then E) can find 1.0.70 and verify the complete ZIP before installation. Save your work first.
+**Already using Windows 1.0.68 through 1.0.70?** Help > Check for updates (Alt+H, then E) can find 1.0.71 and verify the complete ZIP before installation. Save your work first.
 
 ### SpeakTab Android 0.6.11 beta 2 for Android 15 or later
 
@@ -50,9 +50,9 @@ The **ChatGPT** menu (**Alt+C**) contains written-question actions: **F5** focus
 
 The complete Windows ZIP includes the Airfont 380 Final General MIDI SoundFont and its attribution. It also has an embedded built-in sound library. Recall Score is not required; the separate Airfont download is for people who want the bank file by itself. In Settings > Playback and practice, Instrument sound for this reading (Alt+S, then P, then S) follows the score's instrument when set to Automatic. Use automatic SoundFont (Alt+S, then P, then R, then U) chooses the included Airfont bank. Use built-in sounds (Alt+S, then P, then R, then S) enables SoundFont acoustic guitar (Alt+S, then P, then B, then S) and Original acoustic guitar (Alt+S, then P, then B, then O). Enhanced acoustic guitar sound in the playback dialog (Alt+S, then P, then S) adds stereo room sound to compatible built-in guitar playback. PDF recognition and conversion require musical review. The introductory Braille lessons do not claim complete formal Music Braille Code transcription. Software checks do not replace direct testing with a screen reader, Braille display, Android device, speaker or microphone.
 
-- [Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/SpeakTab-Source.zip)
-- [Airfont 380 Final SoundFont](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.70/Airfont_380_final.sf2)
+- [Windows source ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/SpeakTab-Source.zip)
+- [Airfont 380 Final SoundFont](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.71/Airfont_380_final.sf2)
 - [SpeakTab website](https://speaktab.pages.dev/)
-- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v1.0.70)
+- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v1.0.71)
 
 Thanks to Chris (Chessel85), creator of [Recall Score](https://github.com/Chessel85/RecallScore), for ideas behind pitch-focused reading, direct MIDI playback and web TAB import. Airfont 380 Final is by Milton Paredes of mpj factory studios; its attribution is included with the Windows download. For a problem, tell the developer your app version, file or exercise, keys pressed, expected result and actual result. [Contact the developer](https://speaktab.pages.dev/contact.html).
