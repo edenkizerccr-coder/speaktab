@@ -30,6 +30,7 @@ In SpeakTab for Windows 1.0.74, press Ctrl+O in the Reader or Composer to open y
 - [Main Android beta installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta4/SpeakTab-0.6.11-beta4.apk)
 - [Android user guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta4/SpeakTab.Android.User.Guide.0.6.11-beta4.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta4/SpeakTab.Android.User.Guide.0.6.11-beta4.rtf)
 - [Android keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta4/SpeakTab.Android.Keystrokes.0.6.11-beta4.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta4/SpeakTab.Android.Keystrokes.0.6.11-beta4.rtf)
+- [Android practice scores for the tutorials (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta4/SpeakTab-Android-Practice-Files.zip)
 
 This is the main Android download for a BrailleSense 7 running Android 15. The installed app is named SpeakTab. Its main score reading is navigable musical text. Braille music output for supported MusicXML is experimental and should be checked against the source score. The beta updates existing main Android installations in place; the older separate Braille music test app remains separate.
 
