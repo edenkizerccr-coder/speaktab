@@ -16,11 +16,11 @@ SpeakTab reads, plays and helps you compose music with keyboard, screen reader a
 
 **Already using Windows 1.0.68?** Help > Check for updates (Alt+H, then E) can find 1.0.69 and verify the complete ZIP before installation. Save your work first.
 
-### SpeakTab Android 0.6.11 beta 1 for Android 15 or later
+### SpeakTab Android 0.6.11 beta 2 for Android 15 or later
 
-- [Main Android beta installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta1/SpeakTab-0.6.11-beta1.apk)
-- [Android user guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta1/SpeakTab.Android.User.Guide.0.6.11-beta1.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta1/SpeakTab.Android.User.Guide.0.6.11-beta1.rtf)
-- [Android keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta1/SpeakTab.Android.Keystrokes.0.6.11-beta1.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta1/SpeakTab.Android.Keystrokes.0.6.11-beta1.rtf)
+- [Main Android beta installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta2/SpeakTab-0.6.11-beta2.apk)
+- [Android user guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta2/SpeakTab.Android.User.Guide.0.6.11-beta2.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta2/SpeakTab.Android.User.Guide.0.6.11-beta2.rtf)
+- [Android keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta2/SpeakTab.Android.Keystrokes.0.6.11-beta2.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.11-beta2/SpeakTab.Android.Keystrokes.0.6.11-beta2.rtf)
 
 This is the main Android download for a BrailleSense 7 running Android 15. The installed app is named SpeakTab. Its main score reading is navigable musical text. Braille music output for supported MusicXML is experimental and should be checked against the source score. The beta updates existing main Android installations in place; the older separate Braille music test app remains separate.
 
