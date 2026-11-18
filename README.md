@@ -1,8 +1,12 @@
 # SpeakTab
 
-SpeakTab lets you read Guitar Pro files, plain-text tablature, chord charts and scores with a keyboard, screen reader or Braille display. Follow a part by beat or measure and play a passage. Windows exports readings as text or Markdown. Android exports a readable text file. The Composer lets you write and edit music. Music Braille output is experimental.
+SpeakTab lets you read Guitar Pro files, plain-text tablature, chord charts and scores with a keyboard, screen reader or Braille display. Follow a part by beat or measure and play a passage. Android exports a readable text file. The Composer lets you write and edit music.
 
 In SpeakTab for Windows 1.0.74, press Ctrl+O in the Reader or Composer to open your music. You can also choose File > Open (Alt+F, then O). The file list opens on All files, so you can open a Guitar Pro tab, another score, a PDF, a scan, a saved reading or an editable SpeakTab project without changing the file type.
+
+In the Windows Reader, choose **File > Save reading** (**Ctrl+S**, or **Alt+F, then S**). To take the written description of a score to a compatible Braille device, choose **Textual Braille (.brf)**. SpeakTab saves the description in Unified English Braille (UEB). You can use contracted or uncontracted Braille. The same dialog also offers Text, Word, Markdown and HTML.
+
+To explore experimental music Braille for a supported MusicXML score, open the original score with **Ctrl+O**, then choose **Navigate > Braille music panel** (**Alt+Shift+B**, or **Alt+N, then 5**).
 
 [Source code for developers](#for-developers)
 
