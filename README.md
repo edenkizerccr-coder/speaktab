@@ -34,24 +34,24 @@ To explore experimental music Braille for a supported MusicXML score, open the o
 
 **Already using Windows 1.0.68 through 1.0.76?** Help > Check for updates (Alt+H, then E) can find 1.0.77 and verify the complete ZIP before installation. Save your work first.
 
-### SpeakTab Android 0.6.12 beta 3 for Android 15 or later
+### SpeakTab Android 0.6.12 beta 4 for Android 15 or later
 
-- [Main Android beta installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta3/SpeakTab-0.6.12-beta3.apk)
-- [Android user guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta3/SpeakTab.Android.User.Guide.0.6.12-beta3.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta3/SpeakTab.Android.User.Guide.0.6.12-beta3.rtf)
-- [Android keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta3/SpeakTab.Android.Keystrokes.0.6.12-beta3.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta3/SpeakTab.Android.Keystrokes.0.6.12-beta3.rtf)
-- [Android practice scores for the tutorials (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta3/SpeakTab-Android-Practice-Files.zip)
+- [Main Android beta installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta4/SpeakTab-0.6.12-beta4.apk)
+- [Android user guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta4/SpeakTab.Android.User.Guide.0.6.12-beta4.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta4/SpeakTab.Android.User.Guide.0.6.12-beta4.rtf)
+- [Android keyboard reference in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta4/SpeakTab.Android.Keystrokes.0.6.12-beta4.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta4/SpeakTab.Android.Keystrokes.0.6.12-beta4.rtf)
+- [Android practice scores for the tutorials (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta4/SpeakTab-Android-Practice-Files.zip)
 
-This is the main Android download for a BrailleSense 7 running Android 15. The installed app is named SpeakTab. Its main score reading is navigable musical text. Braille music output for supported MusicXML is experimental and should be checked against the source score. The beta updates existing main Android installations in place; the older separate Braille music test app remains separate.
+This main beta runs on Android 15 or later and updates an existing main installation in place. For a genuine PDF-recovered text chord chart, Reading recognizes printed letter chords and Nashville numbers without inventing notes or timing. From Reading, press F3 and Enter on **Music details and files**, then F3 and Enter on **Nashville numbers**; choose a major tonic for letter-chord conversion. Control+Z then Control+N or Control+Z then Control+P finds a recognized chord change. Printed numbers and the original chart remain available.
 
-Reading adds Nashville numbers to supplied chord symbols while retaining their source names. In Reading, use F3 and Enter on **Music details and files**, then F3 and Enter on **Nashville numbers**; choose a written major key or a major tonic. In Composer, use F3 and Enter on **Nashville major tonic**, choose a key center and accept with Control+Enter. Outside a text field, Control+D opens **Describe music** for a number chord; Control+Enter previews and accepts the reviewed notes. MusicXML exports the accepted notes, not the number phrase as a printed symbol.
+The existing Nashville Composer controls remain: press F3 and Enter on **Nashville major tonic**, choose a key center and accept with Control+Enter. Outside a text field, Control+D opens **Describe music** for a number chord; Control+Enter previews and accepts the reviewed notes. MusicXML exports the accepted notes, not the number phrase as a printed symbol.
 
-### Android 0.6.12 compatibility beta 2 for Android 12 through 14
+### Android 0.6.12 compatibility beta 3 for Android 12 through 14
 
-- [Compatibility installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta2/SpeakTab-0.6.12-beta2.apk)
-- [Compatibility guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta2/SpeakTab.Android.User.Guide.0.6.12-beta2.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta2/SpeakTab.Android.User.Guide.0.6.12-beta2.rtf)
-- [Compatibility keystrokes in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta2/SpeakTab.Android.Keystrokes.0.6.12-beta2.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta2/SpeakTab.Android.Keystrokes.0.6.12-beta2.rtf)
+- [Compatibility installer](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta3/SpeakTab-0.6.12-beta3.apk)
+- [Compatibility guide in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta3/SpeakTab.Android.User.Guide.0.6.12-beta3.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta3/SpeakTab.Android.User.Guide.0.6.12-beta3.rtf)
+- [Compatibility keystrokes in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta3/SpeakTab.Android.Keystrokes.0.6.12-beta3.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta3/SpeakTab.Android.Keystrokes.0.6.12-beta3.rtf)
 
-This compatibility beta includes the same Nashville Reader and Composer controls as the main beta. To update an existing compatibility installation, open the APK and choose Update. Physical-device testing on Android 12–14 and BrailleSense 6 remains pending.
+This compatibility beta has the same repaired-chart Nashville Reader behavior and Composer controls. It updates an existing Android 12–14 compatibility installation in place. Physical-device testing on Android 12–14 and BrailleSense 6 remains pending.
 
 ### Voice commands for Windows and Android
 
@@ -62,8 +62,8 @@ The voice reference explains how to start listening and which phrases SpeakTab r
 Download the source for the edition you want to build. Each ZIP includes build instructions.
 
 - [Windows 1.0.77 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab-Source.zip)
-- [Android 15 or later, 0.6.12 beta 3 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta3/SpeakTab-Android-Source-0.6.12-beta3.zip)
-- [Android 12–14, 0.6.12 compatibility beta 2 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta2/SpeakTab-Android-Source-0.6.12-beta2.zip)
+- [Android 15 or later, 0.6.12 beta 4 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta4/SpeakTab-Android-Source-0.6.12-beta4.zip)
+- [Android 12–14, 0.6.12 compatibility beta 3 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta3/SpeakTab-Android-Source-0.6.12-beta3.zip)
 
 ## Start reading on Windows
 
