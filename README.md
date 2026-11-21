@@ -2,11 +2,11 @@
 
 SpeakTab lets you read Guitar Pro files, plain-text tablature, chord charts and scores with a keyboard, screen reader or Braille display. Follow a part by beat or measure and play a passage. Android exports a readable text file. The Composer lets you write and edit music.
 
-In SpeakTab for Windows 1.0.77, press Ctrl+O in the Reader or Composer to open your music. You can also choose File > Open (Alt+F, then O). The file list opens on All files, so you can open a Guitar Pro tab, another score, a PDF, a scan, a saved reading or an editable SpeakTab project without changing the file type.
+In SpeakTab for Windows 1.0.78, press Ctrl+O in the Reader or Composer to open your music. You can also choose File > Open (Alt+F, then O). The file list opens on All files, so you can open a Guitar Pro tab, another score, a PDF, a scan, a saved reading or an editable SpeakTab project without changing the file type.
 
-For a chord chart or score, choose **Settings > Reading > Nashville numbers** (**Alt+S, then R, then N**) to add number chords beside the printed names. Use the written major key when the score supplies one, or choose a major tonic. Press **Ctrl+Alt+Y** for the selected measure's chords and lyrics in beat order; **Alt+N, then Y** opens the same view. To paste a plain-text number chart, press **Ctrl+N**, paste the chart, then press **Ctrl+Enter** to open it as read-only practice bars; numbers alone do not establish played pitches, fingering or exact beat timing. In Composer, choose a Nashville major tonic in Score settings before entering a number chord, then preview the resolved chord and notes before accepting.
+For a chord chart or score, choose **Settings > Reading > Nashville numbers** (**Alt+S, then R, then N**) to add number chords beside the printed names. Use the written major key when the score supplies one, or choose a major tonic. In a structured score, **Ctrl+Alt+Y** reads the selected measure's supplied chords and lyrics in beat order; **Alt+N, then Y** opens the same view. For a supplied `.txt` chart with printed Nashville numbers and lyrics, open it with **Ctrl+O**, press **Ctrl+1** for the original text, move the text cursor with Up Arrow or Down Arrow, then press **Ctrl+Alt+Y** to read the printed number-and-lyric line at or after the cursor. SpeakTab does not turn those source lines into invented measures or beats. To paste a plain-text number chart, press **Ctrl+N**, paste the chart, then press **Ctrl+Enter** to open it as read-only practice bars; numbers alone do not establish played pitches, fingering or exact beat timing. In Composer, choose a Nashville major tonic in Score settings before entering a number chord, then preview the resolved chord and notes before accepting.
 
-Open a supplied lyrics-only text file with **Ctrl+O**; **Ctrl+1** returns to its complete read-only words without inventing chords or measures. A chord chart with inferred practice timing shows each printed chord once in **Ctrl+Alt+Y**; later inferred beats no longer tell you to hold a chord when the source did not specify its duration. For a PDF or image that needs interpretation, use **Alt+F, then 9, then R** for Repair with AI. The same repair workflow identifies staff notation, TAB, letter chords, Nashville numbers, lyrics and mixed pages and reports missing or uncertain material. Press **F4** to connect ChatGPT if needed; review the resulting reading against the source. If you ask for chords to accompany lyrics alone, SpeakTab labels them as suggestions, not printed harmony.
+Open a supplied lyrics-only text file with **Ctrl+O**; **Ctrl+1** returns to its complete read-only words without inventing chords or measures. A chord chart with inferred practice timing shows each printed chord once in **Ctrl+Alt+Y**; later inferred beats no longer tell you to hold a chord when the source did not specify its duration. For a selectable chord-and-lyric PDF, open it with **Ctrl+O** and choose **Alt+T** for local text reading; verify inferred practice timing against the original. For a PDF or image that needs interpretation, use **Alt+F, then 9, then R** for Repair with AI. The same repair workflow identifies staff notation, TAB, letter chords, Nashville numbers, lyrics and mixed pages and reports missing or uncertain material. Press **F4** to connect ChatGPT if needed; review the resulting reading against the source. If you ask for chords to accompany lyrics alone, SpeakTab labels them as suggestions, not printed harmony.
 
 In the Windows Reader, choose **File > Save reading** (**Ctrl+S**, or **Alt+F, then S**). To take the written description of a score to a compatible Braille device, choose **Textual Braille (.brf)**. SpeakTab saves the description in Unified English Braille (UEB). You can use contracted or uncontracted Braille. The same dialog also offers Text, Word, Markdown and HTML.
 
@@ -16,23 +16,23 @@ To explore experimental music Braille for a supported MusicXML score, open the o
 
 ## Current downloads
 
-### Windows 1.0.77
+### Windows 1.0.78
 
-- [Complete Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab-Windows.zip)
-- [Windows user manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.User.Manual.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.User.Manual.rtf)
-- [Windows keyboard shortcuts in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Windows.Keyboard.Shortcuts.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Windows.Keyboard.Shortcuts.rtf)
+- [Complete Windows ZIP](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab-Windows.zip)
+- [Windows user manual in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.User.Manual.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.User.Manual.rtf)
+- [Windows keyboard shortcuts in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Windows.Keyboard.Shortcuts.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Windows.Keyboard.Shortcuts.rtf)
 
 #### Optional Windows guides and courses
 
-- [Windows Quick Start in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Quick.Start.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Quick.Start.rtf)
-- [Guided tutorials in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Guided.Tutorials.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Guided.Tutorials.rtf)
-- [Composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Composition.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Composition.Lessons.rtf)
-- [Introductory Braille music lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Braille.Music.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Braille.Music.Lessons.rtf)
-- [Practice scores for the guided tutorials (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab-Samples.zip)
+- [Windows Quick Start in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Quick.Start.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Quick.Start.rtf)
+- [Guided tutorials in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Guided.Tutorials.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Guided.Tutorials.rtf)
+- [Composition lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Composition.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Composition.Lessons.rtf)
+- [Introductory Braille music lessons in Word](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Braille.Music.Lessons.docx) and [RTF](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Braille.Music.Lessons.rtf)
+- [Practice scores for the guided tutorials (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab-Samples.zip)
 
 **Updating from Windows 1.0.67 or earlier:** Download the complete ZIP, extract it to a new folder, and open SpeakTab.exe there. Keep the previous folder until you have found your personal Saved Readings and My Music. The older update checker cannot find the new public 1.x tag. From 1.0.68 onward, use Help > Check for updates for future releases. Settings > Saved readings > Choose saved readings folder (Alt+S, then S, then F) can point to an existing folder.
 
-**Already using Windows 1.0.68 through 1.0.76?** Help > Check for updates (Alt+H, then E) can find 1.0.77 and verify the complete ZIP before installation. Save your work first.
+**Already using Windows 1.0.68 through 1.0.77?** Help > Check for updates (Alt+H, then E) can find 1.0.78 and verify the complete ZIP before installation. Save your work first.
 
 ### SpeakTab Android 0.6.12 beta 5 for Android 15 or later
 
@@ -59,13 +59,13 @@ This compatibility beta has the same repaired-chart Nashville Reader behavior an
 
 ### Voice commands for Windows and Android
 
-The voice reference explains how to start listening and which phrases SpeakTab recognises on each platform. [Download the Word reference](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Voice.Commands.docx) or [download the RTF reference](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab.Voice.Commands.rtf).
+The voice reference explains how to start listening and which phrases SpeakTab recognises on each platform. [Download the Word reference](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Voice.Commands.docx) or [download the RTF reference](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab.Voice.Commands.rtf).
 
 ## For developers
 
 Download the source for the edition you want to build. Each ZIP includes build instructions.
 
-- [Windows 1.0.77 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.77/SpeakTab-Source.zip)
+- [Windows 1.0.78 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/v1.0.78/SpeakTab-Source.zip)
 - [Android 15 or later, 0.6.12 beta 5 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-v0.6.12-beta5/SpeakTab-Android-Source-0.6.12-beta5.zip)
 - [Android 12–14, 0.6.12 compatibility beta 4 source code (ZIP)](https://github.com/edenkizerccr-coder/speaktab/releases/download/android-compat-v0.6.12-beta4/SpeakTab-Android-Source-0.6.12-beta4.zip)
 
@@ -73,7 +73,7 @@ Download the source for the edition you want to build. Each ZIP includes build i
 
 Press **Ctrl+O** to open a score and **Ctrl+2** to return focus to its notes and chords. Left and Right Arrow move by written position, including fractional beats and rests; **Ctrl+Page Up** and **Ctrl+Page Down** move by measure. **Tab** opens full Beat attributes; **Shift+Tab** returns to the score. **F11** reports your location without moving, and **Ctrl+3** focuses the current explanation. **Ctrl+P** starts, pauses or resumes playback, and **Ctrl+Shift+P** stops. Settings > Playback and practice > Follow playback (**Alt+S, then P, then F**) tracks the written score by beat and Braille by measure. The Windows manual explains each control and keyboard route in task order.
 
-For a singer or player following harmony, **Ctrl+Alt+Y** opens a read-only view of the selected measure's supplied chord changes and lyrics. It labels each beat and says when a measure has no printed chord or lyric. Nashville numbers appear there when enabled; the source chord names remain visible. A missing or minor written key needs a major tonic chosen with **Alt+S, then R, then N**.
+For a singer or player following harmony in a structured score, **Ctrl+Alt+Y** opens a read-only view of the selected measure's supplied chord changes and lyrics. It labels each beat and says when a measure has no printed chord or lyric. In a supplied text number chart, the same command reads the printed number-and-lyric line at or after the text cursor; it does not assign the line a measure or beat. Nashville numbers appear beside source chord names when enabled. A missing or minor written key needs a major tonic chosen with **Alt+S, then R, then N**.
 
 For supported MusicXML percussion, **Ctrl+Shift+I** opens Score information with the supplied meter, played instrument names, written tempo or its absence, possible right/left text to inspect or the absence of readable right/left labels, and available tuplet, playing-mark and repeat information. The beat reading keeps the actual written hits and markings. SpeakTab does not invent a sticking pattern or change a source meter.
 
@@ -90,6 +90,6 @@ The **ChatGPT** menu (**Alt+C**) contains written-question actions: **F5** focus
 The complete Windows ZIP includes the Airfont 380 Final General MIDI SoundFont and its attribution. It also has an embedded built-in sound library. In Settings > Playback and practice, Instrument sound for this reading (Alt+S, then P, then S) follows the score's instrument when set to Automatic. Use automatic SoundFont (Alt+S, then P, then R, then U) chooses the included Airfont bank. Use built-in sounds (Alt+S, then P, then R, then S) enables SoundFont acoustic guitar (Alt+S, then P, then B, then S) and Original acoustic guitar (Alt+S, then P, then B, then O). Enhanced acoustic guitar sound in the playback dialog (Alt+S, then P, then S) adds stereo room sound to compatible built-in guitar playback. PDF recognition and conversion require musical review. The introductory Braille lessons do not claim complete formal Music Braille Code transcription. Software checks do not replace direct testing with a screen reader, Braille display, Android device, speaker or microphone.
 
 - [SpeakTab website](https://speaktab.pages.dev/)
-- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v1.0.77)
+- [Release notes and all downloads](https://github.com/edenkizerccr-coder/speaktab/releases/tag/v1.0.78)
 
 Thanks to Chris (Chessel85), creator of [Recall Score](https://github.com/Chessel85/RecallScore), for ideas behind pitch-focused reading, direct MIDI playback and web TAB import. Airfont 380 Final is by Milton Paredes of mpj factory studios; its attribution is included with the Windows download. For a problem, tell the developer your app version, file or exercise, keys pressed, expected result and actual result. [Contact the developer](https://speaktab.pages.dev/contact.html).
